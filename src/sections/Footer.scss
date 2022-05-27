@@ -1,0 +1,118 @@
+@import "../resources/colors.scss";
+@import "../resources/animation.scss";
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  max-width: 1024px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background: url('');
+  background-position-y: bottom;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -26px;
+    left: -20px;
+    width: 1048px;
+    height: 150px;
+    background: url('../assets/img/backgrounds/fondo-footer-1.png');
+    background-repeat: no-repeat;
+  }
+
+  .restrict {
+    position: absolute;
+    z-index: 2;
+    bottom: 19px;
+    right: 190px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+  }
+
+  .labelFooter {
+    position: absolute;
+    width: auto;
+    top: 38px;
+    left: 210px;
+  }
+
+  .imageFooter {
+    position: absolute;
+    bottom: 13px;
+    right: 17px;
+    margin: 0 auto;
+    pointer-events: none;
+  }
+
+  .buttonPannel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 20px;
+    right: 190px;
+    width: 90px;
+
+    .buttonNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background-color: #780E80;
+      border-radius: 50%;
+      border: 5px solid #780E80;
+      text-align: center;
+      box-shadow: 0 2px 5px -4px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      outline: none;
+      transition: all 0.4s;
+
+      .iconButton {
+        pointer-events: none;
+        color: $blanco;
+        &:hover {
+          color: $blanco;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 2px 5px -5px rgba(0, 0, 0, 0.6);
+        background-color: #780E80;
+        .iconButton {
+          color: $blanco;
+        }
+      }
+    }
+  }
+
+  .numberPage {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+}
+
+.animationBtnNav {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.footer-desc {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 50px;
+  max-width: 1024px;
+  bottom: 0px;
+  left: 0px;
+}

@@ -1,0 +1,46 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactiveSubtitle {
+  .playerBox {
+    width: 550px;
+    padding: 0.2rem;
+    border-radius: 50px;
+    background-color: #F7F7F7;
+    box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+    .buttonBox {
+      .buttonPause {
+        color: #085A3C;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 2.1em;
+        .iconButton {
+          transition: all .3s;
+
+          &:hover {
+            color: #076d48;
+          }
+        }
+      }
+
+      .buttonVolume {
+        color: #86BF41;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 2.1em;
+        .iconButton {
+          transition: all .3s;
+
+          &:hover {
+            color: rgb(122, 173, 60);
+          }
+        }
+      }
+    }
+
+    .trackLabelBox {
+
+      .labelBox {
+        width: 460px;
+      }
+    }
+  }
+}

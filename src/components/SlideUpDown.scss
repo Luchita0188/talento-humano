@@ -1,0 +1,28 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.SlideUpDown {
+  .contentSlide {
+    .slideBox {
+      .text {
+        font-size: 0.8rem;
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2.5em;
+        color: #04386D;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $color2;
+        }
+      }
+    }
+  }
+}

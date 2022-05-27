@@ -1,0 +1,174 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.Pyramid1 {
+  height: 300px;
+  width: 200px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      background-color: transparent;
+      color: $color4;
+      font-size: 1.5em;
+      transition: all .3s;
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;
+    height: 300px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      background-color: #ffffff;
+      border-radius: 15px;
+      border: 3px solid;
+      padding: 1em 2.5em 1em 1em;
+      width: 200px;
+      height: 90px;
+      left: 90%;
+
+      .buttonClose {
+        position: absolute;
+        border-radius: 50%;
+        top: 2px;
+        right: 0px;
+        .iconButton {
+          color: red;
+          font-size: 1.9em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 17px solid transparent;
+        border-bottom: 29px solid #ffffff;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -15.9px;
+        left: 79px;
+        transform: rotate(-1deg);
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-bottom: 15px solid #487FAE;
+        border-right: 15px solid transparent;
+        position: absolute;
+        top: -15px;
+        left: 81px;
+        transform: rotate(-1deg);
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #ffffff;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -15.9px;
+        left: 78px;
+        transform: rotate(180deg)
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid #92066B;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -15.9px;
+        left: 82px;
+        transform: rotate(180deg)
+      }
+    }
+
+    .trian-3 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #ffffff;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -15.9%;
+        left: 82px;
+        transform: rotate(180deg)
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid #839C2E;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -15.9px;
+        left: 83px;
+        transform: rotate(180deg)
+      }
+    }
+      .trian-4 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid #ffffff;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -15.9%;
+        left: 82px;
+        transform: rotate(180deg)
+      }
+      
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid #D37F28;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -15.9px;
+        left: 83px;
+        transform: rotate(180deg)
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.InteractiveTimeLine {
+  height: 320px;
+  width: 95%;
+  // position: absolute;
+  // top: 95px;
+  // left: 130px;
+  background: url('../assets/img/backgrounds/bgPage-5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 30px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      // width: 1.8em;
+      // height: 1.8em;
+      background-color: transparent;
+      // border-radius: 50%;
+      color: $color4;
+      font-size: 1.5em;
+      transition: all .2s;
+
+      &:hover {
+        // animation: pulse2 2s infinite;
+      }
+    }
+
+    .visited {
+      // background-color: $color2;
+      &:hover {
+        // animation: pulse 2s infinite;
+      }
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;
+    height: 200px;
+
+    .itemGlobe {
+      width: 230px;
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      background-color: $blanco;
+      border: 5px solid;
+      padding: 1em 2.7em 1em 1em;
+      border-radius: 20px;
+      min-width: 90px;
+      max-width: 200px;
+      height: 120px;
+
+      .buttonClose {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid #487FAE;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 40px;
+        
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-top: 16px solid $blanco;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 44px;
+        
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #92066B;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+        transform: rotate(180deg);
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+        transform: rotate(180deg);
+      }
+    }
+
+    .trian-3 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #839C2E;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+
+    .trian-4 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #D37F28;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+"page17": {
+      "type": "endCourse",
+      "message": {
+        "success": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+        },
+
+        "error": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "¡Muchos éxitos!",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+        }
+      },
+      "logoCourse": "img/cover/logo-1.png",
+      "logoFooter": "",
+      "background": {
+        "bg": "img/cover/fondo-end.png"
+      },
+      "buttonEnd": "Finalizar",
+      "footer": {
+        "label": ""
+      } 
+    }

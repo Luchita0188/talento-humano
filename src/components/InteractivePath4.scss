@@ -1,0 +1,170 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.InteractivePath4 {
+  height: 400px;
+  width: 600px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      background-color: transparent;
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 350%;
+    height: 300px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      background-color: #F7F7F7; 
+      border-radius: 15px;
+      padding: 4em 2.6em 2.8em 1rem;
+      height: 270px;
+      width: 395px;
+
+    .infoColor{
+
+      background-color: #92066B
+
+    }
+    
+      .buttonClose {
+        position: absolute;
+        background-color: transparent;
+        border-radius: 50%;
+        top: -15px;
+        right: -15px;
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 25px;
+        left: -30px;
+        transform: rotate(-95deg)
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        transform: rotate(-95deg);
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 90px;
+        left: -30px;
+        transform: rotate(-90deg)
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: 210px;
+        left: -25px;
+        transform: rotate(-90deg)
+      }
+    }
+      .trian-3 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 50px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #2171B3;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -10px;
+        left: 30px;
+      }
+    }
+    .trian-4 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 56px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #2171B3;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 40px;
+      }
+    }
+  }
+}

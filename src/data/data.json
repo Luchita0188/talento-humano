@@ -1,0 +1,1931 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 1,
+    "subTitle": "Induccion corporativa",
+    "title": "Módulo Talento Humano",
+    "module": "",
+    "courseName": "Para comenzar, haz clic en el siguiente botón:",
+    "logoCourse": "img/cover/logo-1.png",
+    "logoFooter": "",
+    "background": {
+      "bg": "img/cover/fondo-inicio.png",
+      "bgBtn": "img/cover/bgBtn-1.png"
+    },
+    "footer": {
+      "label": ""
+    }
+  },
+
+  "page1": {
+    "type": "pageInstruction",
+    "title": "Antes de iniciar...",
+    "information": [
+      {
+        "text1": "Para la realización del curso, ten en cuenta las siguientes recomendaciones:",
+        "img1": "img/1/unid-1.png"
+      },
+      {
+        "text1": "Guarda todo lo que pueda distraerte",
+        "img1": "img/1/unid-2.png"
+      },
+      {
+        "text1": "Apaga tu celular o ponlo en silencio",
+        "img1": "img/1/unid-3.png"
+      },
+      {
+        "text1": "Ten a la mano cuaderno y lápiz donde tomar nota",
+        "img1": "img/1/unid-4.png"
+      },
+      {
+        "text1": "Además, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
+        "img1": "img/1/unid-5.png"
+      },
+      {
+        "text1": "Para la navegación contarás con estos 2 botones:",
+        "img1": "img/1/unid-6-1.png",
+        "img2": "img/1/unid-6-2.png"
+      },
+      {
+        "text1": "",
+        "img1": ""
+      }
+    ],
+    "resources": {
+      "bg": "img/1/bgPage-1.png"
+    },
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en los círculos para visualizar todas las recomendaciones.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    }
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "title": "¡Hola!",
+    "text": "Estás iniciando el módulo de Talento Humano, en este recorrido conocerás cómo funciona nuestra Institución desde la parte normativa. Con tu compromiso podrás entender las dinámicas y la visión que tiene esta organización, para que tus objetivos de enseñanza estén alineados correctamente con nuestras metas de aprendizaje.<br><br>Este módulo consta de los siguientes temas:",
+    "listItem": [
+      {
+        "text": "Historia y contexto",
+        "color": "#780E80"
+      },
+      {
+        "text": "Naturaleza y Tipologia",
+        "color": "#780E80"
+      },
+      {
+        "text": "Mision y Vision",
+        "color": "#780E80"
+      },
+      {
+        "text": "Valores institucionales",
+        "color": "#780E80"
+      },
+      {
+        "text": " Elementos diferenciales",
+        "color": "#780E80"
+      },
+      {
+        "text": " Principios organizacionales",
+        "color": "#780E80"
+      },
+      {
+        "text": "Codigo de vestuario",
+        "color": "#780E80"
+      },
+      {
+        "text": "Permiso y licencias",
+        "color": "#780E80"
+      },
+      {
+        "text": "Beneficios",
+        "color": "#780E80"
+      },
+      {
+        "text": "Nuestras sedes",
+        "color": "#780E80"
+      }
+    ],
+    "resources": {
+      "img1": "img/2/npc-1.png"
+    },
+    "multimedia": {
+      "audio": {
+        "src": "",
+        "autoPlay": true
+      },
+      "subtitle": {},
+      "layers": [
+        {
+          "label": "01 - Historia y contexto",
+          "color": "#780E80",
+          "time": 30
+        },
+        {
+          "label": "02 - Naturaleza y Tipologia",
+          "color": "#780E80",
+          "time": 32
+        },
+        {
+          "label": "03 - Mision y Vision",
+          "color": "#780E80",
+          "time": 34
+        },
+        {
+          "label": "04 - Valores institucionales",
+          "color": "#780E80",
+          "time": 35
+        },
+        {
+          "label": "05 - Elementos diferenciales",
+          "color": "#780E80",
+          "time": 36
+        },
+        {
+          "label": "06 - Principios organizacionales",
+          "color": "#780E80",
+          "time": 39
+        },
+        {
+          "label": "07 - Codigo de vestuario",
+          "color": "#780E80",
+          "time": 40
+        },
+        {
+          "label": "08 - Permiso y licencias",
+          "color": "#780E80",
+          "time": 41
+        },
+        {
+          "label": "09 - Beneficios",
+          "color": "#780E80",
+          "time": 43
+        },
+        {
+          "label": "10 - Nuestras sedes",
+          "color": "#780E80",
+          "time": 45
+        }
+      ]
+    }
+  },
+
+  "page3": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit1",
+    "title": "1. Historia y contexto",
+    "text": "La vida de las instituciones educativas se desarrolla, como la de todo ser humano, por fases y/o etapas de crecimiento, determinadas, cada una de ellas, por hitos o acontecimientos muy significativos.<br><br>Descubre paso a paso nuestra historia.",
+
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en los círculos para visualizar la información",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+
+    "background": {
+      "bg": "img/3/bgPage-3.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn": "img/3/unid-1.png",
+        "title": "",
+        "posY": 220,
+        "posX": -425,
+        "itemInfo": {
+          "title": "",
+          "colorText": "#FF943B",
+          "text": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-2.png",
+        "title": "",
+        "posY": 100,
+        "posX": -300,
+        "itemInfo": {
+          "colorText": "#F58121",
+          "text": "Se considera, en consecuencia, que la primera etapa de la vida de esta Institución de Educación Superior comprende desde la gestación de la idea e iniciación del estudio de factibilidad socio-cultural, su creación, con la expedición del Decreto Arzobispal N° 015, de marzo 25 de 1994, del entonces Arzobispo de la Arquidiócesis de Medellín, Monseñor Héctor Rueda Hernández, por lo que este hecho se considera propiamente como el de nacimiento, para su posterior desarrollo de esta Institución de Educación Superior, inició sus actividades académicas en febrero de 1995, con 48 alumnos matriculados en los 3 primeros programas tecnológicos, 5 docentes de cátedra, con sede en uno de los bloques del Liceo Salazar y Herrera, y se consolida esta etapa con el otorgamiento de su Personería Jurídica por parte del MEN según Resolución N°1104, de abril 17 de 1997.",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-3.png",
+        "title": "",
+        "posY": 215,
+        "posX": -166,
+        "itemInfo": {
+          "colorText": "#D51B43",
+          "text": "Se da paso así a la segunda etapa de maduración de los procesos académicos y administrativos a la luz de su “Primer Plan de Desarrollo Institucional 1997 – 2000”, teniendo como indicadores más sobresalientes de la gestión el incremento de la matrícula y la graduación de sus primeros veinte (20) tecnólogos, el día 25 de septiembre de 1998.",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-4.png",
+        "title": "",
+        "posY": 90,
+        "posX": -30,
+        "itemInfo": {
+          "colorText": "#FF943B",
+          "text": "La tercera etapa, es la transformación y/o cambio de carácter académico de Institución de Educación Superior Tecnológica a Institución de Educación Universitaria, desde el año 2001, de elaboración de documentos, hasta la Resolución del Ministerio de Educación Nacional Nº1916 de agosto 15 de 2003, que le otorgó el cambio de carácter académico a Institución Universitaria con el inicio de la implementación de sus primeros proyectos de desarrollo hasta finales del año 2004. ",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-5.png",
+        "title": "",
+        "posY": 230,
+        "posX": 100,
+        "itemInfo": {
+          "colorText": "#841CA8",
+          "text": "La cuarta etapa, es la de puesta en marcha del primer Proyecto Educativo Institucional como Institución Universitaria, desde el año 2005 hasta la fecha. Durante este periodo han sido aprobados registros calificados en programas tecnológicos, profesionales y posgraduales fruto del ejercicio continuo de cualificación de las funciones sustantivas de una Institución Universitaria. En el mismo sentido, se han obtenido acreditaciones en alta calidad en programas tecnológicos y profesionales, evidenciando el compromiso irrestricto de la excelencia en los procesos formativos de la Institución. Son cuatro Escuelas del saber que organizan la vida académica de la Institución: Escuela de Administración, Escuela de Ingeniería, Escuela de Ciencias Sociales y Humanas y Escuela de Artes. Estas unidades del saber en sinergia con otras unidades académico administrativas transversales a toda la propuesta educativa, son quienes han dinamizado y soportado la sostenibilidad, progreso y posicionamiento en el medio. ",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-6.png",
+        "title": "",
+        "posY": 90,
+        "posX": 230,
+        "itemInfo": {
+          "colorText": "#00386D",
+          "text": "En el año 2019, atendiendo a la evaluación y medición del estado del arte del proyecto educativo institucional mencionado en la etapa cuatro de la presente reseña histórica y reconociendo la firma del Decreto 1330 de 2019 por el Ministerio de Educación Nacional, como insumo importante para la reflexión en cuanto a cambios sustanciales para la Institución Universitaria que permitirán el direccionamiento hacia una propuesta educativa de excelencia, que conlleve a la alta calidad de sus programas y de la Institución. Por lo anterior, se actualiza el Proyecto Educativo Institucional, promoviendo así el inicio de una Quinta etapa, cuya historia se empieza a escribir con el presente documento.",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/3/unid-7.png",
+        "title": "",
+        "posY": 230,
+        "posX": 366,
+        "itemInfo": {
+          "colorText": "#3881B6",
+          "text": "",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      }
+    ]
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "title": "2. Naturaleza y tipología",
+    "text": "La IUSH es una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia. Todo ello para orientar su compromiso solidario con la dignidad humana y la comunidad externa e interna, lo cual posibilita el sentido profético del cristianismo en la vida de nuestra sociedad. De ahí que la Institución pone especial atención en el perfil humano, académico y cristiano de los responsables directos de la investigación y la docencia.",
+    "img": "img/4/npc-4.png"
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "title": "3. Misión y Visión",
+    "text": "Conoce a continuación nuestra misión y visión.",
+
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en cada botón para conocer la información.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "background": {
+      "bg": "img/5/bgPage-5.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn": "img/5/unid-1.png",
+        "pos": {
+          "top": 50,
+          "left": 80
+        },
+        "itemInfo": {
+          "title": "Misión:",
+          "text": "La <b>Institución Universitaria Salazar y Herrera,</b>es una obra de la acción educativa de la Arquidiócesis de Medellín que, en el marco del ideario de humanismo cristiano, contribuye al mejoramiento de la sociedad con una propuesta educativa que se propone:<br> La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.</br> La apropiación, uso y transferencia del conocimiento mediada por la investigación, la innovación, el emprendimiento, la tecnología y la creación.",
+          "posGlobe": {
+            "top": -53,
+            "left": 125
+          },
+          "color": "#F7F7F7",
+          "trian": "trian-1"
+        }
+      },
+      {
+        "urlImgBtn": "img/5/unid-2.png",
+        "pos": {
+          "top": 230,
+          "left": 110
+        },
+        "itemInfo": {
+          "title": "Visión:",
+          "text": "La <b>Institución Universitaria Salazar y Herrera,</b> en cuanto Institución Católica, se proyecta mediante la interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+          "posGlobe": {
+            "top": -53,
+            "left": 125
+          },
+          "color": "#F7F7F7",
+          "trian": "trian-2"
+        }
+      }
+    ]
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "title": "4. Valores institucionales",
+    "text": "Para conocer cuáles son nuestros valores, te invitamos a realizar la siguiente actividad",
+
+    "instruction": {
+      "type": "mouse",
+      "text": "Lleva el ícono al círculo que está en blanco para conocer la información.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "dragItems": [
+        {
+          "drag": 1,
+          "img": "img/6/unid-1.png",
+          "text": "Disciplina",
+          "type": "4",
+          "data": ""
+        },
+        {
+          "drag": 2,
+          "img": "img/6/unid-2.png",
+          "text": "Dignidad humana",
+          "type": "2",
+          "data": ""
+        },
+        {
+          "drag": 3,
+          "img": "img/6/unid-3.png",
+          "text": "Fe",
+          "type": "1",
+          "data": ""
+        },
+        {
+          "drag": 4,
+          "img": "img/6/unid-4.png",
+          "text": "Compromiso",
+          "type": "3",
+          "data": ""
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key": 1,
+            "img": "img/6/unid-3.png",
+            "text": "Con relación al año de la fe en el 2012, el Papa Benedicto XVI reflexionó que frente al contexto que vive el ser humano: En efecto, en nuestro tiempo es necesaria una educación renovada en la fe… la fe es un don de Dios, pero también es un acto profundamente humano y libre. En este sentido, la fe hace parte de los valores de la IUSH con la pretensión que libremente, cada integrante de la comunidad Salazar y Herrera opte por que este valor y le acompañe en su ser, conocer y actuar a lo largo de la vida con sentido y propósito Complementariamente este valor está en diálogo permanente con el conocimiento y en su integración ambos adquieren mayor significado como dijo San Agustín en uno de sus sermones Creo para entender y entiendo para creer.",
+            "target": "3",
+            "size": 136,
+            "posY": 129,
+            "posX": 264,
+            "type": "1"
+          },
+          {
+            "key": 2,
+            "img": "img/6/unid-2.png",
+            "text": "Incorporar este valor en la cotidianidad de la IUSH, traza el compromiso de dignificar la persona haciéndole honor a su capacidad de grandeza y poder de transformación que se tiene de sí mismo, de los otros y del contexto siempre con una consciencia humana. “La dignidad humana requiere, por tanto, que el hombre actúe según su conciencia y libre elección, es decir, movido e inducido por convicción interna personal y no bajo la presión de un ciego impulso interior o de la mera coacción externa” (Juan Pablo II, 2004)",
+            "target": "2",
+            "size": 136,
+            "posY": 107,
+            "posX": 195,
+            "type": "2"
+          },
+          {
+            "key": 3,
+            "img": "img/6/unid-4.png",
+            "text": "En el marco de este Plan de Desarrollo, el compromiso se hace fundamental en cuanto a que define una conexión entre el propósito escrito y el accionar frente al mismo de cada uno de los integrantes de la comunidad Salazarista, sin el cual, este Plan sería una simple letra muerta. Además, este valor llevado como herencia del paso por la Institución en nuestros graduados y mantenido por los estudiantes, los docentes y servidores, garantizan la calidad, la sostenibilidad y el impacto de la Institución reflejada en la sociedad.",
+            "target": "4",
+            "size": 136,
+            "posY": 44,
+            "posX": 86,
+            "type": "3"
+          },
+          {
+            "key": 4,
+            "img": "img/6/unid-1.png",
+            "text": "En el marco de este Plan de Desarrollo, el compromiso se hace fundamental en cuanto a que define una conexión entre el propósito escrito y el accionar frente al mismo de cada uno de los integrantes de la comunidad Salazarista, sin el cual, este Plan sería una simple letra muerta. Además, este valor llevado como herencia del paso por la Institución en nuestros graduados y mantenido por los estudiantes, los docentes y servidores, garantizan la calidad, la sostenibilidad y el impacto de la Institución reflejada en la sociedad.",
+            "target": "1",
+            "size": 136,
+            "posY": 129,
+            "posX": 264,
+            "type": "4"
+          }
+        ],
+        "infoBox": [
+          {
+            "target": "1",
+            "title": "",
+            "colorTitle": "",
+            "subTitle": "",
+            "text": "La armonía de los cuatro valores y en el orden presentado, permiten desarrollar una amplia variedad de valores como el servicio, la solidaridad, la confiabilidad, la justicia, el respeto, la comprensión, la prudencia, la decisión y la efectividad. Por ejemplo, quien tiene fe, vive la dignidad humana y el compromiso, necesariamente tendrá el valor del servicio y la solidaridad."
+          }
+        ]
+      }
+    }
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "title": "5. Elementos diferenciadores ",
+    "text": "En la IUSH tenemos unos elementos que nos hacen diferentes a las demás instituciones, estos son:",
+    "background": {
+      "bg": "img/7/bgPage-7.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn": "img/7/unid-1.png",
+        "itemInfo": {
+          "title": "La generación de valor:",
+          "text1": " En lo que hacemos en la IUSH, todos, aportamos y agregamos valor al proceso y a los resultados que obtenemos, conduciendo hacia el camino de la excelencia dando soluciones a diferentes problemas en el mundo de la vida, respuestas a requerimientos del sector real y aplicaciones tecnológicas innovadoras.",
+          "text2": "",
+          "colorText": "#FF943B",
+          "pos": {
+            "top": -20,
+            "left": 8
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/7/unid-2.png",
+        "title": "",
+        "itemInfo": {
+          "title": "La mediación social:",
+          "text1": "El papel que tenemos como actores sociales, gira entorno a la mediación que, desde el conocimiento, la ciencia y la tecnología, realizamos para el cuidado, sostenibilidad y mejora de nuestra casa común, promoviendo una cultura social y política inspirada en el Evangelio.",
+          "text2": "",
+          "colorText": "#88074F",
+          "pos": {
+            "top": 50,
+            "left": 180
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/7/unid-3.png",
+        "title": "",
+        "itemInfo": {
+          "title": "Defensa de la dignidad humana y el bien común",
+          "text1": "La defensa de la dignidad humana y el bien común, es una de las actividades que realizamos en la IUSH, que nos permite garantizar la calidad de vida de nuestros estudiantes, docentes y servidores, y la sostenibilidad de la Institución.",
+          "colorText": "#FF943B",
+          "pos": {
+            "top": 220,
+            "left": 190
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/7/unid-4.png",
+        "title": "",
+        "itemInfo": {
+          "title": "El servicio:",
+          "text": "Asumido como las disposiciones para atender las necesidades, ofreciendo apoyo y soluciones eficaces, como expresión de la caridad, que se manifiesta en la vida familiar, cultural, laboral, económica, política, acorde con el rol que desempeñamos.",
+          "text2": "",
+          "colorText": "#01294E",
+          "pos": {
+            "top": 305,
+            "left": -2
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/7/unid-5.png",
+        "title": "",
+        "itemInfo": {
+          "title": "Cultura de la innovación:",
+          "text": "Entendiendo por innovación la capacidad de transformarnos para vivir mejor, los actores que intervienen en los procesos académicos y administrativos de las IUSH, propician los espacios, momentos y ambientes de aprendizaje que de forma articulada dan respuesta a situaciones que demandan capacidades para el uso del conocimiento en función de nuevas soluciones.",
+          "text2": "",
+          "pos": {
+            "top": -30,
+            "left": -188
+          },
+          "colorText": "#3B9894",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/7/unid-6.png",
+        "title": "",
+        "itemInfo": {
+          "title": "Conciencia de sostenibilidad",
+          "text": "Comprendido como el uso adecuado y eficiente de los recursos físicos, técnicos, tecnológicos, ambientales y financieros con los cuales se cuenta, para la sostenibilidad y sustentabilidad de los bienes en pro del cuidado de la casa común y de los procesos formativos, en pro de una cultura del bienestar y el desarrollo de las libertades.",
+          "text2": "",
+          "colorText": "#739E2B",
+          "pos": {
+            "top": 130,
+            "left": -190
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
+          }
+        }
+      }
+    ],
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en los círculos para visualizar todas las recomendaciones.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "title": "6. Principios organizacionales",
+    "text": "Los integrantes de la Institución Universitaria Salazar y Herrera deben conocer los principios organizacionales para alcanzar los resultados esperados conforme a la misión y visión.",
+    "resources": {
+      "img": "img/8/npc-8.png",
+      "img1": "img/8/pdf.png"
+    },
+    "link": {
+      "text": "Para conocer en detalle cada uno de estos <b>principios,</b> le invitamos a darle clic en el siguiente ícono:",
+      "route": "docs/Talento Humano_Principios Organizacionales_IUSYH.docx"
+    },
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic sobre el DOCX para descargar el documento.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    }
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "title": "7. Organigrama",
+    "text": "Te invitamos a conocer la estructura interna que tiene la Institución Universitaria Salazar y Herrera en la siguiente imagen.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en la siguiente imagen y visualiza la información",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title": "",
+        "text": "",
+        "imgBg": "img/9/btn-9.png"
+      },
+      "gallery": [
+        {
+          "key": 1,
+          "img": "img/9/img-9.jpg",
+          "link": ""
+        }
+      ],
+      "closedModal": true
+    }
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "headerPage": {
+      "textHeader": "8. Código de vestuario"
+    },
+    "title": "8. Código de vestuario",
+    "text": "El código de vestuario es el conjunto de los acuerdos explícitos de una empresa sobre el tipo de prendas de vestir que deben usar sus empleados y la manera de llevarlas.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en cada botón para conocer los parámetros de vestuario que tenemos en la Institución.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "boxInfo": [
+      {
+        "title": "Vestuario de Hombres",
+        "text": "",
+        "imgBg": "img/10/unid-1.png",
+        "modal": {
+          "img": "img/10/vestuario-hombre.png",
+          "text": "• Uso de pantalón y camisa de lunes a jueves.<br>• Medias largas del mismo color del pantalón o de los zapatos.<br>• El calzado debe ser adecuado y estar en buen estado, podrá ser casual.<br>• No se debe usar pantalones o camisas ceñidas.<br>• No se debe usar tenis (sólo en eventos que así lo ameriten).<br>• No se debe usar aretes, expansores, gorras, ni piercing. <br>• Para los viernes: Camiseta tipo Polo y Jean clásico, sin desgastes ni adornos excesivos (rotos, taches, costuras de varios colores, entre otros).",
+          "closedModal": true
+        }
+      },
+      {
+        "title": "Vestuario de Mujeres",
+        "text": "",
+        "imgBg": "img/10/unid-2.png",
+        "modal": {
+          "img": "img/10/vestuario-dama.png",
+          "text": "•Blusas, camisas, sacos o chaquetas casuales.<br>• Pantalones de corte casual, de dril, pana, corduroy o tipo jean en colores discretos sin desteñidos o desgastes exagerados.<br>• Faldas o vestidos casuales con altura máxima de cinco centímetros arriba de la rodilla.<br>• No se debe usar pantalones descaderados, capris,  shorts y leggins.<br>• No se debe usar minifaldas, blusas con transparencias, escotes pronunciados ni blusas de tiritas, ombligueras o strapless.<br>• No se debe usar tenis (sólo en eventos que así lo ameriten).<br>• Para los viernes: Jean clásico, no descaderados, sin desgastes, ni adornos excesivos (rotos, taches, costuras de varios colores, entre otros)",
+          "closedModal": true
+        }
+      }
+    ]
+  },
+  "page11": {
+    "type": "pageCourse",
+    "title": "8. Código de vestuario",
+    "text": "Te invitamos a observar cada imagen con detenimiento, luego selecciona y determina si es adecuado o inadecuado el vestuario que llevan puesto de acuerdo con la información que viste anteriormente.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en Adecuado o Inadecuado teniendo en cuenta los parámetros establecidos.",
+      "posY": 50,
+      "posX": 600,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "drag": 1,
+          "img": "img/11/unid-1.png",
+          "text": "",
+          "type": "",
+          "data": ""
+        },
+        {
+          "id": 2,
+          "text": "",
+          "img": "img/11/error.png",
+          "color": ""
+        }
+      ],
+      "dropZone": {
+        "limit": 9,
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+                    {
+                      "key": 1,
+                      "box": "<div class = 'boxDrop'></div>",
+                      "posY": 20,
+                      "posX": 476,
+                      "size": 170,
+                      "correct": "",
+                      "type": ""
+                    }
+                  ]
+                },
+          {
+            "key": 2,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-2.png",
+                "posY": 500,
+                "posX": 70
+              }
+            ],
+            "drops": [
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "",
+                "color": ""
+              }
+            ]
+          },
+          {
+            "key": 3,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-2.png",
+                "pox": 30,
+                "posY": 30
+              }
+            ],
+            "drops": [
+              {
+                "key": 3,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 4,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-2.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 4,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 5,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-3.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 5,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 6,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-3.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 6,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 7,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-4.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 7,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 557,
+                "posX": 424,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 8,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-4.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 8,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 9,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-5.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 9,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 10,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-5.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 10,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 11,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-6.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 11,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 12,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-6.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 12,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 13,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-7.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 13,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 14,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-7.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 14,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "Inadecuado",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 15,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-8.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 15,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "Adecuado",
+                "color": "#7BAF2D"
+              }
+            ]
+          },
+          {
+            "key": 16,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/ined-8.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 16,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 17,
+                "posX": 200,
+                "size": 70,
+                "type": "",
+                "color": "#D0D62D"
+              }
+            ]
+          },
+          {
+            "key": 17,
+            "lines": [
+              {
+                "key": 1,
+                "img": "img/11/unid-9.png",
+                "posY": 30,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 17,
+                "box": "<div class = 'boxDrop'></div>",
+                "posY": 424,
+                "posX": 557,
+                "size": 70,
+                "type": "",
+                "color": "#7BAF2D"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/11/check.png",
+          "imgSize": 150,
+          "title": "¡Bien!",
+          "text": ""
+        }
+      ]
+    }
+  },
+  "page12": {
+    "type": "pageCourse",
+    "title": "9. Permisos y licencias",
+    "text": "Los colaboradores de la Institución Universitaria Salazar y Herrera tienen derecho al reconocimiento de permisos y licencias basado en situaciones personales y/o familiares en los que se requiera tiempo para dar solución a ciertos inconvenientes. ",
+
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en la siguiente imagen y visualiza la información",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+
+    "background": {
+      "bg": "img/12/bgPage-12.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn": "img/12/unid-1.png",
+        "title": "",
+        "posY": 190,
+        "posX": 92,
+        "itemInfo": {
+          "title": "01- Licencia de Maternidad",
+          "text1": "El Código Sustantivo de Trabajo en su Artículo 236 indica que, toda trabajadora, en estado gestante, tiene derecho a 14 semanas de licencia de maternidad. Las semanas se dividirán en, 2 prenatales y 12 postnatales. La empleada deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez con el fin de facilitar la asistencia a las citas de control y programar la entrega de las labores que tiene la trabajadora para que sean suplidas por otro empleado.",
+          "colorText": "#B1083C",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-2.png",
+        "title": "",
+        "posY": 90,
+        "posX": 200,
+        "itemInfo": {
+          "title": "02 - Licencia por paternidad ",
+          "text1": "La ley otorga dos semanas para que los hombres acompañen el nacimiento de su hijo. El empleado deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez de su esposa o compañera permanente acreditada, con el fin de programar la entrega de las labores que tiene el colaborador para que sean suplidas por otro empleado. Al momento de hacer efectiva la licencia, el empleado debe aportar a la Institución un registro civil de nacimiento del menor.",
+          "colorText": "#6B1090",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-3.png",
+        "title": "Licencia por grave calamidad doméstica",
+        "posY": 190,
+        "posX": 300,
+        "itemInfo": {
+          "title": "03 - Licencia por grave calamidad doméstica",
+          "text1": "Cuando el trabajador cruza por un suceso familiar o personal por dificultades de salud o atribuibles a caso fortuito o fuerza mayor que afecte el correcto desarrollo de sus funciones, el empleador tiene la potestad de permitirle ausentarse hasta por 5 días hábiles remunerados con las evidencias suficientes que demuestren la calamidad. El empleador podrá pactar con el empleado la forma de reponer el tiempo concedido.",
+          "colorText": "#04386D",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-4.png",
+        "title": "",
+        "posY": 95,
+        "posX": 405,
+        "itemInfo": {
+          "title": "04 - Licencia de luto",
+          "text1": "En virtud de lo descrito por la Ley 1280 de 2009, se debe conceder 5 días hábiles remunerados en el caso de que al empleado sufra la pérdida de un ser querido. La Licencia será por el fallecimiento de su cónyuge, compañero(a) permanente, papá, mamá, hijo, hija, hermanos, abuelos, nietos, suegro, suegra, yerno, nuera, hijo de su compañero(a) permanente que no sean de la relación.<br><br>En caso de que el fallecimiento sea de una persona diferente a las anteriormente descritas, es potestativo del empleador otorgar el tiempo al empleado para los casos de sobrinos, tíos, primos, bisabuelos, bisnietos un término de 2 días. De igual forma, cuando quien fallece no tiene ningún tipo de grado de afinidad o consanguinidad con el empleado, (cuñados, amigos, compañeros de trabajo) el empleador o jefe directo si lo considera pertinente otorgará 3  horas de licencia siempre y cuando no se afecte el funcionamiento de la empresa.</br>.",
+          "colorText": "#008DF6",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-5.png",
+        "title": "",
+        "posY": 188,
+        "posX": 510,
+        "itemInfo": {
+          "title": "05 - Licencia como consecuencia del desempeño de cargos oficiales",
+          "text1": "Cuando el trabajador es solicitado por el estado para ejercer funciones como jurado de votación, el empleador debe permitirle asistir y, dentro de los 45 días siguientes otorgarle un día de descanso remunerado.",
+          "colorText": "#007568",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-6.png",
+        "title": "",
+        "posY": 100,
+        "posX": 620,
+        "itemInfo": {
+          "title": "06 - Licencia para ejercer el derecho al voto",
+          "text1": "El trabajador debe permitir al empleador asistir a las jornadas electorales. Como recompensa a la asistencia, el trabajador recibirá medio día de descanso en el mes siguiente del día de votación.",
+          "colorText": "#629A14",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-7.png",
+        "title": "",
+        "posY": 200,
+        "posX": 720,
+        "itemInfo": {
+          "title": "07 - Autorización para asistir a citas médicas",
+          "text1": "El colaborador que requiera citas médicas necesarias para atender problemas de salud, prevención o de control de sí mismo o de su compañero(a) permanente, papá, mamá, hijo, hija, deberá informar a su superior jerárquico sobre su ausencia para cumplir con dicha cita. En todo caso el empleado deberá presentar la constancia de la cita y/o el certificado de hora de salida de la misma, la cual será entregada en la respectiva IPS. <br><br>Todas las ausencias deberán ser comunicadas al jefe directo y este lo reportará a Cultivo de lo Humano con el fin de tener conocimiento de dichos permisos y realizar los trámites pertinentes ante la ARL por dicho ausentismo.</br>",
+          "colorText": "#ED7702",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      },
+      {
+        "urlImgBtn": "img/12/unid-8.png",
+        "title": "",
+        "posY": 99,
+        "posX": 820,
+        "itemInfo": {
+          "title": "08 - Licencias superiores a un día",
+          "text1": "Cuando el permiso o licencia es superior a un día de trabajo, se debe informar y/o solicitar la autorización mediante escrito, el cual debe ser previamente conocido por el jefe directo y firmado por el Rector. En el escrito se debe plantear la situación y el tiempo que no asistirá el empleado.",
+          "colorText": "#CC2E44",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -18,
+            "posX": -5
+          }
+        }
+      }
+    ]
+  },
+
+  "page13": {
+    "type": "pageCourse",
+    "title": "10. Beneficios",
+    "text": "",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en cada ícono para conocer los beneficios que tenemos por ser empleados de la Institución.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "type": "icon",
+      "items": [
+        {
+          "id": 1,
+          "title": "Descuento para estudio",
+          "text": "Nota: para el caso de los practicantes, ellos no tienen acceso al descuento para estudio ni a la caja de compensación.",
+          "img": "img/13/unid-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Servicio odontológico.",
+          "text": "Teléfono: 4600700 Ext. 2147",
+          "img": "img/13/unid-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Gimnasio.",
+          "text": "Teléfono: 4600700 Ext. 2260",
+          "img": "img/13/unid-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Asesoría psicológica.",
+          "text": "Teléfono: 4600700 Ext. 2133-2110",
+          "img": "img/13/unid-4.png"
+        },
+        {
+          "id": 5,
+          "title": "Caja de compensación.",
+          "text": "",
+          "img": "img/13/unid-5.png"
+        }
+      ]
+    }
+  },
+
+  "page14": {
+    "type": "pageCourse",
+    "title": "11. Conoce nuestras sedes",
+    "text": "La Organización Salazar y Herrera cuenta con varias sedes, te invitamos a conocerlas a continuación.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en cada botón para visualizar la galería de imágenes.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title": "",
+        "text": "",
+        "imgBg1": "img/14/btn-1.png",
+        "imgBg2": "img/14/btn-3.png"
+      },
+      "gallery": [
+        {
+          "key": 1,
+          "img": "img/14/img-1.jpg",
+          "link": ""
+        },
+        {
+          "key": 2,
+          "img": "img/14/img-2.jpg",
+          "link": ""
+        },
+        {
+          "key": 3,
+          "img": "img/14/img-3.jpg",
+          "link": ""
+        },
+        {
+          "key": 4,
+          "img": "img/14/img-4.jpg",
+          "link": ""
+        },
+        {
+          "key": 5,
+          "img": "img/14/img-5.jpg",
+          "link": ""
+        },
+        {
+          "key": 6,
+          "img": "img/14/img-6.jpg",
+          "link": ""
+        },
+        {
+          "key": 7,
+          "img": "img/14/img-7.jpg",
+          "link": ""
+        },
+        {
+          "key": 8,
+          "img": "img/14/img-8.jpg",
+          "link": ""
+        },
+        {
+          "key": 9,
+          "img": "img/14/img-9.jpg",
+          "link": ""
+        },
+        {
+          "key": 10,
+          "img": "img/14/img-10.jpg",
+          "link": ""
+        },
+        {
+          "key": 11,
+          "img": "img/14/img-11.jpg",
+          "link": ""
+        },
+        {
+          "key": 12,
+          "img": "img/14/img-12.jpg",
+          "link": ""
+        },
+        {
+          "key": 13,
+          "img": "img/14/img-13.jpg",
+          "link": ""
+        },
+        {
+          "key": 14,
+          "img": "img/14/img-14.jpg",
+          "link": ""
+        },
+        {
+          "key": 15,
+          "img": "img/14/img-15.jpg",
+          "link": ""
+        },
+        {
+          "key": 16,
+          "img": "img/14/img-16.jpg",
+          "link": ""
+        },
+        {
+          "key": 17,
+          "img": "img/14/img-17.jpg",
+          "link": ""
+        },
+        {
+          "key": 18,
+          "img": "img/14/img-18.jpg",
+          "link": ""
+        },
+        {
+          "key": 19,
+          "img": "img/14/img-19.jpg",
+          "link": ""
+        },
+        {
+          "key": 20,
+          "img": "img/14/img-20.jpg",
+          "link": ""
+        },
+        {
+          "key": 21,
+          "img": "img/14/img-21.jpg",
+          "link": ""
+        },
+        {
+          "key": 22,
+          "img": "img/14/img-22.jpg",
+          "link": ""
+        },
+        {
+          "key": 23,
+          "img": "img/14/img-23.jpg",
+          "link": ""
+        },
+        {
+          "key": 25,
+          "img": "img/14/img-24.jpg",
+          "link": ""
+        }
+      ],
+      "gallery2": [
+        {
+          "key": 1,
+          "img": "img/14/gale-1.jpg",
+          "link": ""
+        },
+        {
+          "key": 2,
+          "img": "img/14/gale-2.jpg",
+          "link": ""
+        },
+        {
+          "key": 3,
+          "img": "img/14/gale-3.jpg",
+          "link": ""
+        },
+        {
+          "key": 4,
+          "img": "img/14/gale-4.jpg",
+          "link": ""
+        },
+        {
+          "key": 5,
+          "img": "img/14/gale-5.jpg",
+          "link": ""
+        },
+        {
+          "key": 6,
+          "img": "img/14/gale-6.jpg",
+          "link": ""
+        },
+        {
+          "key": 7,
+          "img": "img/14/gale-7.jpg",
+          "link": ""
+        },
+        {
+          "key": 8,
+          "img": "img/14/gale-8.jpg",
+          "link": ""
+        },
+        {
+          "key": 9,
+          "img": "img/14/gale-9.jpg",
+          "link": ""
+        },
+        {
+          "key": 10,
+          "img": "img/14/gale-10.jpg",
+          "link": ""
+        },
+        {
+          "key": 11,
+          "img": "img/14/gale-11.jpg",
+          "link": ""
+        },
+        {
+          "key": 12,
+          "img": "img/14/gale-12.jpg",
+          "link": ""
+        },
+        {
+          "key": 13,
+          "img": "img/14/gale-13.jpg",
+          "link": ""
+        },
+        {
+          "key": 14,
+          "img": "img/14/gale-14.jpg",
+          "link": ""
+        },
+        {
+          "key": 15,
+          "img": "img/14/gale-15.jpg",
+          "link": ""
+        },
+        {
+          "key": 16,
+          "img": "img/14/gale-16.jpg",
+          "link": ""
+        },
+        {
+          "key": 17,
+          "img": "img/14/gale-17.jpg",
+          "link": ""
+        },
+        {
+          "key": 18,
+          "img": "img/14/gale-18.jpg",
+          "link": ""
+        },
+        {
+          "key": 19,
+          "img": "img/14/gale-19.jpg",
+          "link": ""
+        }
+      ],
+      "closedModal": true
+    }
+  },
+  "page15": {
+    "type": "pageCourse",
+    "title": "¡Has llegado al final de este recorrido!",
+    "text": "Estamos seguros que tienes nuevos<br>aprendizajes y que conoces un poco más acerca <br>de esta Organización.",
+    "text1": "¡Muchas gracias!",
+    "text2": "Te invitamos a realizar el ejercicio<br>valorativo de este módulo.",
+    "text3": "¡Exitos!",
+    "button": "Realizar prueba final",
+    "img": "img/15/npc-1.png",
+
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic sobre el botón realizar prueba final para descubrir la información",
+      "posY": 50,
+      "posX": 600,
+      "size": 330,
+      "color": "#FFD15C"
+    }
+  },
+  "page16": {
+    "type": "pageCourse",
+    "title": "Ejercicio valorativo de este módulo",
+    "text": "",
+    "multimedia": {
+      "modal": {
+        "check": {
+          "title": "¡Muy bien!",
+          "text": "",
+          "img": "img/16/check.png"
+        },
+        "error": {
+          "title": "¡Intenta de nuevo!",
+          "text": "",
+          "img": "img/16/error.png"
+        }
+      },
+      "questions": [
+        {
+          "type": "multiple",
+          "statement": "<b>1.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+          "options": [
+            {
+              "type": "A",
+              "text": "Año de diseño y factibilidad",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "B",
+              "text": "Año de graduación de los primeros 20 tecnólogos",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "Año del inicio de las actividades académicas",
+              "value": false,
+              "color": "#86BF41"
+            },
+            {
+              "type": "D",
+              "text": "Año en que su colocó en marcha del primer <br>Proyecto Educativo Institucional (PEI)",
+              "value": false,
+              "color": "#D51B43"
+            },
+            {
+              "type": "",
+              "text": "2005",
+              "value": true,
+              "color": "#D51B43"
+            },
+            {
+              "type": "",
+              "text": "1995",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "",
+              "text": "1992",
+              "value": true,
+              "color": "#00386D"
+            },
+            {
+              "type": "",
+              "text": "1998",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+          "options": [
+            {
+              "type": "A",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, <br>además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "B",
+              "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+              "value": false,
+              "color": "#F39625"
+            },
+            {
+              "type": "B",
+              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "value": false,
+              "color": "#3881B6"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>4.</b>  La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "B",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación.",
+              "value": false,
+              "color": "#266D72"
+            },
+            {
+              "type": "C",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>5.</b>  La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "Fe, Dignidad Humana, Compromiso y Disciplina.",
+              "value": true,
+              "color": "#F14711"
+            },
+            {
+              "type": "B",
+              "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad.",
+              "value": false,
+              "color": "#3881B6"
+            },
+            {
+              "type": "C",
+              "text": "Participación, Solidaridad, Equidad, Seguridad",
+              "value": false,
+              "color": "#6DA001"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>6.</b> Elige 3 parámetros correctos del código de vestuario: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "No usar prendas demasiado ajustadas.",
+              "value": true,
+              "color": "#00386D"
+            },
+            {
+              "type": "B",
+              "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "Los viernes uso del jean clásico.",
+              "value": true,
+              "color": "#6DA001"
+            },
+            {
+              "type": "D",
+              "text": "Se puede usar expansores, gorras y piercing. ",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "E",
+              "text": "Uso del jean clásico en cualquier momento.",
+              "value": false,
+              "color": "#B30E6A"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>7.</b> Según la información vista en permisos y licencias, empareja correctamente la respuesta.",
+          "options": [
+            {
+              "type": "A",
+              "text": "Licencia de maternidad",
+              "value": true,
+              "color": "#F39625"
+            },
+            {
+              "type": "B",
+              "text": "Licencia de luto",
+              "value": true,
+              "color": "#D51B43"
+            },
+            {
+              "type": "C",
+              "text": "Licencia por paternidad",
+              "value": true,
+              "color": "#F39625"
+            },
+            {
+              "type": "D",
+              "text": "Licencia por ejercer el derecho al voto",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "IUSH",
+              "value": true,
+              "color": "#B3056A"
+            },
+            {
+              "type": "B",
+              "text": "LICEO",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "CORSAHE",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "D",
+              "text": "RONDALLA",
+              "value": true,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "E",
+              "text": "UPB",
+              "value": false,
+              "color": "#F39603"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>9.</b>  ¿Cuántas Escuelas tiene la IUSH? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "a. 5",
+              "value": false,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "B",
+              "text": "b. 4",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "c. 3",
+              "value": false,
+              "color": "#D51B43"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>10.</b>  ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "6",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "B",
+              "text": "4",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "3",
+              "value": false,
+              "color": "#6DA01C"
+            },
+            {
+              "type": "D",
+              "text": "Ninguna de las anteriores ",
+              "value": true,
+              "color": "#F39625"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "page17": {
+    "type": "endCourse",
+    "message": {
+      "success": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      },
+
+      "error": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "¡Muchos éxitos!",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      }
+    },
+    "logoCourse": "img/cover/logo-1.png",
+    "logoFooter": "",
+    "background": {
+      "bg": "img/cover/fondo-end.png"
+    },
+    "buttonEnd": "Finalizar",
+    "footer": {
+      "label": ""
+    }
+  }
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,89 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.ModalCircle4 {
+
+  .circleItems {
+    .itemButton {
+      .circleButton {
+        background-color: transparent;
+        color: $color4;
+        font-size: 1.5em;
+        transition: all .3s;
+      } 
+    }
+    .itemLabel {
+      background-color: #F7F7F7;
+      box-shadow: 0 0px 9px rgba(0, 0, 0, 0.2);
+      border-radius: 1px;
+      border-width: 1px;
+      border-style: solid;
+      .textItem {
+        display: inline;
+      }
+    }
+    .itemLabelL {
+      margin-left: -20px;
+    }
+    .itemLabelR {
+      margin-right: -20px;
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: #04386D;
+    position: absolute;
+    display: grid;
+    top: -390px;
+    left: -512px;
+    z-index: 4;
+    width: 2000px;
+    height: 900px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+      background-color: #F7F7F7;
+      align-self: center;
+      justify-self: center;
+      padding: 2.8em 0.1em 3.2rem;
+      border-radius: 6px;
+      min-width: 580px;
+      max-width: 99px;
+      height: 380px;
+      
+
+      .titleGlobe {
+        width: 30px;
+        height: 30px;
+        border-radius: 20%;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+        font-style: italic;
+      }
+
+      .enfasis-1 {
+        background-color: #EAEAEA;
+        border-radius: 10px;
+        padding: 0.5rem;
+      }
+
+      .buttonClose {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        padding: 0.4rem 0.1rem;
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #F7F7F7;
+          }
+        }
+      }
+    }
+  }
+}

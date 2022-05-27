@@ -1,0 +1,28 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.SlideLR1 {
+  .contentSlide {
+    .slideBox {
+      .text {
+        font-size: 0.8rem;
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 3rem;
+        color: $titulo1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #236635;
+        }
+      }
+    }
+  }
+}
