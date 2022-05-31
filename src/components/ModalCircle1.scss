@@ -10,14 +10,14 @@
   } 
   }
   .bgItemGlobe {
-    background-color: #04386D;
+    background-color: #01274E;
     position: absolute;
     display: grid;
-    top: -136px;
-    left: -680px;
+    top: -145px;
+    left: -780px;
     z-index: 2;
-    width: 1060px;
-    height: 690px;
+    width: 1080px;
+    height: 790px;
 
     .itemGlobe {
       box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
@@ -26,7 +26,7 @@
       justify-self: center;
       padding: 2.3rem 1.5rem 2.5rem;
       border-radius: 12px;
-      width: 290px;
+      width: 480px;
       height: 220px;
 
       .enfasis-1 {

@@ -480,7 +480,7 @@ class Page7 extends Component {
             <div className="mL-6 c-35 mR-2 mT-2">
               {dataPage.title ? (
                 <h2
-                  className="mB-1 fw-4"
+                  className="mB-1 fw-6"
                   dangerouslySetInnerHTML={{ __html: dataPage.title }}
                 ></h2>
               ) : null}

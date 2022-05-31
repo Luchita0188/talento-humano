@@ -477,7 +477,6 @@
         "itemInfo": {
           "title": "La generación de valor:",
           "text1": " En lo que hacemos en la IUSH, todos, aportamos y agregamos valor al proceso y a los resultados que obtenemos, conduciendo hacia el camino de la excelencia dando soluciones a diferentes problemas en el mundo de la vida, respuestas a requerimientos del sector real y aplicaciones tecnológicas innovadoras.",
-          "text2": "",
           "colorText": "#FF943B",
           "pos": {
             "top": -20,
@@ -496,7 +495,6 @@
         "itemInfo": {
           "title": "La mediación social:",
           "text1": "El papel que tenemos como actores sociales, gira entorno a la mediación que, desde el conocimiento, la ciencia y la tecnología, realizamos para el cuidado, sostenibilidad y mejora de nuestra casa común, promoviendo una cultura social y política inspirada en el Evangelio.",
-          "text2": "",
           "colorText": "#88074F",
           "pos": {
             "top": 50,
@@ -533,7 +531,6 @@
         "itemInfo": {
           "title": "El servicio:",
           "text": "Asumido como las disposiciones para atender las necesidades, ofreciendo apoyo y soluciones eficaces, como expresión de la caridad, que se manifiesta en la vida familiar, cultural, laboral, económica, política, acorde con el rol que desempeñamos.",
-          "text2": "",
           "colorText": "#01294E",
           "pos": {
             "top": 305,
@@ -552,7 +549,6 @@
         "itemInfo": {
           "title": "Cultura de la innovación:",
           "text": "Entendiendo por innovación la capacidad de transformarnos para vivir mejor, los actores que intervienen en los procesos académicos y administrativos de las IUSH, propician los espacios, momentos y ambientes de aprendizaje que de forma articulada dan respuesta a situaciones que demandan capacidades para el uso del conocimiento en función de nuevas soluciones.",
-          "text2": "",
           "pos": {
             "top": -30,
             "left": -188
@@ -571,7 +567,6 @@
         "itemInfo": {
           "title": "Conciencia de sostenibilidad",
           "text": "Comprendido como el uso adecuado y eficiente de los recursos físicos, técnicos, tecnológicos, ambientales y financieros con los cuales se cuenta, para la sostenibilidad y sustentabilidad de los bienes en pro del cuidado de la casa común y de los procesos formativos, en pro de una cultura del bienestar y el desarrollo de las libertades.",
-          "text2": "",
           "colorText": "#739E2B",
           "pos": {
             "top": 130,
