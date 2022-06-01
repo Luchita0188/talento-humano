@@ -105,9 +105,9 @@ class ModalCircle1 extends Component {
           <div className = 'bgItemGlobe animated fadeIn'>
             <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2'} >
 
-            <h2 className = 'mB-1 titulo2 transparent  mL-2 c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
+            <h2 className = 'mB-1 mT-2 titulo2 transparent c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
 
-              <p className = 'mB-1 mL-025 pB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
+              <p className = 'mB-2 mL-025 pB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
 
               { 
                 multimedia[actualItem - 1].itemInfo.buttonClose.closedModal === true ?

@@ -45,7 +45,7 @@ class DraggableWords extends Component {
   render() {
     const { multimedia } = this.props;
     return (
-      <div className="draggableWords d-Flex j-S aI-E" style={{}}>
+      <div className="draggableWords d-Flex j-S aI-E" >
         <audio
           className="audio"
           autoPlay={""}
@@ -58,12 +58,12 @@ class DraggableWords extends Component {
 
         <DndProvider backend={HTML5Backend}>
           <div
-            className="contentWords d-Flex d-R j-Ar aI-C wW c-3"
+            className="contentWords d-Flex d-R j-C aI-C wW c-3"
             id="contentWords"
           >
             {multimedia.dragItem.map((item, i) => {
               return (
-                <div className="d-Flex j-S aI-C mB-1" key={i}>
+                <div className=" d-Flex j-C aI-C mL-05 mR-05" key={i}>
                   <DragWord
                     key={item.id}
                     id={item.id}
@@ -79,7 +79,7 @@ class DraggableWords extends Component {
             })}
 
             <div
-              className="contentSlide d-Flex j-C aI-C mT-1"
+              className="contentSlide d-Flex d-R j-S aI-E mR-7 pL-7 c-60 mB-7 "
               id="contentSlide"
             >
               {multimedia.dropZone.paragraph.map((item, i) => {
@@ -88,7 +88,7 @@ class DraggableWords extends Component {
                     key={item.key}
                     id={"boxDrop-" + item.key}
                     className={
-                      "slideBox d-Flex d-C j-C aI-C animated fadeIn " +
+                      "slideBox animated fadeIn " +
                       (item.key !== this.state.page ? "dNone" : "")
                     }
                   >

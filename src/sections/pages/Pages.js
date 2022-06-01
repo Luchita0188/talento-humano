@@ -737,7 +737,7 @@ class Page11 extends Component {
 
     return (
       <div className={"pageContent"}>
-        <div className="c-10 animated fadeIn d-Flex j-S aI-C pT-7 mT-2">
+        <div className="c-10 animated fadeIn d-Flex j-S aI-S pT-3 mT-2">
           <div className="mL-5 c-35">
             <h3
               className="mB-1 F2"

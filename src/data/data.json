@@ -513,7 +513,7 @@
         "itemInfo": {
           "title": "Defensa de la dignidad humana y el bien común",
           "text1": "La defensa de la dignidad humana y el bien común, es una de las actividades que realizamos en la IUSH, que nos permite garantizar la calidad de vida de nuestros estudiantes, docentes y servidores, y la sostenibilidad de la Institución.",
-          "colorText": "#FF943B",
+          "colorText": "#57095D",
           "pos": {
             "top": 220,
             "left": 190
@@ -530,7 +530,7 @@
         "title": "",
         "itemInfo": {
           "title": "El servicio:",
-          "text": "Asumido como las disposiciones para atender las necesidades, ofreciendo apoyo y soluciones eficaces, como expresión de la caridad, que se manifiesta en la vida familiar, cultural, laboral, económica, política, acorde con el rol que desempeñamos.",
+          "text1": "Asumido como las disposiciones para atender las necesidades, ofreciendo apoyo y soluciones eficaces, como expresión de la caridad, que se manifiesta en la vida familiar, cultural, laboral, económica, política, acorde con el rol que desempeñamos.",
           "colorText": "#01294E",
           "pos": {
             "top": 305,
@@ -548,10 +548,10 @@
         "title": "",
         "itemInfo": {
           "title": "Cultura de la innovación:",
-          "text": "Entendiendo por innovación la capacidad de transformarnos para vivir mejor, los actores que intervienen en los procesos académicos y administrativos de las IUSH, propician los espacios, momentos y ambientes de aprendizaje que de forma articulada dan respuesta a situaciones que demandan capacidades para el uso del conocimiento en función de nuevas soluciones.",
+          "text1": "Entendiendo por innovación la capacidad de transformarnos para vivir mejor, los actores que intervienen en los procesos académicos y administrativos de las IUSH, propician los espacios, momentos y ambientes de aprendizaje que de forma articulada dan respuesta a situaciones que demandan capacidades para el uso del conocimiento en función de nuevas soluciones.",
           "pos": {
-            "top": -30,
-            "left": -188
+            "top": 170,
+            "left": -190
           },
           "colorText": "#3B9894",
           "buttonClose": {
@@ -566,10 +566,10 @@
         "title": "",
         "itemInfo": {
           "title": "Conciencia de sostenibilidad",
-          "text": "Comprendido como el uso adecuado y eficiente de los recursos físicos, técnicos, tecnológicos, ambientales y financieros con los cuales se cuenta, para la sostenibilidad y sustentabilidad de los bienes en pro del cuidado de la casa común y de los procesos formativos, en pro de una cultura del bienestar y el desarrollo de las libertades.",
+          "text1": "Comprendido como el uso adecuado y eficiente de los recursos físicos, técnicos, tecnológicos, ambientales y financieros con los cuales se cuenta, para la sostenibilidad y sustentabilidad de los bienes en pro del cuidado de la casa común y de los procesos formativos, en pro de una cultura del bienestar y el desarrollo de las libertades.",
           "colorText": "#739E2B",
           "pos": {
-            "top": 130,
+            "top": -60,
             "left": -190
           },
           "buttonClose": {

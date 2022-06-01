@@ -3,7 +3,8 @@
 
 .draggableWords {
   .contentSlide {
-     height: 100px;
+     height: 5px;
+     width: 600px;
 
     .boxCheck {
       background-color: #86BF41;
@@ -76,7 +77,7 @@
   }
 
   .contentWords {
-    width: 200px;
+    width: 400px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
