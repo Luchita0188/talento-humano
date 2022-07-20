@@ -39,6 +39,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 
 import "./Pages.scss";
+import ItemInteractiveAudio from "../../components/ItemInteractiveSubtitle";
 
 class Cover extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL CURSO
@@ -275,7 +276,7 @@ class Page2 extends Component {
     return (
       <div className={"pageContent animated fadeIn"}>
         <div className="c-10">
-          <div className="mL-5 mT-6">
+          <div className="mL-5 mT-4">
             <img
               alt="Imagen"
               className="imageNPC pAbs"
@@ -293,6 +294,9 @@ class Page2 extends Component {
                 dangerouslySetInnerHTML={{ __html: dataPage.text }}
               ></p>
             ) : null}
+          </div>
+          <div className="mB-2 mL-4">
+              <InteractiveSubtitle dataPage={dataPage} isEnded={this.isEnded} />
           </div>
         </div>
       </div>

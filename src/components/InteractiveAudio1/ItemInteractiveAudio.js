@@ -23,7 +23,6 @@ class ItemInteractiveAudio extends Component {
           {item.icon !== '' ? <img
             alt = 'Imagen Item'
             className = 'imageItem'
-            style = { { 'width': item.size } }
             src = { item.icon }/> : null }
           <h5 className = 'fw-3 mB-05 tCenter' dangerouslySetInnerHTML = { { __html: item.label } } />
         </div>

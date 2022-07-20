@@ -113,12 +113,6 @@
     "resources": {
       "img1": "img/2/npc-1.png"
     },
-    "multimedia": {
-      "audio": {
-        "src": "",
-        "autoPlay": true
-      },
-      "subtitle": {},
       "layers": [
         {
           "label": "01 - Historia y contexto",
@@ -171,9 +165,8 @@
           "time": 45
         }
       ]
-    }
-  },
-
+    },
+    
   "page3": {
     "type": "pageCourse",
     "startUnit": true,
