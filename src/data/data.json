@@ -672,424 +672,42 @@
       }
     ]
   },
-  "page11": {
-    "type": "pageCourse",
-    "title": "8. Código de vestuario",
-    "text": "Te invitamos a observar cada imagen con detenimiento, luego selecciona y determina si es adecuado o inadecuado el vestuario que llevan puesto de acuerdo con la información que viste anteriormente.",
-    "instruction": {
-      "type": "mouse",
-      "text": "Haz clic en Adecuado o Inadecuado teniendo en cuenta los parámetros establecidos.",
-      "posY": 50,
-      "posX": 600,
-      "size": 330,
-      "color": "#FFD15C"
-    },
-    "multimedia": {
-      "dragItem": [
-        {
-          "drag": 1,
-          "img": "img/11/unid-1.png",
-          "text": "",
-          "type": "",
-          "data": ""
-        },
-        {
-          "id": 2,
-          "text": "",
-          "img": "img/11/error.png",
-          "color": ""
-        }
-      ],
-      "dropZone": {
-        "limit": 9,
-        "paragraph": [
-          {
-            "key": 1,
-            "lines": [
-              {
-                "key": 1,
-                "text": "",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-                    {
-                      "key": 1,
-                      "box": "<div class = 'boxDrop'></div>",
-                      "posY": 20,
-                      "posX": 476,
-                      "size": 170,
-                      "correct": "",
-                      "type": ""
-                    }
-                  ]
-                },
-          {
-            "key": 2,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-2.png",
-                "posY": 500,
-                "posX": 70
-              }
-            ],
-            "drops": [
-              {
-                "key": 2,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "",
-                "color": ""
-              }
-            ]
-          },
-          {
-            "key": 3,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-2.png",
-                "pox": 30,
-                "posY": 30
-              }
-            ],
-            "drops": [
-              {
-                "key": 3,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 4,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-2.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 4,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 5,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-3.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 5,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 6,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-3.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 6,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 7,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-4.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 7,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 557,
-                "posX": 424,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 8,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-4.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 8,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 9,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-5.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 9,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 10,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-5.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 10,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 11,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-6.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 11,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 12,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-6.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 12,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 13,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-7.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 13,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 14,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-7.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 14,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "Inadecuado",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 15,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-8.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 15,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "Adecuado",
-                "color": "#7BAF2D"
-              }
-            ]
-          },
-          {
-            "key": 16,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/ined-8.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 16,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 17,
-                "posX": 200,
-                "size": 70,
-                "type": "",
-                "color": "#D0D62D"
-              }
-            ]
-          },
-          {
-            "key": 17,
-            "lines": [
-              {
-                "key": 1,
-                "img": "img/11/unid-9.png",
-                "posY": 30,
-                "posX": 40
-              }
-            ],
-            "drops": [
-              {
-                "key": 17,
-                "box": "<div class = 'boxDrop'></div>",
-                "posY": 424,
-                "posX": 557,
-                "size": 70,
-                "type": "",
-                "color": "#7BAF2D"
-              }
-            ]
-          }
-        ]
+    "page11": {
+      "type": "pageCourse",
+      "title": "8. Código de vestuario",
+      "text": "Te invitamos a observar cada imagen con detenimiento, luego selecciona y determina si es adecuado o inadecuado el vestuario que llevan puesto de acuerdo con la información que viste anteriormente.",
+      "instruction": {
+        "type": "mouse",
+        "text": "Haz clic en Adecuado o Inadecuado teniendo en cuenta los parámetros establecidos.",
+        "posY": 50,
+        "posX": 600,
+        "size": 330,
+        "color": "#FFD15C"
       },
-      "content": [
-        {
-          "info": 1,
-          "img": "img/11/check.png",
-          "imgSize": 150,
-          "title": "¡Bien!",
-          "text": ""
+      "multimedia": {
+        "items": [
+          {
+            "img": "img/11/unid-1.png",
+            "text": "",
+            "bg": "img/11/check.png",
+            "bgPosY"  : 7,
+            "bgPosX"  : 425
+          },
+          {
+            "img": "img/11/unid-2.png",
+            "text": "",
+            "bg": "",
+            "bgPosY"  : 7,
+            "bgPosX"  : 425
+          }
+        ],
+        "buttonClose": {
+          "closedModal": true,
+          "posY": -10,
+          "posX": -10
         }
-      ]
-    }
-  },
+      }
+    },
   "page12": {
     "type": "pageCourse",
     "title": "9. Permisos y licencias",
@@ -1903,7 +1521,6 @@
     }
   }
 }
-
 
 
 

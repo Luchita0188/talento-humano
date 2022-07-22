@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 // import { DndProvider } from 'react-dnd';
 // import HTML5Backend from 'react-dnd-html5-backend';
@@ -22,6 +23,17 @@ class SlideLR2 extends Component {
   }
 
   mSlides = e => {
+    if (e.currentTarget.id === 'btnAde') {
+      this.setState({
+        page: this.state.page + 1
+      });
+
+      if (e.currentTarget.id === 'btnInade') {
+        this.setState({
+          page: this.state.page - 1
+        });
+      }
+    }
     if (e.currentTarget.id === 'btnAnt') {
       this.setState({
         page: this.state.page - 1
@@ -33,10 +45,7 @@ class SlideLR2 extends Component {
       });
 
       if (this.state.page === this.props.multimedia.items.length - 1) {
-        setTimeout(() => {
-          this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
-          this.props.setModal(true); // MUESTRA EL MODAL
-        }, 5000);
+        this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
       }
     }
   }
@@ -44,7 +53,7 @@ class SlideLR2 extends Component {
   render() {
     const { multimedia } = this.props;
     return (
-      <div className = 'SlideLR2 d-Flex j-S aI-C'>
+      <div className = 'SlideLR2 d-Flex j-S aI-S'>
         <div className = 'contentSlide d-Flex d-C j-C aI-C' id = 'contentSlide'>
           {
             multimedia.items.map((item, i) => {
@@ -53,11 +62,14 @@ class SlideLR2 extends Component {
                   {
                     item.img ? <img alt = 'Imagen' className = '' src = { item.img }/> : null
                   }
+                  
                 </div>
               )
             })
           }
-          <div className = 'contentButton d-Flex j-Bt aI-C pAbs'>
+          </div>
+
+          <div className = 'contentButton d-Flex j-Bt aI-C mL-7 mT-7 pAbs'>
             <button className = { 'buttonSlide ' + (this.state.page === 1 ? 'disabled' : '') } id = 'btnAnt' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
                 <FontAwesomeIcon icon="circle" />
@@ -70,9 +82,11 @@ class SlideLR2 extends Component {
                 <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />
               </span>
             </button>
+            <button className = {'buttonSlide' + (this.state.page === 1 ? 'disabled' : '')} id = 'btnAde' onClick = { this.mSlides}></button>
+            <button id = 'btnInade' onClick = { this.mSlides}></button>
           </div>
-        </div>
-      </div>
+          </div>
+          
     );
   }
 }

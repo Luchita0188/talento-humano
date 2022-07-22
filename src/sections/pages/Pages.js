@@ -338,7 +338,7 @@ class Page3 extends Component {
                 ></p>
               ) : null}
             </div>
-            <div className="c-75 d-Flex j-C aI-S" style={style}>
+            <div className="c-40 d-Flex j-C aI-S" style={style}>
               <ModalCircle2 dataPage={dataPage} isEnded={this.isEnded} />
             </div>
           </div>
@@ -752,13 +752,14 @@ class Page11 extends Component {
               dangerouslySetInnerHTML={{ __html: dataPage.text }}
             ></p>
 
-            <div className="c-10 d-Flex aI-C j-S mL-7 mB-2 pL-3">
-              <DraggableWords
+            <div className="mL-5 c-10">
+              <SlideLR2
                 multimedia={dataPage.multimedia}
+                handleClick={this.handleClick}
                 isEnded={this.isEnded}
               />
             </div>
-
+            
             <Instruction dataPage={dataPage.instruction} />
           </div>
         </div>

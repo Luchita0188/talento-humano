@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
- import ItemInteractiveAudio from '../components/ItemInteractiveSubtitle';
+import ItemInteractiveAudio from '../components/ItemInteractiveSubtitle';
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
