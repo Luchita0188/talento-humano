@@ -95,9 +95,9 @@ class InteractivePath4 extends Component {
           this.state.openGlobe !== false ?
           <div className = 'bgItemGlobe'>
             <div
-              className = { 'itemGlobe dF-C-cs animated fadeInDown ' + multimedia[actualItem ].itemInfo.trian } style = {{'borderColor': multimedia[actualItem].itemInfo.color, 'top': multimedia[actualItem].itemInfo.posGlobe.posY, 'left': multimedia[actualItem].itemInfo.posGlobe.posX }}>
+              className = { 'itemGlobe dF-C-cs  animated fadeInDown ' + multimedia[actualItem ].itemInfo.trian } style = {{'borderColor': multimedia[actualItem].itemInfo.color, 'top': multimedia[actualItem].itemInfo.posGlobe.posY, 'left': multimedia[actualItem].itemInfo.posGlobe.posX }}>
              {
-             multimedia[actualItem].itemInfo.title ? <h4 className = 'mB-05 mL-1 F2' dangerouslySetInnerHTML = {{ __html: multimedia[actualItem].itemInfo.title }}></h4> : null
+             multimedia[actualItem].itemInfo.title ? <h4 className = 'mB-05 mL-025 F2' dangerouslySetInnerHTML = {{ __html: multimedia[actualItem].itemInfo.title }}></h4> : null
              
              }
               {

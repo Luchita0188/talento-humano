@@ -2,7 +2,7 @@
   "coverPage": {
     "type": "startPage",
     "units": 1,
-    "subTitle": "Induccion corporativa",
+    "subTitle": "<b><i>Inducción corporativa<i><b>",
     "title": "Módulo Talento Humano",
     "module": "",
     "courseName": "Para comenzar, haz clic en el siguiente botón:",
@@ -30,7 +30,7 @@
         "img1": "img/1/unid-2.png"
       },
       {
-        "text1": "Apaga tu celular o ponlo en silencio",
+        "text1": "<b>Apaga</b> tu celular o <b>Ponlo</b> en silencio",
         "img1": "img/1/unid-3.png"
       },
       {
@@ -328,7 +328,7 @@
         },
         "itemInfo": {
           "title": "Misión:",
-          "text": "La <b>Institución Universitaria Salazar y Herrera,</b>es una obra de la acción educativa de la Arquidiócesis de Medellín que, en el marco del ideario de humanismo cristiano, contribuye al mejoramiento de la sociedad con una propuesta educativa que se propone:<br> La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.</br> La apropiación, uso y transferencia del conocimiento mediada por la investigación, la innovación, el emprendimiento, la tecnología y la creación.",
+          "text": "La <b>Institución Universitaria Salazar y Herrera,</b>es una obra de la acción educativa de la Arquidiócesis de Medellín que, en el marco del ideario de humanismo cristiano, contribuye al mejoramiento de la sociedad con una propuesta educativa que se propone:<br><br>La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.</br> La apropiación, uso y transferencia del conocimiento mediada por la investigación, la innovación, el emprendimiento, la tecnología y la creación.",
           "posGlobe": {
             "top": -53,
             "left": 125
@@ -408,9 +408,9 @@
             "img": "img/6/unid-3.png",
             "text": "Con relación al año de la fe en el 2012, el Papa Benedicto XVI reflexionó que frente al contexto que vive el ser humano: En efecto, en nuestro tiempo es necesaria una educación renovada en la fe… la fe es un don de Dios, pero también es un acto profundamente humano y libre. En este sentido, la fe hace parte de los valores de la IUSH con la pretensión que libremente, cada integrante de la comunidad Salazar y Herrera opte por que este valor y le acompañe en su ser, conocer y actuar a lo largo de la vida con sentido y propósito Complementariamente este valor está en diálogo permanente con el conocimiento y en su integración ambos adquieren mayor significado como dijo San Agustín en uno de sus sermones Creo para entender y entiendo para creer.",
             "target": "3",
-            "size": 136,
-            "posY": 129,
-            "posX": 264,
+            "size": 400,
+            "posY": 90,
+            "posX": 500,
             "type": "1"
           },
           {
@@ -688,17 +688,21 @@
         "items": [
           {
             "img": "img/11/unid-1.png",
-            "text": "",
-            "bg": "img/11/check.png",
-            "bgPosY"  : 7,
-            "bgPosX"  : 425
+            "text": "¡Muy bien!",
+            "textPos": {
+              "posY"    : 30,
+              "posX"    : 318,
+              "width"   : 150
+            }
           },
           {
             "img": "img/11/unid-2.png",
-            "text": "",
-            "bg": "",
-            "bgPosY"  : 7,
-            "bgPosX"  : 425
+            "text": "¡Intena de Nuevo!",
+            "textPos": {
+              "posY"    : 30,
+              "posX"    : 318,
+              "width"   : 150
+            }
           }
         ],
         "buttonClose": {
@@ -732,7 +736,7 @@
         "posY": 190,
         "posX": 92,
         "itemInfo": {
-          "title": "01- Licencia de Maternidad",
+          "title": "01 - Licencia de Maternidad",
           "text1": "El Código Sustantivo de Trabajo en su Artículo 236 indica que, toda trabajadora, en estado gestante, tiene derecho a 14 semanas de licencia de maternidad. Las semanas se dividirán en, 2 prenatales y 12 postnatales. La empleada deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez con el fin de facilitar la asistencia a las citas de control y programar la entrega de las labores que tiene la trabajadora para que sean suplidas por otro empleado.",
           "colorText": "#B1083C",
           "buttonClose": {
@@ -748,7 +752,7 @@
         "posY": 90,
         "posX": 200,
         "itemInfo": {
-          "title": "02 - Licencia por paternidad ",
+          "title": "2 - Licencia por paternidad",
           "text1": "La ley otorga dos semanas para que los hombres acompañen el nacimiento de su hijo. El empleado deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez de su esposa o compañera permanente acreditada, con el fin de programar la entrega de las labores que tiene el colaborador para que sean suplidas por otro empleado. Al momento de hacer efectiva la licencia, el empleado debe aportar a la Institución un registro civil de nacimiento del menor.",
           "colorText": "#6B1090",
           "buttonClose": {
@@ -928,220 +932,178 @@
       "gallery": [
         {
           "key": 1,
-          "img": "img/14/img-1.jpg",
-          "link": ""
+          "img": "img/14/img-1.jpg"
         },
         {
           "key": 2,
-          "img": "img/14/img-2.jpg",
-          "link": ""
+          "img": "img/14/img-2.jpg"
         },
         {
           "key": 3,
-          "img": "img/14/img-3.jpg",
-          "link": ""
+          "img": "img/14/img-3.jpg"
         },
         {
           "key": 4,
-          "img": "img/14/img-4.jpg",
-          "link": ""
+          "img": "img/14/img-4.jpg"
         },
         {
           "key": 5,
-          "img": "img/14/img-5.jpg",
-          "link": ""
+          "img": "img/14/img-5.jpg"
         },
         {
           "key": 6,
-          "img": "img/14/img-6.jpg",
-          "link": ""
+          "img": "img/14/img-6.jpg"
         },
         {
           "key": 7,
-          "img": "img/14/img-7.jpg",
-          "link": ""
+          "img": "img/14/img-7.jpg"
         },
         {
           "key": 8,
-          "img": "img/14/img-8.jpg",
-          "link": ""
+          "img": "img/14/img-8.jpg"
         },
         {
           "key": 9,
-          "img": "img/14/img-9.jpg",
-          "link": ""
+          "img": "img/14/img-9.jpg"
         },
         {
           "key": 10,
-          "img": "img/14/img-10.jpg",
-          "link": ""
+          "img": "img/14/img-10.jpg"
         },
         {
           "key": 11,
-          "img": "img/14/img-11.jpg",
-          "link": ""
+          "img": "img/14/img-11.jpg"
         },
         {
           "key": 12,
-          "img": "img/14/img-12.jpg",
-          "link": ""
+          "img": "img/14/img-12.jpg"
         },
         {
           "key": 13,
-          "img": "img/14/img-13.jpg",
-          "link": ""
+          "img": "img/14/img-13.jpg"
         },
         {
           "key": 14,
-          "img": "img/14/img-14.jpg",
-          "link": ""
+          "img": "img/14/img-14.jpg"
         },
         {
           "key": 15,
-          "img": "img/14/img-15.jpg",
-          "link": ""
+          "img": "img/14/img-15.jpg"
         },
         {
           "key": 16,
-          "img": "img/14/img-16.jpg",
-          "link": ""
+          "img": "img/14/img-16.jpg"
         },
         {
           "key": 17,
-          "img": "img/14/img-17.jpg",
-          "link": ""
+          "img": "img/14/img-17.jpg"
         },
         {
           "key": 18,
-          "img": "img/14/img-18.jpg",
-          "link": ""
+          "img": "img/14/img-18.jpg"
         },
         {
           "key": 19,
-          "img": "img/14/img-19.jpg",
-          "link": ""
+          "img": "img/14/img-19.jpg"
         },
         {
           "key": 20,
-          "img": "img/14/img-20.jpg",
-          "link": ""
+          "img": "img/14/img-20.jpg"
         },
         {
           "key": 21,
-          "img": "img/14/img-21.jpg",
-          "link": ""
+          "img": "img/14/img-21.jpg"
         },
         {
           "key": 22,
-          "img": "img/14/img-22.jpg",
-          "link": ""
+          "img": "img/14/img-22.jpg"
         },
         {
           "key": 23,
-          "img": "img/14/img-23.jpg",
-          "link": ""
+          "img": "img/14/img-23.jpg"
         },
         {
           "key": 25,
-          "img": "img/14/img-24.jpg",
-          "link": ""
+          "img": "img/14/img-24.jpg"
         }
       ],
+      
       "gallery2": [
         {
           "key": 1,
-          "img": "img/14/gale-1.jpg",
-          "link": ""
+          "img": "img/14/gale-1.jpg"
         },
         {
           "key": 2,
-          "img": "img/14/gale-2.jpg",
-          "link": ""
+          "img": "img/14/gale-2.jpg"
         },
         {
           "key": 3,
-          "img": "img/14/gale-3.jpg",
-          "link": ""
+          "img": "img/14/gale-3.jpg"
         },
         {
           "key": 4,
-          "img": "img/14/gale-4.jpg",
-          "link": ""
+          "img": "img/14/gale-4.jpg"
         },
         {
           "key": 5,
-          "img": "img/14/gale-5.jpg",
-          "link": ""
+          "img": "img/14/gale-5.jpg"
         },
         {
           "key": 6,
-          "img": "img/14/gale-6.jpg",
-          "link": ""
+          "img": "img/14/gale-6.jpg"
         },
         {
           "key": 7,
-          "img": "img/14/gale-7.jpg",
-          "link": ""
+          "img": "img/14/gale-7.jpg"
         },
         {
           "key": 8,
-          "img": "img/14/gale-8.jpg",
-          "link": ""
+          "img": "img/14/gale-8.jpg"
         },
         {
           "key": 9,
-          "img": "img/14/gale-9.jpg",
-          "link": ""
+          "img": "img/14/gale-9.jpg"
         },
         {
           "key": 10,
-          "img": "img/14/gale-10.jpg",
-          "link": ""
+          "img": "img/14/gale-10.jpg"
         },
         {
           "key": 11,
-          "img": "img/14/gale-11.jpg",
-          "link": ""
+          "img": "img/14/gale-11.jpg"
         },
         {
           "key": 12,
-          "img": "img/14/gale-12.jpg",
-          "link": ""
+          "img": "img/14/gale-12.jpg"
         },
         {
           "key": 13,
-          "img": "img/14/gale-13.jpg",
-          "link": ""
+          "img": "img/14/gale-13.jpg"
         },
         {
           "key": 14,
-          "img": "img/14/gale-14.jpg",
-          "link": ""
+          "img": "img/14/gale-14.jpg"
         },
         {
           "key": 15,
-          "img": "img/14/gale-15.jpg",
-          "link": ""
+          "img": "img/14/gale-15.jpg"
         },
         {
           "key": 16,
-          "img": "img/14/gale-16.jpg",
-          "link": ""
+          "img": "img/14/gale-16.jpg"
         },
         {
           "key": 17,
-          "img": "img/14/gale-17.jpg",
-          "link": ""
+          "img": "img/14/gale-17.jpg"
         },
         {
           "key": 18,
-          "img": "img/14/gale-18.jpg",
-          "link": ""
+          "img": "img/14/gale-18.jpg"
         },
         {
           "key": 19,
-          "img": "img/14/gale-19.jpg",
-          "link": ""
+          "img": "img/14/gale-19.jpg"
         }
       ],
       "closedModal": true

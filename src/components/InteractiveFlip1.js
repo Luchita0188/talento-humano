@@ -62,14 +62,14 @@ class InteractiveFlip1 extends Component {
                       {/* <h3 className = 'tCenter mB-1' dangerouslySetInnerHTML = {{ __html: item.title }}></h3> */}
                     </div>
 
-                    <div className = { 'infoFlip d-Flex d-C ' + (item.id < 4 ? 'j-S' : 'j-C') + ' aI-C dNone flip-' + item.id } id = { 'info-' + item.id }>
+                    <div className = { 'infoFlip d-Flex d-C mT-2 ' + (item.id < 4 ? 'j-S' : 'j-C') + ' aI-C dNone flip-' + item.id } id = { 'info-' + item.id }>
                       {
                         item.id < 4 ?
                         <div className = 'd-Flex d-C j-C aI-C'>
                           <h1 className = 'blanco' >0{ item.id }</h1>
                           <hr className = 'mB-05 line-5'></hr>
                           <h4 className = 'tCenter fw-3 blanco' dangerouslySetInnerHTML = {{ __html: item.title }}></h4>
-                          <h4 className = 'tCenter mT-01 fw-3 blanco ' dangerouslySetInnerHTML = {{ __html: item.text }}></h4>
+                          <h4 className = 'tCenter mT-05 fw-3 blanco ' dangerouslySetInnerHTML = {{ __html: item.text }}></h4>
                         </div> :
                         <div className = 'd-Flex d-C j-C aI-C'>
                           <h1 className = 'blanco' >0{ item.id }</h1>

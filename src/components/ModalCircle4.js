@@ -107,7 +107,7 @@ class ModalCircle4 extends Component {
           <div className = 'bgItemGlobe animated fadeIn'>
             <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2'} >
 
-             <h2 className = 'mB-1 titulo2 transparent  mL-2 c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
+             <h2 className = 'mB-1 titulo2 mL-2 c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
 
               <p className = 'mB-1 mL-2 pB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
               { 

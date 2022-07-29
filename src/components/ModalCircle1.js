@@ -103,7 +103,7 @@ class ModalCircle1 extends Component {
           // MOSTRAR LOS GLOBOS DE TEXTO
           this.state.openGlobe !== false ?
           <div className = 'bgItemGlobe animated fadeIn'>
-            <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2'} >
+            <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2 mB-2'} >
 
             <h2 className = 'mB-1 mT-2 titulo2 transparent c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
 

@@ -3,18 +3,50 @@
 
 .SlideLR2 {
   .contentSlide {
-    height: 250px;
+    max-width: 800px;
     .slideBox {
       .text {
         font-size: 0.8rem;
       }
     }
-
     .contentButton {
-      width: 375px;
-      left: -90px;
+      width: 95%;
+      height: 30px;
+      background-size: cover;
     }
+    .buttonAde {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
 
+      width: 30px;
+      height: 30px;
+
+      background-color: #86BF41;
+      border-radius: 50%;
+
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.4s;
+
+      .iconButton {
+        pointer-events: none;
+        color: $blanco;
+        &:hover {
+          color: $blanco;
+        }
+      }
+
+      &:hover {
+        background-color: #86BF41;
+        .iconButton {
+          color: $blanco;
+        }
+      }
+    }
+  }
     .btnItem{
       background-color: #DADADA;
       width: 30px;
@@ -45,4 +77,4 @@
       }
     }
   }
-}
+

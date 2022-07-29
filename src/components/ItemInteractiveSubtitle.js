@@ -29,7 +29,7 @@ class ItemInteractiveAudio extends Component {
           className = { 'itemList c-5 d-Flex d-Rr j-E aI-C pL-1 pR-1 mB-1 animated fadeIn '}
           key = { i }
           style = { {} }>
-            <p className = 'textList' dangerouslySetInnerHTML = {{ __html: item.label }}></p>
+            <p className = 'textList fw-4' dangerouslySetInnerHTML = {{ __html: item.label }}></p>
             <FontAwesomeIcon
             className = 'iconList'
             icon = { ['fas', 'circle'] }

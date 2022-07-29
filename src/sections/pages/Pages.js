@@ -76,18 +76,19 @@ class Cover extends Component {
               src={dataPage.logoCourse}
             />
           )}
-          {dataPage.title && (
-            <h1
-              className="mT-1 mB-1 F3"
-              dangerouslySetInnerHTML={{ __html: dataPage.title }}
-            ></h1>
-          )}
           {dataPage.subTitle && (
             <h3
-              className="mB-1 pB-05"
+              className="mB-1 pB-05 color-14 line-1"
               dangerouslySetInnerHTML={{ __html: dataPage.subTitle }}
             ></h3>
           )}
+          {dataPage.title && (
+            <h1
+              className="mT-025 mB-1 F3"
+              dangerouslySetInnerHTML={{ __html: dataPage.title }}
+            ></h1>
+          )}
+          
           {dataPage.module && (
             <h3
               className="mB-1 mR-4"
@@ -393,7 +394,7 @@ class Page5 extends Component {
     return (
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn d-Flex d-C aI-S pT-3 mL-20">
-          <div className="headerTitle mL-7 mR-2">
+          <div className="headerTitle mL-6 mR-2">
             {dataPage.title ? (
               <h2
                 className="F2 mB-2"
@@ -402,13 +403,13 @@ class Page5 extends Component {
             ) : null}
             {dataPage.text ? (
               <p
-                className="mB-5 fw-7"
+                className="mB-1 fw-5"
                 dangerouslySetInnerHTML={{ __html: dataPage.text }}
               ></p>
             ) : null}
           </div>
 
-          <div className="c-3 d-Flex j-C aI-S mL-2">
+          <div className="c-3 d-Flex j-C aI-S mL-025 mB-5 ">
             <InteractivePath4 dataPage={dataPage} isEnded={this.isEnded} />
           </div>
 
@@ -432,10 +433,10 @@ class Page6 extends Component {
     return (
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn d-Flex d-C j-C aI-S">
-          <div className="headerTitle c-75 d-Flex d-C j-C aI-S mL-5 mT-7">
+          <div className="headerTitle c-75 d-Flex d-C j-C aI-S mL-5 mT-4">
             {dataPage.title ? (
               <h2
-                className="mB-1 fw-5 F2"
+                className="mB-05 fw-5 F2"
                 dangerouslySetInnerHTML={{ __html: dataPage.title }}
               ></h2>
             ) : null}
@@ -446,7 +447,7 @@ class Page6 extends Component {
               ></p>
             ) : null}
           </div>
-          <div className="mL-6">
+          <div className="mL-5 mT-4">
             <DnDLabel1
               multimedia={dataPage.multimedia}
               isEnded={this.isEnded}
@@ -881,28 +882,17 @@ class Page14 extends Component {
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
     checkEndActivity(14, end);
-  };
+    
+  }
 
   render() {
     const { dataPage } = this.props;
 
     return (
-      <div className={"pageContent"}>
+      <div className = { 'pageContent'}>
         {/* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */}
-        {this.state.openModal !== false ? (
-          <ModalGallery2
-            dataPage={dataPage.multimedia.gallery}
-            showModal={this.showModal}
-            isEnded={this.isEnded}
-          />
-        ) : null}
-        {this.state.openModal2 !== false ? (
-          <ModalGallery2
-            dataPage={dataPage.multimedia.gallery2}
-            showModal={this.showModal2}
-            isEnded={this.isEnded}
-          />
-        ) : null}
+        { this.state.openModal !== false ? <ModalGallery2 dataPage = { dataPage } showModal = { this.showModal } isEnded = { this.isEnded } /> : null }
+        
 
         <div className="c-10 animated fadeIn d-Flex aI-C j-S pT-7 mT-1">
           <div className="mL-5 c-35">
@@ -920,30 +910,30 @@ class Page14 extends Component {
             ) : null}
           </div>
 
-          <div className="c-7 d-Flex j-C aI-S">
-            <button className={"buttonVideo"} onClick={this.showModal}>
+          <div className='c-7 d-Flex j-C aI-S'>
+          <button className = { 'buttonVideo pulse' } onClick = { this.showModal }>
               <img
-                alt="Imagen"
-                className="c-75"
+                alt='Imagen'
+                className = 'c-75'
                 src={dataPage.multimedia.buttonModal.imgBg1}
               />
             </button>
 
-            <button className={"buttonVideo"} onClick={this.showModal2}>
+            <button className = { 'buttonVideo pulse' } onClick = { this.showModal2 }>
               <img
-                alt="Imagen"
-                className="c-85"
-                src={dataPage.multimedia.buttonModal.imgBg2}
-              />
+                alt = 'Imagen'
+                className = 'c-75'
+                src = { dataPage.multimedia.buttonModal.imgBg2 }/>
             </button>
           </div>
         </div>
 
-        <Instruction dataPage={dataPage.instruction} />
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
+
 class Page15 extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
   startQuiz = (e) => {

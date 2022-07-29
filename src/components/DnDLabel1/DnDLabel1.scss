@@ -3,25 +3,26 @@
 
 .DnDLabel1 {
   position: absolute;
-  width: 900px;
+  width: 840px;
   height: 340px;
 
   .trackContent {
     position: absolute;
     top: 0px;
-    width: 850px;
+    width: 820px;
 
     .dropContent {
-      width: 700px;
-      height: 180px;
+      width: 620px;
+      height: 219px;
       overflow-y: hidden; 
       scroll-behavior: smooth;
       .dropInfo {
+        font-size: 12.5px;
         background-color: #F7F7F7;
-        height: 145px;
-        width: 1010px;
-        padding: 2.9rem 2.2rem 1.4rem;
-        border-radius: 5px;
+        height: 203px;
+        width: 560px;
+        padding: 2.0rem 1.8rem 0.0rem;
+        border-radius: 4px;
         .labelDrop {
           width: max-content;
           color: #747988;
@@ -29,9 +30,9 @@
 
         .itemDrop { 
           position: absolute;
-          top: -37px;
-          width: 61px;
-          height: 61px;
+          top: -16.4px;
+          width: 56px;
+          height: 56px;
           background-color: white;
           border: 4px solid #DDDDDD;
           box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
@@ -78,21 +79,21 @@
 
   .line {
     border-radius: 10px;
-    height: 5px;
+    height: 8px;
     width: 80%;
-    background-color: #04386D;
+    background-color: #01274E;
   }
 
   
   .bgItemGlobe {
-    background-color: #04386D;
+    background-color: #01274E;
     position: absolute;
     display: grid;
     top: -232px;
     left: -96px;
     z-index: 4;
-    width: 1022px;
-    height: 700px;
+    width: 1038px;
+    height: 800px;
 
     .itemGlobe {
       box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
@@ -102,7 +103,7 @@
       padding: 2em;
       border-radius: 20px;
       border: 10px solid transparent;
-      width: 440px;
+      width: 420px;
       height: 200px;
 
       .enfasis-1 {

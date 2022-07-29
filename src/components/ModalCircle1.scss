@@ -13,7 +13,7 @@
     background-color: #01274E;
     position: absolute;
     display: grid;
-    top: -145px;
+    top: -144px;
     left: -780px;
     z-index: 2;
     width: 1080px;
@@ -21,9 +21,10 @@
 
     .itemGlobe {
       box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
-      background-color: $blanco;
+      background-color: #F7F7F7;
       align-self: center;
       justify-self: center;
+      font-style: italic;
       padding: 2.3rem 1.5rem 2.5rem;
       border-radius: 12px;
       width: 480px;

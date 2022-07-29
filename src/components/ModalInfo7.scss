@@ -18,7 +18,7 @@
     width: 60%;
     // height: 800px;
     // border-radius: 50%;
-    background-color: $blanco;
+    background-color: #F7F7F7;
     border-radius: 10px;
     padding: 1rem;
 
@@ -32,10 +32,12 @@
     }
 
     .buttonClose {
-      background-color: rgba(0, 0, 0, 0);
       position: absolute;
-      top: 5px;
-      right: 1px;
+      top: -20px;
+      right: -20px;
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: 50%;
+      padding: 0.4rem 0.1rem;
 
       .iconButton {
         color: red;

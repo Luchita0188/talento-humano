@@ -31,11 +31,13 @@
         font-size: 2.5em;
         color: #CACACA;
         transition: all .3s;
+        
       }
 
       &:hover {
         .iconButton {
           color: $texto2;
+          
         }
       }
     }

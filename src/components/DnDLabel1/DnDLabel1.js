@@ -95,8 +95,8 @@ class DnDLabel1 extends Component {
               {
                 multimedia.dropZone.drops.map( (item, i) => {
                   return(
-                    <div className = 'dropInfo d-Flex j-C aI-C mL-05 mR-05'  key = { i }>
-                      <p className = 'tCenter labelDrop fw-7' dangerouslySetInnerHTML = { {__html: item.text} }/>
+                    <div className = 'dropInfo d-Flex j-C aI-C mL-025 mR-1'  key = { i }>
+                      <p className = 'tCenter labelDrop fw-5' dangerouslySetInnerHTML = { {__html: item.text} }/>
                       <BoxDrop
                         id = { item.target }
                         img = { item.img }
@@ -151,8 +151,8 @@ class DnDLabel1 extends Component {
                   id = { 'infoFinal' } 
                   key = { i } >
 
-                  <h3 className = 'mB-1 tCenter blanco' dangerouslySetInnerHTML = { {__html: item.title} }/>
-                  <p className = 'tCenter blanco' dangerouslySetInnerHTML = { {__html: item.text} }/>
+                  <h3 className = 'mB-1 tCenter #F7F7F7' dangerouslySetInnerHTML = { {__html: item.title} }/>
+                  <p className = 'tCenter #5C657C' dangerouslySetInnerHTML = { {__html: item.text} }/>
 
                   <button
                     className = 'buttonClose'
