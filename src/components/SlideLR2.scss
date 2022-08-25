@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../resources/colors";
 @import "../resources/animation.scss";
 
@@ -78,3 +79,53 @@
     }
   }
 
+=======
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.SlideLR2 {
+  .contentSlide {
+    height: 250px;
+    .slideBox {
+      .text {
+        font-size: 0.8rem;
+      }
+    }
+
+    .contentButton {
+      width: 375px;
+      left: -90px;
+    }
+
+    .btnItem{
+      background-color: #DADADA;
+      width: 30px;
+      height: 30px;
+      border-radius: 60px;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover{
+        background-color: #86BF41;
+      }
+    }
+    .btnActive{
+      background-color: #D00814;
+    }
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 3rem;
+        color: $titulo1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $titulo1;
+        }
+      }
+    }
+  }
+}
+>>>>>>> 245f84f (quinto commit)

@@ -1,0 +1,69 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.pairin-cont {
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+
+  .colum-1 {
+    width: 27%;
+    .option-cont {
+      margin: 0 .4rem .4rem 0;
+      .boxInfo {
+        min-width: 200px;
+        max-width: 200px;
+        border-radius: 12px;
+        padding: .4rem;
+      }
+
+      .border {
+        border: 1px solid;
+      }
+
+      .point {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: white;
+        flex: none;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  #lienzo {
+    width: 270px;
+    height: 270px;
+    flex: none;
+    margin-left: -10px;
+  }
+
+  .colum-2 {
+    width: 65%;
+    margin-left: -10px;
+    .option-cont {
+      margin: 0 .4rem .4rem 0;
+      .boxInfo {
+        min-width: 360px;
+        border-radius: 12px;
+        padding: .4rem;
+      }
+
+      .border {
+        border: 1px solid;
+      }
+
+      .point {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: white;
+        flex: none;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
