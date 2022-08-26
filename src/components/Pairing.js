@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Pairing.scss';
 
-export default class Pairing extends Component {
+class Pairing extends Component {
 
-  constructor(props) {
+    constructor(props) {
     super(props);
     this.state = {
       _color: "#FFFFFF",
@@ -29,12 +29,15 @@ export default class Pairing extends Component {
     this._root = this._canvas.parentNode.parentNode;
     this._canvas.width = this._canvas.offsetWidth;
     this._canvas.height = this._canvas.offsetHeight;
+    
     this._ctx = this._canvas.getContext('2d');
-    this._max = this.props.dataPage.multimedia.content.labels.length;
+    
+    this._max = this.props.multimedia.labels.length;
   }
 
   draw(ev) {
     if(!this.state._isDraw) return;
+
     this._ctx.clearRect(0, 0, this._ctx.canvas.width, this._ctx.canvas.height);
     this.drawLine(ev);
   }
@@ -49,7 +52,7 @@ export default class Pairing extends Component {
     this._ctx.stroke();
   }
 
-  //////////////////////////////////
+  // //////////////////////////////////
 
   select(ev) {
     if(ev.target.classList.contains("lock")) return;
@@ -68,7 +71,7 @@ export default class Pairing extends Component {
     this._snap = this._ctx.getImageData(0,0, this._ctx.canvas.width, this._ctx.canvas.height);
   }
 
-  //////////////////////////////////
+  // //////////////////////////////////
 
   deselect(ev) {
     this._x = this._y = 0;
@@ -89,7 +92,7 @@ export default class Pairing extends Component {
     this._ctx.clearRect(0, 0, this._ctx.canvas.width, this._ctx.canvas.height);
   }
 
-  //////// cambio de color en las opciones cuando se seleccionan las correctas
+  // //////// cambio de color en las opciones cuando se seleccionan las correctas
 
   setupAdvance( tg ){
     let targetOptionParent=null
@@ -122,32 +125,33 @@ export default class Pairing extends Component {
 
   //////////////////////////////////////////////////////////////////////////////
 
-  render(){
-    const { content } = this.props.dataPage.multimedia;
+  render() {
+    const { multimedia } = this.props;
+
     return(
-      <div  className="pairin-cont dF-R-bc mL-3 mR-3">
-        <div className="colum-1">
+      <div onMouseMove= {this.draw} className = "pairin-cont dF-R-bc mL-3 mR-3">
+        <div className = "colum-1">
           {
-            content.labels.map((el, ix) => {
+            multimedia.labels.map((el, ix) => {
               return(
                 <div key={ix} className="option-cont dF-R-cc">
-                  <div className="p boxInfo border"><p className="p-o">{el.p}</p></div>
-                  <div className="point mL-05" id={el.pair} data-color={content.colors[ix]} onClick={this.select}></div>
+                  <div className="p boxInfo border"><span className="p-o">{el.p}</span></div>
+                  <div className="point mL-05" id={el.pair} onClick={this.select}></div>
                 </div>
-              )
+              );
             })
           }
         </div>
-        <canvas ref="lienzo"  id="lienzo" onMouseMove={this.draw}></canvas>
-        <div className="colum-2">
+        <canvas ref = "lienzo"  id="lienzo" ></canvas>
+        <div className = "colum-2">
           {
-            content.texts.map((el, ix) => {
+            multimedia.texts.map((el, ix) => {
               return(
                 <div key={ix} className="option-cont dF-R-cc">
                   <div className="point mR-05" data-pair={el.pair} onClick={this.deselect}></div>
                   <div className="p boxInfo border"  ><p className="p-o">{el.p}</p></div>
                 </div>
-              )
+              );
             })
           }
         </div>
@@ -155,3 +159,5 @@ export default class Pairing extends Component {
     )
   }
 }
+
+export default Pairing;

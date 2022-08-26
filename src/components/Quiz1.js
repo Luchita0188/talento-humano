@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pairing from '../components/Pairing';  
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
@@ -26,6 +27,16 @@ class Quiz1 extends Component {
       countMultiple: 0
     }
   }
+
+  statusQuiz = () => {
+    console.log(
+      `
+      Question          : ${this.state.question}
+      Accumulated Points: ${this.state.accumulatedPoints}
+      Total Points      : ${this.state.totalPoints}`
+    );
+  }
+
 
   actividadHandle = (event) => {
     const { questions } = this.props.multimedia;
@@ -201,40 +212,45 @@ class Quiz1 extends Component {
           : null
         }
 
-        <div className = { 'question d-Flex d-C j-E aI-S' } id = { 'question-' + this.state.question }>
-          {console.log(multimedia.questions[this.state.question].type)}
-          
-           <p className = { 'labelStatement mB-1'} dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].statement }}></p>
+          <div className = { 'question d-Flex d-C j-E aI-S' } id = { 'question-' + this.state.question }>
+          <p className = 'mB-1' dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].instruction }}></p>
+          <p className = { 'labelStatement mB-1'} dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].statement }}></p>
 
-          <div 
-          className = { 'optionsBox c-10 ' + (multimedia.questions[this.state.question].type !== 'FV' ? 'd-Flex d-C j-S aI-S wW' : 'd-Flex d-R j-C aI-S') } 
-          id = { 'act-' + this.state.question } 
-          style = {{ "height": (multimedia.questions[this.state.question].type === 'FV' ? 105 : 175) }}>
-            {
-              multimedia.questions[this.state.question].options.map((choice, i) => {
-                return(
-                  
-                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = { 'Op-' + (i) }>
-                    <span className = { 'fa-layers icon mR-1 ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '') } id = { 'icon-' + (i) }>
-                      <FontAwesomeIcon icon="circle" className = 'circle color-6' />
-                      <p className = { 'typeLabel' }>{ choice.type }</p>
-                    </span>
+          {
+            multimedia.questions[this.state.question].type === 'Pair' &&
+            <Pairing multimedia = { multimedia.questions[this.state.question].labels }/>
+          }
+          {
+            multimedia.questions[this.state.question].type === 'single' &&
+            <div className='d-Flex aI-C'>
+              <div id='BoxQuestions'>
+                {
+                  multimedia.questions[this.state.question].options.map((choice, i) => {
+                    return(
+                      <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = { 'Op-' + (i) }>
+                        <span className = { 'fa-layers icon mR-1 ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '') } id = { 'icon-' + (i) }>
+                          <FontAwesomeIcon icon="circle" className = 'circle color-6' />
+                          <p className = { 'typeLabel' }>{ choice.type }</p>
+                        </span>
 
-                    <span className = { 'fa-layers iconCheck mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i) }>
-                      <FontAwesomeIcon icon="circle" className = 'circle' />
-                      <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
-                    </span>
+                        <span className = { 'fa-layers iconCheck mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i) }>
+                          <FontAwesomeIcon icon="circle" className = 'circle' />
+                          <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
+                        </span>
 
-                    <span className = { 'fa-layers iconError mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iError-' + (i) }>
-                      <FontAwesomeIcon icon="circle" className = 'circle' />
-                      <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
-                    </span>
+                        <span className = { 'fa-layers iconError mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iError-' + (i) }>
+                          <FontAwesomeIcon icon="circle" className = 'circle' />
+                          <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
+                        </span>
 
-                    <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
-                  </div>
-                )
-              })
-            }
+                        <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </div>
+          }
           </div>
 
           <button
@@ -245,7 +261,7 @@ class Quiz1 extends Component {
           </button>
 
         </div>
-      </div>
+      
     );
   }
 }
