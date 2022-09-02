@@ -25,3 +25,412 @@
         "label": ""
       } 
     }
+
+    "page16": {
+    "type": "pageCourse",
+    "title": "Ejercicio valorativo de este módulo",
+    "text": "",
+    "multimedia": {
+      "modal": {
+        "check": {
+          "title": "¡Muy bien!",
+          "text": "",
+          "img": "img/16/check.png"
+        },
+        "error": {
+          "title": "¡Intenta de nuevo!",
+          "text": "",
+          "img": "img/16/error.png"
+        }
+      },
+      "questions": [
+        {
+          "type": "Pair",
+          "instruction": "",
+          "statement": "<b>1.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+          "pair": {
+            "colors": "#9bc440",
+            "labels": [
+              {
+                "p" : "Año de diseño y factibilidad",
+                "img": "",
+                "pair" : 1
+              },
+              {
+                "p" : "Año de graduación de los primeros 20 tecnólogos ",
+                "img": "",
+                "pair" : 2
+              },
+              {
+                "p" : "Año del inicio de las actividades académicas ",
+                "img": "",
+                "pair" : 3
+              },
+              {
+                "p" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI) ",
+                "img": "",
+                "pair" : 4
+              }
+            ],
+            "texts": [
+              {
+                "p": "Año de diseño y factibilidad",
+                "img":"",
+                "pair": 3
+              },
+              {
+                "p": "Año de graduación de los primeros 20 tecnólogos ",
+                "img":"",
+                "pair": 4
+              },
+              {
+                "p": "Año del inicio de las actividades académicas ",
+                "img":"",
+                "pair": 2
+              },
+              {
+                "p": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI) ",
+                "img":"",
+                "pair": 1
+              }
+            ]
+           }
+          },
+        {
+          "type": "single",
+          "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+          "options": [
+            {
+              "type": "A",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, <br>además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "B",
+              "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+              "value": false,
+              "color": "#F39625"
+            },
+            {
+              "type": "B",
+              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "value": false,
+              "color": "#3881B6"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>4.</b>  La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "B",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación.",
+              "value": false,
+              "color": "#266D72"
+            },
+            {
+              "type": "C",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>5.</b>  La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "Fe, Dignidad Humana, Compromiso y Disciplina.",
+              "value": true,
+              "color": "#F14711"
+            },
+            {
+              "type": "B",
+              "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad.",
+              "value": false,
+              "color": "#3881B6"
+            },
+            {
+              "type": "C",
+              "text": "Participación, Solidaridad, Equidad, Seguridad",
+              "value": false,
+              "color": "#6DA001"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>6.</b> Elige 3 parámetros correctos del código de vestuario: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "No usar prendas demasiado ajustadas.",
+              "value": true,
+              "color": "#00386D"
+            },
+            {
+              "type": "B",
+              "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "Los viernes uso del jean clásico.",
+              "value": true,
+              "color": "#6DA001"
+            },
+            {
+              "type": "D",
+              "text": "Se puede usar expansores, gorras y piercing. ",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "E",
+              "text": "Uso del jean clásico en cualquier momento.",
+              "value": false,
+              "color": "#B30E6A"
+            }
+          ]
+        },
+        {
+          "type": "Pair",
+          "instruction": "",
+          "statement": "<b>7.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+          "pair": {
+            "labels": [
+              {
+                "p" : "Licencia de maternidad",
+                "img": "",
+                "pair" : 1
+              },
+              {
+                "p" : "Licencia de luto",
+                "img": "",
+                "pair" : 2
+              },
+              {
+                "p" : "Licencia por paternidad",
+                "img": "",
+                "pair" : 3
+              },
+              {
+                "p" : "Licencia por cargos oficiales ",
+                "img": "",
+                "pair" : 4
+              },
+              {
+                "p" : "Licencia por ejercer el derecho al voto ",
+                "img": "",
+                "pair" : 5
+              }
+            ],
+            "texts": [
+              {
+                "p": "1 día hábil",
+                "img":"",
+                "pair": 4
+              },
+              {
+                "p": "Artículo 236",
+                "img":"",
+                "pair": 1
+              },
+              {
+                "p": "Dos semanas",
+                "img":"",
+                "pair": 3
+              },
+              {
+                "p": "Medio día",
+                "img":"",
+                "pair": 5
+              },
+              {
+                "p": "Ley 1280 de 2009",
+                "img":"",
+                "pair": 2
+              }
+            ]
+           }
+        },
+        {
+          "type": "multiple",
+          "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "IUSH",
+              "value": true,
+              "color": "#B3056A"
+            },
+            {
+              "type": "B",
+              "text": "LICEO",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "CORSAHE",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "D",
+              "text": "RONDALLA",
+              "value": true,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "E",
+              "text": "UPB",
+              "value": false,
+              "color": "#F39603"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>9.</b> ¿Cuántas Escuelas tiene la IUSH? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "a. 5",
+              "value": false,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "B",
+              "text": "b. 4",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "c. 3",
+              "value": false,
+              "color": "#D51B43"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "statement": "<b>10.</b>  ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
+          "options": [
+            {
+              "type": "A",
+              "text": "6",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "B",
+              "text": "4",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "3",
+              "value": false,
+              "color": "#6DA01C"
+            },
+            {
+              "type": "D",
+              "text": "Ninguna de las anteriores ",
+              "value": true,
+              "color": "#F39625"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+   // {
+        //   "type": "labelPair",
+        //   "instruction": "",
+        //   "statement": "<b>1.</b>Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+        //   "lbl": {
+        //     "labels": [
+        //       {
+        //         "p": "Año de diseño y factibilidad ",
+        //         "img": "",
+        //         "pair": 1
+        //       },
+        //       {
+        //         "p": "Año de graduación de los primeros 20 tecnólogos",
+        //         "img": "",
+        //         "pair": 2
+        //       },
+        //       {
+        //         "p": "Año del inicio de las actividades académicas",
+        //         "img": "",
+        //         "pair": 3
+        //       },
+        //       {
+        //         "p": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)",
+        //         "img": "",
+        //         "pair": 4
+        //       }
+        //     ],
+        //     "text":[
+        //       {
+        //         "p": "2005 ",
+        //         "img": "",
+        //         "pair": 4
+        //       },
+        //       {
+        //         "p": "1995 ",
+        //         "img": "",
+        //         "pair": 3
+        //       },
+        //       {
+        //         "p": "1992 ",
+        //         "img": "",
+        //         "pair": 1
+        //       },
+        //       {
+        //         "p": "1998 ",
+        //         "img": "",
+        //         "pair": 2
+        //       }
+        //     ]
+        //   }
+        // },

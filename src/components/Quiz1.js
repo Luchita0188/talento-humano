@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Pairing from '../components/Pairing';  
+import DnDLabel2 from './DnDLabel2/DnDLabel2';
+import Pairing from './Pairing/Pairing';  
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
@@ -216,10 +217,11 @@ class Quiz1 extends Component {
           <p className = 'mB-1' dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].instruction }}></p>
           <p className = { 'labelStatement mB-1'} dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].statement }}></p>
 
-          {
-            multimedia.questions[this.state.question].type === 'Pair' &&
-            <Pairing multimedia = { multimedia.questions[this.state.question].labels }/>
-          }
+          {/* {
+            multimedia.questions[this.state.question].type === 'Lb' &&
+            <DnDLabel2 multimedia = { multimedia.questions[this.state.question].dnd } accumulatedPoints = { this.accumulatedPoints } nextQuestion={this.nextQuestion} />
+          } */}
+
           {
             multimedia.questions[this.state.question].type === 'single' &&
             <div className='d-Flex aI-C'>
@@ -245,11 +247,13 @@ class Quiz1 extends Component {
 
                         <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
                       </div>
+                      
                     )
                   })
                 }
               </div>
             </div>
+            
           }
           </div>
 

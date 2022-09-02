@@ -83,7 +83,7 @@ class DnDLabel1 extends Component {
           <div className = 'trackContent d-Flex j-C aI-C'>
             <button
               className = { 'buttonNav'}
-              id = 'btnNavLeft'
+              id = 'btnNavLeft disabled'
               onClick = { this.trackScrolling }>
               <FontAwesomeIcon
                 className = 'iconButton'

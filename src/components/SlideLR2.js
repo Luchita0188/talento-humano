@@ -21,24 +21,6 @@ class SlideLR2 extends Component {
     page: 1
   }
 
-  onClick = e => {
-    if (e.currentTarget.id === 'btnAde') {
-      this.setState({
-        page: this.state.page + 1
-      });
-    }
-    if (e.currentTarget.id === 'btnIna') {
-      this.setState({
-        page: this.state.page - 1
-      });
-    }
-    if (this.state.page === this.props.multimedia.items.length - 1) {
-      setTimeout(() => {
-        this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE  
-      },);
-    } 
-  }
- 
   mSlides = e => {
     if (e.currentTarget.id === 'btnAnt') {
       this.setState({
@@ -52,14 +34,14 @@ class SlideLR2 extends Component {
 
       if (this.state.page === this.props.multimedia.items.length - 1) {
         setTimeout(() => {
-          this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE  
-        },);
+          this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
+          this.props.setModal(true); // MUESTRA EL MODAL
+        }, 5000);
       }
     }
   }
 
   render() {
-    
     const { multimedia } = this.props;
     return (
       <div className = 'SlideLR2 d-Flex j-S aI-C'>
@@ -71,13 +53,10 @@ class SlideLR2 extends Component {
                   {
                     item.img ? <img alt = 'Imagen' className = '' src = { item.img }/> : null
                   }
-                  {
-                    item.text ? <p className = ' text pAbs tCenter fw-4 F2' dangerouslySetInnerHTML = {{ __html: item.text }} style = {{ 'top': item.textPos.posY, 'left': item.textPos.posX, 'width': item.textPos.width }} /> : null
-                  }
                 </div>
               )
             })
-          } 
+          }
           <div className = 'contentButton d-Flex j-Bt aI-C pAbs'>
             <button className = { 'buttonSlide ' + (this.state.page === 1 ? 'disabled' : '') } id = 'btnAnt' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
@@ -92,12 +71,6 @@ class SlideLR2 extends Component {
               </span>
             </button>
           </div>
-            <button className = { 'buttonAde d-Flex aI-C mR-7 ' + (this.state.page === multimedia.items.length ? 'disabled' : 'pulse-signal') } id = 'btnAde' onClick = { this.onClick }>
-            <FontAwesomeIcon
-                className = 'iconButton'
-                icon = { ['fas', 'check'] } 
-                size = 'lg'/>
-            </button>
         </div>
       </div>
     );

@@ -17,7 +17,7 @@
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 300px;
     z-index: 4;
     width: 350%;
     height: 300px;
@@ -29,7 +29,7 @@
       border-radius: 15px;
       padding: 4em 2.6em 2.8em 1rem;
       height: 290px;
-      width: 395px;
+      width: 399px;
 
     .infoColor{
 
@@ -68,7 +68,7 @@
         border-right: 20px solid transparent;
         position: absolute;
         top: 25px;
-        left: -30px;
+        left: -25px;
         transform: rotate(-95deg)
       }
       &:after {

@@ -24,7 +24,7 @@ class ModalCircle2 extends Component {
 
   showItems = () => {
     const { dataPage } = this.props;
-    const ITEM = dataPage.multimedia.map( (item, i) => {
+    return dataPage.multimedia.map( (item, i) => {
       return(
         <div className = 'circleItems pAbs' key = { i } style = {{ 'top': item.posY, 'left': item.posX }}>
           <div className = 'd-Flex d-R j-C aI-C itemButton'>
@@ -39,7 +39,7 @@ class ModalCircle2 extends Component {
         </div>
       );
     } );
-    return ITEM;
+    //return ITEM;
   }
 
   enableItem = (e) => {
@@ -103,24 +103,24 @@ class ModalCircle2 extends Component {
           // MOSTRAR LOS GLOBOS DE TEXTO
           this.state.openGlobe !== false ?
           <div className = 'bgItemGlobe animated fadeIn'>
-            <div className = { 'itemGlobe animated fadeIn d-Flex j-Ar aI-C'} >
-              <div className='c-33 d-Flex j-C aI-C'>
-                <img alt = '' className = 'c-20' src = { multimedia[actualItem - 1].urlImgBtn }/>
-              </div>
-              <div className='c-65'>
-                <h3 className = 'mB-05 titulo2'>{ multimedia[actualItem - 1].itemInfo.title }</h3>
-                <p className = '' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text } } />
-              </div>
+            <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2'} >
 
-              <button
-                className = 'buttonClose'
-                onClick = { this.hideModal }
-                >
-                <span className = 'fa-layers fa-fw iconButton' >
-                  <FontAwesomeIcon icon="circle" />
-                  <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
-                </span>
-              </button>
+             <h2 className = 'mB-1 mL-2 c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
+
+              <p className = 'mB-1 mL-2 pB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
+              { 
+                multimedia[actualItem - 1].itemInfo.buttonClose.closedModal === true ?
+                <button
+                  className = 'buttonClose'
+                  onClick = { this.hideModal }
+                  style = { {'top': multimedia[actualItem - 1].itemInfo.buttonClose.posY,'right': (multimedia[actualItem - 1].itemInfo.buttonClose.posX + '%') } }
+                  >
+                  <span className = 'fa-layers fa-fw iconButton' >
+                    <FontAwesomeIcon icon="circle" />
+                    <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
+                  </span>
+                </button> : null
+              }
             </div>
           </div> : null
         }

@@ -26,27 +26,27 @@ class ModalCircle3 extends Component {
   }
 
   render() {
-    const { infoEnd } = this.props.dataPage;
+    const { infoEnd1 } = this.props.dataPage;
     // console.log(infoEnd);
     return (
       <div className = 'ModalCircle3 d-Flex d-C'>
         <div className = 'bgItemGlobe animated fadeIn'>
           <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-C'} >
 
-            <h3 className = 'mB-1 titulo2 tCenter'>{ infoEnd.title }</h3>
+            <h3 className = 'mB-1 color-14 tCenter'>{ infoEnd1.title }</h3>
 
-            <p className = 'mB-1 tCenter' dangerouslySetInnerHTML = { { __html: infoEnd.text1 } } />
+            <p className = 'mB-1 tCenter' dangerouslySetInnerHTML = { { __html: infoEnd1.text1 } } />
             {
-              infoEnd.text2 &&
-              <p className = 'c-75 enfasis-1' dangerouslySetInnerHTML = { { __html: infoEnd.text2 } } />
+              infoEnd1.text2 &&
+              <p className = 'c-75 enfasis-1' dangerouslySetInnerHTML = { { __html: infoEnd1.text2 } } />
             }
 
-            <img alt = '' className = '' src = { infoEnd.img2 }/>
+            <img alt = '' className = '' src = { infoEnd1.img2 }/>
 
             <button
               className = 'buttonClose'
               onClick = { this.hideModal }
-              style = { { 'top': infoEnd.buttonClose.posY, 'right': (infoEnd.buttonClose.posX) } }
+              style = { { 'top': infoEnd1.buttonClose.posY, 'right': (infoEnd1.buttonClose.posX) } }
               >
               <span className = 'fa-layers fa-fw iconButton' >
                 <FontAwesomeIcon icon="circle" />

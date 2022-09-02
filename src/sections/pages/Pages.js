@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ModalInfo4 from "../../components/ModalInfo4Act3";
+import ModalInfo4Act3 from "../../components/ModalInfo4Act3";
 import DnDCircle3 from "../../components/DnDCircle3/DnDCircle3";
 import DnDLabel2 from "../../components/DnDLabel2/DnDLabel2";
 import DnDLabel1 from "../../components/DnDLabel1/DnDLabel1";
@@ -29,6 +31,7 @@ import SlideDot1 from "../../components/SlideDot1";
 import SlideLR1 from "../../components/SlideLR1";
 import SlideLR2 from "../../components/SlideLR2";
 import SlideUpDown from "../../components/SlideUpDown";
+import Pairing from "../../components/Pairing/Pairing";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -39,7 +42,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 
 import "./Pages.scss";
-import ItemInteractiveAudio from "../../components/ItemInteractiveSubtitle";
+
 
 class Cover extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL CURSO
@@ -306,6 +309,14 @@ class Page2 extends Component {
 }
 
 class Page3 extends Component {
+  state = {
+    openModal: false,
+  }
+
+  setModal = (open) => {
+    this.setState({ openModal: open });
+  }
+  
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
     checkEndActivity(3, end);
@@ -324,8 +335,8 @@ class Page3 extends Component {
     return (
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn">
-          <div className="c-10 animated fadeIn d-Flex d-C j-C mL-40 mT-4">
-            <div className="mL-5 c-35">
+          <div className="animated fadeIn c-10 d-Flex d-C j-C mB-1 mL-40 mT-4 ">
+            <div className="mL-5 c-40">
               {dataPage.title ? (
                 <h2
                   className="mB-1 F2"
@@ -339,13 +350,13 @@ class Page3 extends Component {
                 ></p>
               ) : null}
             </div>
-            <div className="c-40 d-Flex j-C aI-S" style={style}>
-              <ModalCircle2 dataPage={dataPage} isEnded={this.isEnded} />
+            <div className="c-40 d-Flex j-C aI-S" style = {style}>
+              <ModalCircle1 dataPage={dataPage} isEnded={this.isEnded}/>
             </div>
           </div>
         </div>
 
-        <Instruction dataPage={dataPage.instruction} />
+        <Instruction dataPage={dataPage.instruction} />    
       </div>
     );
   }
@@ -358,7 +369,7 @@ class Page4 extends Component {
     return (
       <div className={"pageContent"}>
         <div className="c-10 d-Flex  animated fadeIn j-C aI-S">
-          <div className="mL-5 c-35 mT-6 mR-3">
+          <div className="mL-3 c-35 mT-6 mR-3">
             {dataPage.title ? (
               <h2
                 className="textHeader F2 mB-1 pT-2"
@@ -367,13 +378,13 @@ class Page4 extends Component {
             ) : null}
             {dataPage.text ? (
               <p
-                className="mB-2 fw-4"
+                className="mB-1 fw-4"
                 dangerouslySetInnerHTML={{ __html: dataPage.text }}
               ></p>
             ) : null}
           </div>
 
-          <div className="c-5 d-Flex j-C aI-S mT-7 pT-2">
+          <div className="c-5 d-Flex j-C aI-S mT-4 pT-2">
             <img alt="Imagen" className="" src={dataPage.img} />
           </div>
         </div>
@@ -482,7 +493,7 @@ class Page7 extends Component {
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn">
           <div className="c-10 animated fadeIn d-Flex aI-C j-S pT-3 mL-1">
-            <div className="mL-6 c-35 mR-2 mT-2">
+            <div className="mL-5 c-35 mR-2 mT-2">
               {dataPage.title ? (
                 <h2
                   className="mB-1 fw-6"
@@ -497,7 +508,7 @@ class Page7 extends Component {
               ) : null}
             </div>
             <div className="c-5 d-Flex j-C aI-S mT-6" style={style}>
-              <ModalCircle1 dataPage={dataPage} isEnded={this.isEnded} />
+              <ModalCircle2 dataPage={dataPage} isEnded={this.isEnded} />
             </div>
           </div>
 
@@ -584,10 +595,10 @@ class Page9 extends Component {
       <div className={"pageContent"}>
         {/* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */}
         {this.state.openModal !== false ? (
-          <ModalGallery2
-            dataPage={dataPage.multimedia.gallery}
-            showModal={this.showModal}
-            isEnded={this.isEnded}
+         <ModalGallery2
+         dataPage={dataPage.multimedia.gallery}
+         showModal={this.showModal}
+         isEnded={this.isEnded}
           />
         ) : null}
 
@@ -730,12 +741,17 @@ class Page10 extends Component {
   }
 }
 class Page11 extends Component {
+  state = {
+    openModal: false,
+  }
+  setModal = (open) => {
+    this.setState({ openModal: open });
+  }
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
-    // console.log('Recibí: ' + end);
     checkEndActivity(11, end);
-  };
+  }
 
   render() {
     const { dataPage } = this.props;
@@ -743,28 +759,27 @@ class Page11 extends Component {
     return (
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn d-Flex j-S aI-S pT-3 mT-2">
-          <div className="mL-5 c-35">
-            <h3
-              className="mB-1 F2"
-              dangerouslySetInnerHTML={{ __html: dataPage.title }}
-            ></h3>
-            <p
-              className="fw-3 mB-1"
-              dangerouslySetInnerHTML={{ __html: dataPage.text }}
-            ></p>
-
-            <div className="mL-5 c-10">
-              <SlideLR2
-                multimedia={dataPage.multimedia}
-                handleClick={this.handleClick}
-                isEnded={this.isEnded}
-              />
-            </div>
-            
-            <Instruction dataPage={dataPage.instruction} />
+          <div className="mL-5 c-40">
+          {
+              dataPage.title ? <h2 className = 'F2 mB-1 ' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'fw-3 mB-1 ' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
           </div>
+
+          <div className = 'mL-5'>
+            <ModalInfo4 dataPage = { dataPage.multimedia } isEnded = { this.isEnded } />
+          </div>
+
+          <div className = 'mL-6 pL-7'>
+            <SlideLR2 multimedia = { dataPage.multimedia } handleClick = { this.handleClick } isEnded = { this.isEnded } setModal = { this.setModal } />
+          </div>
+        </div>    
+            <Instruction dataPage = {dataPage.instruction} />
+
+            { this.state.openModal && <ModalCircle3 dataPage = { dataPage.multimedia } setModal = { this.setModal }/>}
         </div>
-      </div>
     );
   }
 }
@@ -791,7 +806,7 @@ class Page12 extends Component {
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn">
           <div className="c-10 animated fadeIn d-Flex d-C j-C mL-50 mT-1">
-            <div className="mL-5 c-35">
+            <div className="mL-5 c-40 mR-1">
               {dataPage.title ? (
                 <h2
                   className="mB-1 F2 mT-3"
@@ -800,7 +815,7 @@ class Page12 extends Component {
               ) : null}
               {dataPage.text ? (
                 <p
-                  className="mB-2 fw-4 mT-1"
+                  className="mB-2 fw-4 mT-2"
                   dangerouslySetInnerHTML={{ __html: dataPage.text }}
                 ></p>
               ) : null}
@@ -882,20 +897,31 @@ class Page14 extends Component {
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
     checkEndActivity(14, end);
-    
-  }
+  };
 
   render() {
     const { dataPage } = this.props;
 
     return (
-      <div className = { 'pageContent'}>
+      <div className={"pageContent"}>
         {/* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */}
-        { this.state.openModal !== false ? <ModalGallery2 dataPage = { dataPage } showModal = { this.showModal } isEnded = { this.isEnded } /> : null }
-        
+        {this.state.openModal !== false ? (
+          <ModalGallery2
+            dataPage={dataPage.multimedia.gallery}
+            showModal={this.showModal}
+            isEnded={this.isEnded}
+          />
+        ) : null}
+        {this.state.openModal2 !== false ? (
+          <ModalGallery2
+            dataPage={dataPage.multimedia.gallery2}
+            showModal={this.showModal2}
+            isEnded={this.isEnded}
+          />
+        ) : null}
 
-        <div className="c-10 animated fadeIn d-Flex aI-C j-S pT-7 mT-1">
-          <div className="mL-5 c-35">
+        <div className="c-10 animated fadeIn d-Flex aI-C j-C pT-7 mT-1">
+          <div className="mL-5 c-40">
             {dataPage.title ? (
               <h2
                 className="F2 mB-1"
@@ -910,30 +936,30 @@ class Page14 extends Component {
             ) : null}
           </div>
 
-          <div className='c-7 d-Flex j-C aI-S'>
-          <button className = { 'buttonVideo pulse' } onClick = { this.showModal }>
+          <div className="c-7 d-Flex j-C aI-S">
+            <button className={"buttonVideo pulse"} onClick={this.showModal}>
               <img
-                alt='Imagen'
-                className = 'c-75'
+                alt="Imagen"
+                className="c-85"
                 src={dataPage.multimedia.buttonModal.imgBg1}
               />
             </button>
 
-            <button className = { 'buttonVideo pulse' } onClick = { this.showModal2 }>
+            <button className={"buttonVideo pulse"} onClick={this.showModal2}>
               <img
-                alt = 'Imagen'
-                className = 'c-75'
-                src = { dataPage.multimedia.buttonModal.imgBg2 }/>
+                alt="Imagen"
+                className="c-85"
+                src={dataPage.multimedia.buttonModal.imgBg2}
+              />
             </button>
           </div>
         </div>
 
-        <Instruction dataPage = { dataPage.instruction } />
+        <Instruction dataPage={dataPage.instruction} />
       </div>
     );
   }
 }
-
 class Page15 extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
   startQuiz = (e) => {
@@ -1022,6 +1048,7 @@ class Page16 extends Component {
     const { dataPage } = this.props;
 
     return (
+     
       <div className={"pageContent"}>
         <div className="c-10 animated fadeIn d-Flex d-C j-C aI-S">
           <div className="headerTitle d-Rr j-E aI-C mB-2 mL-4 mT-2">

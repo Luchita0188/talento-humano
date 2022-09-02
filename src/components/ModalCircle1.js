@@ -27,7 +27,7 @@ class ModalCircle1 extends Component {
     return dataPage.multimedia.map( (item, i) => {
       // console.log(item);
       return(
-        <div className = 'circleItems' key = { i } style= {{'top': item.itemInfo.pos.top, 'left': item.itemInfo.pos.left}}>
+        <div className = 'circleItems pAbs' key = { i } style={{top: item.itemInfo.pos.top, left: item.itemInfo.pos.left}}>
           <button 
             className = { 'circleButton ' + ( i + 1 !== 1 ? 'disabledGray' : '')} 
             id = { i + 1 } 
@@ -103,11 +103,19 @@ class ModalCircle1 extends Component {
           // MOSTRAR LOS GLOBOS DE TEXTO
           this.state.openGlobe !== false ?
           <div className = 'bgItemGlobe animated fadeIn'>
-            <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S pR-2 mB-2'} >
+            <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-S'} >
 
-            <h2 className = 'mB-1 mT-2 titulo2 transparent c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
+              <img alt = '' className = 'mB-2 mT-2' src = { multimedia[actualItem - 1].urlImgBtn }/>
 
-              <p className = 'mB-2 mL-025 pB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
+              <h3 className = 'mB-1 color-13'>{ multimedia[actualItem - 1].itemInfo.title }</h3>
+
+              <p className = 'mB-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
+              {
+                multimedia[actualItem - 1].itemInfo.text2 &&
+                <p className = 'c-75 enfasis-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text2 } } />
+              }
+
+              <img alt = '' className = 'mB-2 j-C c-10' src = { multimedia[actualItem - 1].itemInfo.img2 }/>
 
               { 
                 multimedia[actualItem - 1].itemInfo.buttonClose.closedModal === true ?
