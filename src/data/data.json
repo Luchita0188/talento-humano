@@ -113,60 +113,60 @@
     "resources": {
       "img1": "img/2/npc-1.png"
     },
-      "layers": [
-        {
-          "label": "01 - Historia y contexto",
-          "color": "#780E80",
-          "time": 30
-        },
-        {
-          "label": "02 - Naturaleza y Tipologia",
-          "color": "#780E80",
-          "time": 32
-        },
-        {
-          "label": "03 - Mision y Vision",
-          "color": "#780E80",
-          "time": 34
-        },
-        {
-          "label": "04 - Valores institucionales",
-          "color": "#780E80",
-          "time": 35
-        },
-        {
-          "label": "05 - Elementos diferenciales",
-          "color": "#780E80",
-          "time": 36
-        },
-        {
-          "label": "06 - Principios organizacionales",
-          "color": "#780E80",
-          "time": 39
-        },
-        {
-          "label": "07 - Codigo de vestuario",
-          "color": "#780E80",
-          "time": 40
-        },
-        {
-          "label": "08 - Permiso y licencias",
-          "color": "#780E80",
-          "time": 41
-        },
-        {
-          "label": "09 - Beneficios",
-          "color": "#780E80",
-          "time": 43
-        },
-        {
-          "label": "10 - Nuestras sedes",
-          "color": "#780E80",
-          "time": 45
-        }
-      ]
-    },
-    
+    "layers": [
+      {
+        "label": "01 - Historia y contexto",
+        "color": "#780E80",
+        "time": 30
+      },
+      {
+        "label": "02 - Naturaleza y Tipologia",
+        "color": "#780E80",
+        "time": 32
+      },
+      {
+        "label": "03 - Mision y Vision",
+        "color": "#780E80",
+        "time": 34
+      },
+      {
+        "label": "04 - Valores institucionales",
+        "color": "#780E80",
+        "time": 35
+      },
+      {
+        "label": "05 - Elementos diferenciales",
+        "color": "#780E80",
+        "time": 36
+      },
+      {
+        "label": "06 - Principios organizacionales",
+        "color": "#780E80",
+        "time": 39
+      },
+      {
+        "label": "07 - Codigo de vestuario",
+        "color": "#780E80",
+        "time": 40
+      },
+      {
+        "label": "08 - Permiso y licencias",
+        "color": "#780E80",
+        "time": 41
+      },
+      {
+        "label": "09 - Beneficios",
+        "color": "#780E80",
+        "time": 43
+      },
+      {
+        "label": "10 - Nuestras sedes",
+        "color": "#780E80",
+        "time": 45
+      }
+    ]
+  },
+
   "page3": {
     "type": "pageCourse",
     "startUnit": true,
@@ -188,148 +188,149 @@
     },
     "multimedia": [
       {
-        "urlImgBtn"         : "img/3/unid-1.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-1.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 220,
             "left": -425
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
-      {"urlImgBtn"         : "img/3/unid-2.png",
-        "title"             : "",
-        "color"             : "",
+      {
+        "urlImgBtn": "img/3/unid-2.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 90,
             "left": -300
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
       {
-        "urlImgBtn"         : "img/3/unid-3.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-3.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 230,
             "left": -170
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
       {
-        "urlImgBtn"         : "img/3/unid-4.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-4.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 90,
             "left": -30
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
       {
-        "urlImgBtn"         : "img/3/unid-5.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-5.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 230,
             "left": 100
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
       {
-        "urlImgBtn"         : "img/3/unid-6.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-6.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "",
-          "text1"           : "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
-          "text2"           : "",
+          "title": "",
+          "text1": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo, denominado Politécnico Arzobispo Salazar y Herrera, como una contribución más del Liceo Salazar y Herrera y de la Arquidiócesis de Medellín, con motivo de la celebración de sus 50 años de estar impartiendo educación y formación católica, desde el preescolar hasta la media, a la población de estrato socioeconómico 2 y 3 del sector Centro Occidental de la ciudad de Medellín, con el fin de darle mayor cobertura y calidad a su Proyecto Educativo Institucional con su extensión, al menos, hasta la educación superior de modalidad tecnológica terminal.",
+          "text2": "",
           "img2": "",
-          "colorText"       : "#004991",
+          "colorText": "#004991",
           "pos": {
             "top": 90,
             "left": 230
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       },
       {
-        "urlImgBtn"         : "img/3/unid-7.png",
-        "title"             : "",
-        "color"             : "",
+        "urlImgBtn": "img/3/unid-7.png",
+        "title": "",
+        "color": "",
         "itemInfo": {
-          "title"           : "-Resumen",
-          "text1"           : "",
-          "text2"           : "",
+          "title": "-Resumen",
+          "text1": "",
+          "text2": "",
           "img2": "img/3/unid-7-1.png",
-          "colorText"       : "#3881B6",
+          "colorText": "#3881B6",
           "pos": {
             "top": 220,
             "left": 360
           },
           "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+            "closedModal": true,
+            "posY": -10,
+            "posX": -10
           }
         }
       }
@@ -701,96 +702,89 @@
       }
     ]
   },
-    "page11": {
-      "type": "pageCourse",
-      "title": "8. Código de vestuario",
-      "text": "Te invitamos a observar cada imagen con detenimiento, luego selecciona y determina si es adecuado o inadecuado el vestuario que llevan puesto de acuerdo con la información que viste anteriormente.",
-      "instruction": {
-        "type": "mouse",
-        "text": "Haz clic en Adecuado o Inadecuado teniendo en cuenta los parámetros establecidos.",
-        "posY": 50,
-        "posX": 600,
-        "size": 330,
-        "color": "#FFD15C"
-      },
-      "multimedia": {
-        "items": [
-          {
-            "img": "img/11/unid-1.png",
-            "text": "",
-            "textPos": {
-              "posY"    : 30,
-              "posX"    : 318,
-              "width"   : 150
-            }
-          },
-          {
-            "img": "img/11/unid-2.png",
-            "text": "",
-            "textPos": {
-              "posY"    : 30,
-              "posX"    : 318,
-              "width"   : 150
-            }
-          },
-          {
-            "img": "img/11/unid-3.png",
-            "text": "",
-            "textPos": {
-              "posY"    : 30,
-              "posX"    : 318,
-              "width"   : 150
-            }
+  "page11": {
+    "type": "pageCourse",
+    "title": "8. Código de vestuario",
+    "text": "Te invitamos a observar cada imagen con detenimiento, luego selecciona y determina si es adecuado o inadecuado el vestuario que llevan puesto de acuerdo con la información que viste anteriormente.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en Adecuado o Inadecuado teniendo en cuenta los parámetros establecidos.",
+      "posY": 50,
+      "posX": 600,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "items": [
+        {
+          "img": "img/11/unid-1.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
           }
-        ],
-        "actividad3": {
-          "statement": "",
-          "statement2": "",
-          "choices": [
-            {
-              "type": "A",
-              "option": "Adecuado",
-              "value": true,
-              "color": "#E21485"
-            },
-            {
-              "type": "B",
-              "option": "Adecuado",
-              "value": true,
-              "color": "#E21485"
-            },
-            {
-              "type": "C",
-              "option": "Inadecuado",
-              "value": false,
-              "color": "#86BF41"
-            }
-          ]
         },
-        "finishBox": {
-          "title": "¡Muy bien!",
-          "text": "Has contestado correctamente, cierra la ventana para continuar.",
-          "img": "img/11/unid-4.png"
+        {
+          "img": "img/11/unid-2.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
         },
-        "infoEnd1": {
-          "title"           : "Recomendaciones finales",
-          "text1"           : "• Para las camisas de tela delgada, se recomienda el uso de camisilla interior (hombres y mujeres) <br>• En el caso de las mujeres tener en cuenta el uso moderado de accesorios, cabello organizado y maquillaje sobrio. <br>• No usar prendas demasiado ajustadas  (hombres y mujeres).<br>• En el caso de los hombres llevar corbata si así se necesita con el largo adecuado (al inicio de la hebilla de la correa).<br>• Quienes usen barba o bigote, deberán mantener un cuidado y corte adecuado, de no ser así deberán afeitarse. <br>• Las uñas deben reflejar cuidado y limpieza. Las mujeres pueden aplicar esmaltes de colores, pero no se debe usar decoraciones excesivas en las uñas.",
-          
-          "tex2": "",
-          "img2": "",
-          "colorText"       : "#04386D",
-          "pos": {
-            "top": 40,
-            "left": -222
-          },
-          "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : -10,
-            "posX"          : -10
+        {
+          "img": "img/11/unid-3.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
           }
         }
+      ],
+      "actividad3": {
+        "type"    : "",
+        "statement2": "",
+        "choices": [
+          {
+            "type": "VR",
+            "text": "Adecuado",
+            "value": true,
+            "color": "#86BF41"
+          },
+          {
+            "type": "FR",
+            "text": "Inadecuado",
+            "value": false,
+            "color": "#D00814"
+          }
+        ]
+      },
+      "finishBox": {
+        "title": "¡Muy bien!",
+        "text": "Has contestado correctamente, cierra la ventana para continuar.",
+        "img": "img/11/unid-4.png"
+      },
+      "infoEnd1": {
+        "title": "Recomendaciones finales",
+        "text1": "• Para las camisas de tela delgada, se recomienda el uso de camisilla interior (hombres y mujeres) <br>• En el caso de las mujeres tener en cuenta el uso moderado de accesorios, cabello organizado y maquillaje sobrio. <br>• No usar prendas demasiado ajustadas  (hombres y mujeres).<br>• En el caso de los hombres llevar corbata si así se necesita con el largo adecuado (al inicio de la hebilla de la correa).<br>• Quienes usen barba o bigote, deberán mantener un cuidado y corte adecuado, de no ser así deberán afeitarse. <br>• Las uñas deben reflejar cuidado y limpieza. Las mujeres pueden aplicar esmaltes de colores, pero no se debe usar decoraciones excesivas en las uñas.",
+        "tex2": "",
+        "img2": "",
+        "colorText": "#04386D",
+        "pos": {
+          "top": 40,
+          "left": -222
+        },
+        "buttonClose": {
+          "closedModal": true,
+          "posY": -10,
+          "posX": -10
+        }
       }
-    },
+    }
+  },
   "page12": {
     "type": "pageCourse",
     "title": "9. Permisos y licencias",
@@ -1106,7 +1100,7 @@
           "img": "img/14/img-24.jpg"
         }
       ],
-      
+
       "gallery2": [
         {
           "key": 1,
@@ -1207,55 +1201,54 @@
       "color": "#FFD15C"
     }
   },
-  
+
   "page16": {
     "type": "pageCourse",
-    "title"   : "Ejercicio valorativo de este módulo",
-    "text"    : "",
+    "title": "Ejercicio valorativo de este módulo",
+    "text": "",
     "multimedia": {
       "modal": {
         "check": {
-          "title"         : "¡Muy bien!",
-          "text"          : "Aprobaste exitosamente la evaluación de conocimientos. Has demostrado tu compromiso e interés por conocer sobre este tema, continúa con esta actitud positiva y obtendrás grandes resultados.",
-          "img"           : "img/16/check.png"
+          "title": "¡Muy bien!",
+          "text": "Aprobaste exitosamente la evaluación de conocimientos. Has demostrado tu compromiso e interés por conocer sobre este tema, continúa con esta actitud positiva y obtendrás grandes resultados.",
+          "img": "img/16/check.png"
         },
         "error": {
-          "title"         : "¡Inténtalo nuevamente!",
-          "text"          : "No lograste superar el porcentaje. Te invitamos a realizar nuevamente la evaluación final, si lo requieres puedes volver al contenido y reforzar los conocimientos. Esta vez lo harás mejor.",
-          "img"           : "img/16/error.png"
+          "title": "¡Inténtalo nuevamente!",
+          "text": "No lograste superar el porcentaje. Te invitamos a realizar nuevamente la evaluación final, si lo requieres puedes volver al contenido y reforzar los conocimientos. Esta vez lo harás mejor.",
+          "img": "img/16/error.png"
         }
       },
       "questions": [
-       
         {
-          "type"          : "single",
-          "instruction"   : "Selecciona la respuesta correcta.",
-          "statement"     : "<b>3.</b> ¿Cuáles son los beneficios que ofrece la separación de residuos en nuestras áreas de trabajo?",
+          "type": "single",
+          "instruction": "Selecciona la respuesta correcta.",
+          "statement": "<b>3.</b> ¿Cuáles son los beneficios que ofrece la separación de residuos en nuestras áreas de trabajo?",
           "img": "",
           "options": [
             {
-              "type"      : "A",
-              "text"      : "Relacionamiento con grupos de interés",
-              "value"     : false,
-              "color"     : "#86BF41"
+              "type": "A",
+              "text": "Relacionamiento con grupos de interés",
+              "value": false,
+              "color": "#86BF41"
             },
             {
-              "type"      : "B",
-              "text"      : "Aumento de las inversiones y ventas",
-              "value"     : false,
-              "color"     : "#F3B229"
+              "type": "B",
+              "text": "Aumento de las inversiones y ventas",
+              "value": false,
+              "color": "#F3B229"
             },
             {
-              "type"      : "C",
-              "text"      : "Ambientales, sociales, económicos y de salud.",
-              "value"     : true,
-              "color"     : "#189BDB"
+              "type": "C",
+              "text": "Ambientales, sociales, económicos y de salud.",
+              "value": true,
+              "color": "#189BDB"
             },
             {
-              "type"      : "D",
-              "text"      : "Todas las anteriores.",
-              "value"     : false,
-              "color"     : "#E21485"
+              "type": "D",
+              "text": "Todas las anteriores.",
+              "value": false,
+              "color": "#E21485"
             }
           ]
         }
@@ -1290,4 +1283,3 @@
     }
   }
 }
-

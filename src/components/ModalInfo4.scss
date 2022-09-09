@@ -14,21 +14,26 @@
     border-radius: 15px;
   }
 
-  .labelStatement3 {
-    background-color: #F8F8F8;
-    padding: 0.5rem 1.2rem;
-    border-radius: 15px;
-    border: 1px solid #04386C;
-  }
+  // .labelStatement3 {
+  //   background-color: #F8F8F8;
+  //   padding: 0.5rem 1.2rem;
+  //   border-radius: 15px;
+  //   border: 1px solid #04386C;
+  // }
 
   .icon {
     font-size: 1.8rem;
+    .typeLabel {
+      font-size: 0.6em;
+      margin-top: 0.3rem;
   }
+}
 
   .iconCheck {
     font-size: 1.8rem;
     .circle {
       color: #86BF41;
+      
     }
     .check {
       color: #fff;
@@ -39,10 +44,10 @@
     font-size: 1.8rem;
     .circle {
       color: red;
+      
     }
     .check {
       color: #fff;
-      margin-left: 0.29rem;
     }
   }
 
@@ -61,6 +66,28 @@
     &:hover {
       box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
     }
+  }
+
+  .labelTrue {
+    border: 2px solid #86BF41;
+    color: #86BF41;
+  }
+
+  .trueSelect {
+    border: 2px solid #86BF41;
+    background-color: #86BF41;
+    color: #fff;
+  }
+
+  .labelFalse {
+    border: 2px solid #D30814;
+    color: #D30814;
+  }
+
+  .falseSelect {
+    border: 2px solid #D30814;
+    background-color: #D30814;
+    color: #fff;
   }
 
   .finishBox {

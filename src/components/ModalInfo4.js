@@ -28,25 +28,25 @@ class ModalInfo4 extends Component {
       document.getElementById('audioNotification').src = 'audio/check.mp3';
       document.getElementById('audioNotification').play();
 
-      for (var i = 0; i < 3; i++) {
-        document.getElementsByClassName('iconAct')[i].classList.remove('dNone');
-        document.getElementsByClassName('iCheck')[i].classList.add('dNone');
-        document.getElementsByClassName('iError')[i].classList.add('dNone');
-      }
-
       document.getElementById('option-' + numId + '-check-act3-Op-' + numId).classList.remove('dNone');
       document.getElementById('option-' + numId + '-error-act3-Op-' + numId).classList.add('dNone');
       document.getElementById('option-' + numId + '-icon-act3-Op-' + numId).classList.add('dNone');
 
-      document.getElementById('actividad-3').classList.add('disabledSolid2');
+      document.getElementById('actividad-3').classList.remove('disabledSolid2');
 
-      this.isEnded();
+      this.setState({
+        Act2: this.state.Act2 - 1
+      });
+
+      this.setState({
+        Act2: this.state.Act2 + 1
+      });
 
     } else {
       document.getElementById('audioNotification').src = 'audio/error.mp3';
       document.getElementById('audioNotification').play();
 
-      for (var j = 0; j < 3; j++) {
+      for (var j = 0; j < 2; j++) {
         document.getElementsByClassName('iconAct')[j].classList.remove('dNone');
         document.getElementsByClassName('iError')[j].classList.add('dNone');
       }
@@ -67,7 +67,7 @@ class ModalInfo4 extends Component {
   }
 
   render() {
-    const { actividad3 } = this.props;
+    const { dataPage } = this.props;
     return (
       <div className = 'modalInfo4Act3 animated fadeIn d-Flex d-C'>
 
@@ -78,30 +78,30 @@ class ModalInfo4 extends Component {
           src = { '' }
           ref = { (audio) => { this.audio = audio } } />
 
-        <div className = 'actividad3 mT-1'>
+        <div className = 'actividad3 mT-1' id = 'actividad3'>
           <div className = 'mB-1'>
-            <h4 className = 'labelStatement2 mB-1' dangerouslySetInnerHTML = {{ __html: actividad3.statement }}></h4>
-            <h4 className = 'labelStatement3' dangerouslySetInnerHTML = {{ __html: actividad3.statement2 }}></h4>
+            <h4 className = 'labelStatement2 mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement }}></h4>
+            <h4 className = 'labelStatement3' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement2 }}></h4>
           </div>
-          <div className = 'optionsBox'>
+          <div className = 'optionsBox' id = 'actividad-3'>
             {
-              actividad3.choices.map((choice, i) => {
+              dataPage.actividad3.choices.map((choice, i) => {
                 return(
-                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = {'act3-Op-' + (i + 1)}>
-                    <span className = 'fa-layers icon iconAct mR-05 d-Flex j-C aI-C' id = { 'option-' + (i + 1) + '-icon-act3-Op-' + (i + 1) }>
+                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = {'act3-Op-' + (i)}>
+                    <span className = 'fa-layers icon iconAct mR-05 d-Flex j-C aI-C' id = { 'option-' + (i) + '-icon-act3-Op-' + (i) }>
                       <FontAwesomeIcon icon="circle" className = 'circle' style = {{ 'color': choice.color }} />
                       <h6 className = 'blanco fw-3'>{ choice.type }</h6>
                     </span>
-                    <span className = 'fa-layers iconCheck iCheck mR-05 dNone' id = { 'option-' + (i + 1) + '-check-act3-Op-' + (i + 1) }>
+                    <span className = 'fa-layers iconCheck iCheck mR-05 dNone' id = { 'option-' + (i) + '-check-act3-Op-' + (i) }>
                       <FontAwesomeIcon icon="circle" className = 'circle' />
                       <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
                     </span>
-                    <span className = 'fa-layers iconError iError mR-05 dNone' id = { 'option-' + (i + 1) + '-error-act3-Op-' + (i + 1) }>
+                    <span className = 'fa-layers iconError iError mR-05 dNone' id = { 'option-' + (i) + '-error-act3-Op-' + (i) }>
                       <FontAwesomeIcon icon="circle" className = 'circle' />
                       <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
                     </span>
 
-                    <p className = 'labelStatement optionAct3 c-9 mR-1' id = { 'option-' + (i + 1) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.option }} onClick = { this.actividad3Handle }></p>
+                    <p className = 'labelStatement optionAct3 c-9 mR-1' id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividad3Handle }></p>
                   </div>
                 )
               })
@@ -114,6 +114,5 @@ class ModalInfo4 extends Component {
     );
   }
 }
-
 
 export default ModalInfo4;

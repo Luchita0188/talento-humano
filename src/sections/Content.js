@@ -20,7 +20,7 @@ class Content extends Component {
 
       case 2: return( <Page2 dataPage = { data.page2 } endActivities = { endActivities[2] } checkEndActivity = { checkEndActivity } /> );
 
-       case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity }/> );
+      case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity }/> );
 
       case 4: return( <Page4 dataPage = { data.page4 }/> );
 

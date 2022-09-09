@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import ModalInfo4 from "../../components/ModalInfo4Act3";
-import ModalInfo4Act3 from "../../components/ModalInfo4Act3";
+import ModalInfo4 from "../../components/ModalInfo4";
 import DnDCircle3 from "../../components/DnDCircle3/DnDCircle3";
 import DnDLabel2 from "../../components/DnDLabel2/DnDLabel2";
 import DnDLabel1 from "../../components/DnDLabel1/DnDLabel1";
@@ -758,24 +757,25 @@ class Page11 extends Component {
 
     return (
       <div className={"pageContent"}>
-        <div className="c-10 animated fadeIn d-Flex j-S aI-S pT-3 mT-2">
-          <div className="mL-5 c-40">
-          {
-              dataPage.title ? <h2 className = 'F2 mB-1 ' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+        <div className="c-10 animated fadeIn d-Flex wWr j-E aI-E g-1 mB-2 mT-5">
+          <div className="dF-C-cs mL-5 g-7 c-45 ">
+            {
+              dataPage.title ? <h2 className = 'F2 mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
-              dataPage.text ? <p className = 'fw-3 mB-1 ' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+              dataPage.text ? <p className = 'mB-2 c-9 fw-3 ' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
             }
           </div>
 
-          <div className = 'mL-5'>
+          <div className = 'mL-5 mT-3'>
             <ModalInfo4 dataPage = { dataPage.multimedia } isEnded = { this.isEnded } />
           </div>
 
-          <div className = 'mL-6 pL-7'>
+          <div className = 'mL-5'>
             <SlideLR2 multimedia = { dataPage.multimedia } handleClick = { this.handleClick } isEnded = { this.isEnded } setModal = { this.setModal } />
           </div>
-        </div>    
+        </div>  
+
             <Instruction dataPage = {dataPage.instruction} />
 
             { this.state.openModal && <ModalCircle3 dataPage = { dataPage.multimedia } setModal = { this.setModal }/>}
