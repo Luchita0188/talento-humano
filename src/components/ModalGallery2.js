@@ -64,12 +64,13 @@ class ModalGallery2 extends Component {
   render() {
     const { dataPage } = this.props;
     return (
-      <div className = 'ModalGallery2 animated fadeIn d-Flex j-C aI-C'>
+      <div className = 'ModalGallery2 animated fadeIn d-Flex j-C aI-C '>
         <div className = 'showModal'>
-          <div className = 'itemGallery d-Flex j-C aI-C'>
+          <div className = 'itemGallery d-Flex j-Ar aI-C'>
+            <h3 className=' modalText d-Flex pT-7'></h3>
             {
               dataPage.length > 1 ?
-              <button className = { 'buttonSlide mL-4' + (this.state.slide === 1 ? 'disabled' : 'pulse') } id = 'btnAnt' onClick = { this.mSlides }>
+              <button className = { 'buttonSlide mL-7 ' + (this.state.slide === 1 ? 'disabled' : 'pulse') } id = 'btnAnt' onClick = { this.mSlides }>
                 <span className = 'fa-layers fa-fw iconButton' >
                   <FontAwesomeIcon icon="circle" />
                   <FontAwesomeIcon icon="arrow-left" inverse transform="shrink-6" />
@@ -81,15 +82,15 @@ class ModalGallery2 extends Component {
                 return(
                   item.link ? 
                   <a href = { item.link } target = '_blank' rel='noopener noreferrer'>
-                    <img alt = 'Imagen' className = { 'imgGallery c-10 ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
+                    <img alt = 'Imagen' className = { 'imgGallery c-10  ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
                   </a> : 
-                  <img alt = 'Imagen' className = { 'imgGallery c-10 ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
+                  <img alt = 'Imagen' className = { 'imgGallery c-10  ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
                 );
               })
             }
             {
               dataPage.length > 1 ?
-              <button className = { 'buttonSlide mL-3' + (this.state.slide === dataPage.length ? 'disabled' : 'pulse-signal') } id = 'btnSig' onClick = { this.mSlides }>
+              <button className = { 'buttonSlide mR-7 ' + (this.state.slide === dataPage.length ? 'disabled' : 'pulse') } id = 'btnSig' onClick = { this.mSlides }>
                 <span className = 'fa-layers fa-fw iconButton' >
                   <FontAwesomeIcon icon="circle" />
                   <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />

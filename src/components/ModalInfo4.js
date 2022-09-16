@@ -15,7 +15,7 @@ class ModalInfo4 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Act3: false
+      Act3: 1
     }
   }
 
@@ -23,38 +23,38 @@ class ModalInfo4 extends Component {
     let idSelect = event.target.id;
     let numId = idSelect.substring(7, 8);
 
+
     if (document.getElementById(event.target.id).getAttribute('value') === 'true') {
 
       document.getElementById('audioNotification').src = 'audio/check.mp3';
       document.getElementById('audioNotification').play();
-
-      document.getElementById('option-' + numId + '-check-act3-Op-' + numId).classList.remove('dNone');
-      document.getElementById('option-' + numId + '-error-act3-Op-' + numId).classList.add('dNone');
-      document.getElementById('option-' + numId + '-icon-act3-Op-' + numId).classList.add('dNone');
-
-      document.getElementById('actividad-3').classList.remove('disabledSolid2');
-
-      this.setState({
-        Act2: this.state.Act2 - 1
-      });
-
-      this.setState({
-        Act2: this.state.Act2 + 1
-      });
+     
+      document.getElementById('icon-' + numId).classList.add('dNone');
+      document.getElementById('iCheck-' + numId).classList.remove('dNone');
+      document.getElementById('option-' + numId).classList.add('labelTrue');
+      
 
     } else {
-      document.getElementById('audioNotification').src = 'audio/error.mp3';
+      
+      document.getElementById('audioNotification').src = 'audio/check.mp3';
       document.getElementById('audioNotification').play();
 
-      for (var j = 0; j < 2; j++) {
-        document.getElementsByClassName('iconAct')[j].classList.remove('dNone');
-        document.getElementsByClassName('iError')[j].classList.add('dNone');
-      }
-
-      document.getElementById('option-' + numId + '-error-act3-Op-' + numId).classList.remove('dNone');
-      document.getElementById('option-' + numId + '-icon-act3-Op-' + numId).classList.add('dNone');
+      document.getElementById('icon-' + numId).classList.add('dNone');
+      document.getElementById('iError-' + numId).classList.remove('dNone');
+      document.getElementById('option-' + numId).classList.add('labelFalse');
+  
     }
-  }
+      document.getElementById('actividad-3').classList.add('disabledSolid2');
+      document.getElementById('iCheck-' + numId).classList.add('disabled');
+      this.setState({
+        Act3: this.state.Act3 - 1
+      });
+
+       this.setState({
+        Act3: this.state.Act3 + 1
+      });
+
+    } 
 
   isEnded = () => {
     this.props.isEnded(true);
@@ -83,25 +83,27 @@ class ModalInfo4 extends Component {
             <h4 className = 'labelStatement2 mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement }}></h4>
             <h4 className = 'labelStatement3' dangerouslySetInnerHTML = {{ __html: dataPage.actividad3.statement2 }}></h4>
           </div>
-          <div className = 'optionsBox' id = 'actividad-3'>
+          <div className = 'optionsBox' id = 'actividad-3' style = {{ "height": 100 }}>
             {
               dataPage.actividad3.choices.map((choice, i) => {
                 return(
-                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = {'act3-Op-' + (i)}>
-                    <span className = 'fa-layers icon iconAct mR-05 d-Flex j-C aI-C' id = { 'option-' + (i) + '-icon-act3-Op-' + (i) }>
-                      <FontAwesomeIcon icon="circle" className = 'circle' style = {{ 'color': choice.color }} />
-                      <h6 className = 'blanco fw-3'>{ choice.type }</h6>
+                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = { 'Op-' + (i) }>
+                    <span className = { 'fa-layers icon mR-1 ' + (dataPage.actividad3.type === 'FV' ? 'dNone' : '') } id = { 'icon-' + (i + 1) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle color-6' />
+                      <p className = { 'typeLabel' }>{ choice.type }</p>
                     </span>
-                    <span className = 'fa-layers iconCheck iCheck mR-05 dNone' id = { 'option-' + (i) + '-check-act3-Op-' + (i) }>
+
+                    <span className = { 'fa-layers iconCheck mR-1 dNone ' + (dataPage.actividad3.type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i + 1) }>
                       <FontAwesomeIcon icon="circle" className = 'circle' />
                       <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
                     </span>
-                    <span className = 'fa-layers iconError iError mR-05 dNone' id = { 'option-' + (i) + '-error-act3-Op-' + (i) }>
-                      <FontAwesomeIcon icon="circle" className = 'circle' />
-                      <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
-                    </span>
 
-                    <p className = 'labelStatement optionAct3 c-9 mR-1' id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividad3Handle }></p>
+                      <span className = 'fa-layers iconError iError d-Flex j-C aI-C dNone' id = { 'iError-' + (i + 1) }>
+                        <FontAwesomeIcon icon="circle" className = 'circle' />
+                        <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
+                      </span>
+
+                      <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i + 1 ) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividad3Handle }></p>
                   </div>
                 )
               })

@@ -651,7 +651,7 @@
       "buttonModal": {
         "title": "",
         "text": "",
-        "imgBg": "img/9/btn-9.png"
+        "imgBg": "img/9/btn-9.jpg"
       },
       "gallery": [
         {
@@ -726,7 +726,7 @@
           }
         },
         {
-          "img": "img/11/unid-2.png",
+          "img": "img/11/ined-2.png",
           "text": "",
           "textPos": {
             "posY": 30,
@@ -742,31 +742,98 @@
             "posX": 318,
             "width": 150
           }
+        },
+        {
+          "img": "img/11/ined-3.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/unid-4.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/ined-4.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/unid-5.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/ined-5.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/unid-6.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/ined-6.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/unid-7.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/ined-7.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
+        },
+        {
+          "img": "img/11/unid-8.png",
+          "text": "",
+          "textPos": {
+            "posY": 30,
+            "posX": 318,
+            "width": 150
+          }
         }
       ],
-      "actividad3": {
-        "type"    : "",
-        "statement2": "",
-        "choices": [
-          {
-            "type": "VR",
-            "text": "Adecuado",
-            "value": true,
-            "color": "#86BF41"
-          },
-          {
-            "type": "FR",
-            "text": "Inadecuado",
-            "value": false,
-            "color": "#D00814"
-          }
-        ]
-      },
-      "finishBox": {
-        "title": "¡Muy bien!",
-        "text": "Has contestado correctamente, cierra la ventana para continuar.",
-        "img": "img/11/unid-4.png"
-      },
       "infoEnd1": {
         "title": "Recomendaciones finales",
         "text1": "• Para las camisas de tela delgada, se recomienda el uso de camisilla interior (hombres y mujeres) <br>• En el caso de las mujeres tener en cuenta el uso moderado de accesorios, cabello organizado y maquillaje sobrio. <br>• No usar prendas demasiado ajustadas  (hombres y mujeres).<br>• En el caso de los hombres llevar corbata si así se necesita con el largo adecuado (al inicio de la hebilla de la correa).<br>• Quienes usen barba o bigote, deberán mantener un cuidado y corte adecuado, de no ser así deberán afeitarse. <br>• Las uñas deben reflejar cuidado y limpieza. Las mujeres pueden aplicar esmaltes de colores, pero no se debe usar decoraciones excesivas en las uñas.",
@@ -1096,7 +1163,7 @@
           "img": "img/14/img-23.jpg"
         },
         {
-          "key": 25,
+          "key": 24,
           "img": "img/14/img-24.jpg"
         }
       ],
@@ -1104,7 +1171,8 @@
       "gallery2": [
         {
           "key": 1,
-          "img": "img/14/gale-1.jpg"
+          "img": "img/14/gale-1.jpg",
+          "text" :" Elementos diferenciales"
         },
         {
           "key": 2,
@@ -1222,33 +1290,232 @@
       "questions": [
         {
           "type": "single",
-          "instruction": "Selecciona la respuesta correcta.",
-          "statement": "<b>3.</b> ¿Cuáles son los beneficios que ofrece la separación de residuos en nuestras áreas de trabajo?",
+          "instruction": "",
+          "statement": "<b> 2. </b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
           "img": "",
           "options": [
             {
               "type": "A",
-              "text": "Relacionamiento con grupos de interés",
-              "value": false,
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": true,
               "color": "#86BF41"
             },
             {
               "type": "B",
-              "text": "Aumento de las inversiones y ventas",
+              "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
               "value": false,
-              "color": "#F3B229"
+              "color": "#00386D"
             },
             {
               "type": "C",
-              "text": "Ambientales, sociales, económicos y de salud.",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+              "value": false,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "instruction": "",
+          "statement": "<b> 3. </b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+              "value": false,
+              "color": "#F39625"
+            },
+            {
+              "type": "B",
+              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
               "value": true,
-              "color": "#189BDB"
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "value": false,
+              "color": "#3881B6"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "instruction": "",
+          "statement": "<b> 4. </b> La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "options": [
+            {
+              "type": "A",
+              "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "B",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación",
+              "value": false,
+              "color": "#266D72"
+            },
+            {
+              "type": "C",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+              "value": true,
+              "color": "#780D80"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "instruction": "",
+          "statement": "<b> 5. </b> La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "options": [
+            {
+              "type": "A",
+              "text": "Fe, Dignidad Humana, Compromiso y Disciplina",
+              "value": true,
+              "color": "#F14711"
+            },
+            {
+              "type": "B",
+              "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad",
+              "value": false,
+              "color": "#3881B6"
+            },
+            {
+              "type": "C",
+              "text": "Participación, Solidaridad, Equidad, Seguridad ",
+              "value": false,
+              "color": "#6DA001"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "instruction": "",
+          "statement": "<b> 6. </b> Elige 3 parámetros correctos del código de vestuario:",
+          "options": [
+            {
+              "type": "A",
+              "text": "No usar prendas demasiado ajustadas.",
+              "value": true,
+              "color": "#00386D"
+            },
+            {
+              "type": "B",
+              "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "Los viernes uso del jean clásico.",
+              "value": true,
+              "color": "#6DA001"
             },
             {
               "type": "D",
-              "text": "Todas las anteriores.",
+              "text": "Se puede usar expansores, gorras y piercing.",
               "value": false,
-              "color": "#E21485"
+              "color": "#48B4AF"
+            },
+            {
+              "type": "E",
+              "text": "Uso del jean clásico en cualquier momento.",
+              "value": false,
+              "color": "#B30E6A"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "instruction": "",
+          "statement": "<b> 8. </b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera?. ",
+          "options": [
+            {
+              "type": "A",
+              "text": "IUSH",
+              "value": true,
+              "color": "#B3056A"
+            },
+            {
+              "type": "B",
+              "text": "LICEO",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "CORSAHE",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "D",
+              "text": "RONDALLA",
+              "value": true,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "E",
+              "text": "UPB",
+              "value": false,
+              "color": "#F39603"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "instruction": "",
+          "statement": "<b> 9 </b>  ¿Cuántas Escuelas tiene la IUSH?",
+          "options": [
+            {
+              "type": "A",
+              "text": "a. 5",
+              "value": false,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "B",
+              "text": "b. 4",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "c. 3",
+              "value": false,
+              "color": "#D51B43"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "instruction": "",
+          "statement": "<b> 10. </b> ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama?.",
+          "options": [
+            {
+              "type": "A",
+              "text": "6",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "B",
+              "text": "4",
+              "value": false,
+              "color": "#00386D"
+            },
+            {
+              "type": "C",
+              "text": "3",
+              "value": false,
+              "color": "#6DA01C"
+            },
+            {
+              "type": "D",
+              "text": "Ninguna de las anteriores ",
+              "value": true,
+              "color": "#F39625"
             }
           ]
         }
@@ -1273,13 +1540,9 @@
       }
     },
     "logoCourse": "img/cover/logo-1.png",
-    "logoFooter": "",
     "background": {
-      "bg": "img/cover/fondo-end.png"
-    },
-    "buttonEnd": "Finalizar",
-    "footer": {
-      "label": ""
+      "bg": "img/cover/fondo-end.png",
+      "bgFtn": "img/cover/bgFtn-1.png"
     }
   }
 }

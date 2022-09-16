@@ -33,9 +33,9 @@ class ModalCircle3 extends Component {
         <div className = 'bgItemGlobe animated fadeIn'>
           <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-C'} >
 
-            <h3 className = 'mB-1 color-14 tCenter'>{ infoEnd1.title }</h3>
+            <h3 className = 'mB-1 color-14 italic '>{ infoEnd1.title }</h3>
 
-            <p className = 'mB-1 tCenter' dangerouslySetInnerHTML = { { __html: infoEnd1.text1 } } />
+            <p className = 'mB-1 mL-2 pB-1' dangerouslySetInnerHTML = { { __html: infoEnd1.text1 } } />
             {
               infoEnd1.text2 &&
               <p className = 'c-75 enfasis-1' dangerouslySetInnerHTML = { { __html: infoEnd1.text2 } } />

@@ -17,23 +17,23 @@
   .itemGallery {
     background-color: #F7F7F7;
     border: 10px solid $blanco;
-    padding: 1rem;
+    // padding: 1rem;
     border-radius: 15px;
-    width: 802px;
-    height: 572px;
+    width: 790px;
+    height: 610px;
 
     .buttonSlide {
       background-color: rgba(0, 0, 0, 0);
 
       .iconButton {
         font-size: 2.5em;
-        color: #CACACA;
+        color: #780E80;
         transition: all .3s;
       }
 
       &:hover {
         .iconButton {
-          color: $texto2;
+          color: #780E80;
         }
       }
     }
@@ -45,7 +45,7 @@
 
       .iconButton {
         font-size: 2.5em;
-        color: #780E80;
+        color: #CACACA;
         transition: all .3s;
       }
 
@@ -62,7 +62,7 @@
       border: 3px solid $blanco;
       padding: 0.5rem;
       border-radius: 2px;
-      width: 115px;
+      width: 200px;
       height: 80px;
     }
 
@@ -73,11 +73,11 @@
 
   .buttonClose {
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -20px;
+    right: -20px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
-    padding: 0.4rem 0.2rem;
+    padding: 0.4rem 0.1rem;
     .iconButton {
       color: red;
       font-size: 2.3em;

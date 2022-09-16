@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import DnDLabel2 from './DnDLabel2/DnDLabel2';
-import Pairing from './Pairing/Pairing';  
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
@@ -24,20 +22,9 @@ class Quiz1 extends Component {
       multipleQuestionPoints: 3,
       multAccuPoints: 0,
       raw: 0,
-      showModal: false,
-      countMultiple: 0
+      showModal: false
     }
   }
-
-  statusQuiz = () => {
-    console.log(
-      `
-      Question          : ${this.state.question}
-      Accumulated Points: ${this.state.accumulatedPoints}
-      Total Points      : ${this.state.totalPoints}`
-    );
-  }
-
 
   actividadHandle = (event) => {
     const { questions } = this.props.multimedia;
@@ -70,30 +57,42 @@ class Quiz1 extends Component {
           document.getElementById('iError-' + numId).classList.remove('dNone');
           document.getElementById('option-' + numId).classList.add('labelFalse');
         }
+
         document.getElementById('act-'+ this.state.question).classList.add('disabledSolid2');
         document.getElementById('btnNextQuiz').classList.remove('disabled');
         break;
 
-       case 'multiple':
-        this.setState({
-          countMultiple: this.state.countMultiple + 1
-        });
+      case 'multiple':
 
         document.getElementById('icon-' + numId).classList.add('dNone');
+        document.getElementById('iCheck-' + numId).classList.remove('dNone');
 
         if (document.getElementById(idSelect).getAttribute('value') === 'true') {
           this.accumulatedMultiple(1);
-          document.getElementById('iCheck-' + numId).classList.remove('dNone');
-
-        } else {
-          document.getElementById('iError-' + numId).classList.remove('dNone');
         }
 
-        if (this.state.countMultiple >=9) {
-          document.getElementById('act-'+ this.state.question).classList.add('disabledSolid2');
-        }
         document.getElementById('btnNextQuiz').classList.remove('disabled');
 
+        break;
+
+      case 'FV':
+        // console.log('Valor de la respuesta: ' + document.getElementById(idSelect).getAttribute('value'));
+        // document.getElementById('icon-' + numId).classList.add('dNone');
+        // document.getElementById('iCheck-' + numId).classList.remove('dNone');
+
+        //QUITAR LA SELECCION DE LA OPCIÓN
+
+        // VALIDAR QUE LA RESPUESTA ES CORRECTA
+        if (document.getElementById(idSelect).getAttribute('value') === 'true') {
+          this.accumulatedQuiz(1);
+
+          document.querySelector('.labelTrue').classList.add('trueSelect');
+        } else {
+          document.querySelector('.labelFalse').classList.add('falseSelect');
+        }
+
+        document.getElementById('act-'+ this.state.question).classList.add('disabledSolid2');
+        document.getElementById('btnNextQuiz').classList.remove('disabled');
         break;
 
       default:
@@ -171,90 +170,86 @@ class Quiz1 extends Component {
     })
   }
 
-  //FUNCION PARA CERRAR LA MODAL
-  hideModal = event => {
-    event.preventDefault();
+ //FUNCION PARA CERRAR LA MODAL
+ hideModal = event => {
+  event.preventDefault();
 
-    document.querySelector('.footer').classList.remove('dNone');
+  document.querySelector('.footer').classList.remove('dNone');
 
-    console.log();
+  this.showModal();
 
-    this.showModal();
+  this.props.endQuiz(document.getElementById('buttonCloseQuizModal').id); // VA EN EL BOTON DE FINALIZACIÓN
 
-    this.props.endQuiz(document.getElementById('buttonCloseQuizModal').id); // VA EN EL BOTON DE FINALIZACIÓN
-
-    this.isEnded();
-  }
+  this.isEnded();
+}
 
   render() {
     const { multimedia } = this.props;
 
     return (
-      <div className = 'Quiz1 c-9 '>
-        {
-          this.state.showModal !== false ?
+      <div className = 'Quiz1 c-10 '>
+        <audio
+          className = 'audio'
+          autoPlay = { '' }
+          id = 'audioNotification'
+          src = { '' }
+          ref = { (audio) => { this.audio = audio } } />
+         {
+          this.state.showModal !== false &&
           <div className = 'modalQuiz animated fadeIn'>
             <div className = 'showModal'>
               <div className = 'c-10 d-Flex d-C j-C aI-C'>
                 <img alt = 'Imagen' className = 'mB-2' src = { this.state.raw >= 70 ? multimedia.modal.check.img : multimedia.modal.error.img }/>
                 <h2 className = 'mB-1 tCenter' dangerouslySetInnerHTML = {{ __html: this.state.raw >= 70 ? multimedia.modal.check.title : multimedia.modal.error.title }}></h2>
+                <h3 className = 'mB-1 tCenter'>Tu calificación fue de: { Math.round(this.state.raw) }%</h3>
                 <p className = 'tCenter mB-2' dangerouslySetInnerHTML = {{ __html: this.state.raw >= 70 ? multimedia.modal.check.text : multimedia.modal.error.text }}></p>
 
                 <button
                   className = 'buttonQuiz pT-05 pB-05 pL-1 pR-1'
                   onClick = { this.hideModal }
-                  id = { 'buttonCloseQuizModal' }
-                  >
-                    Continuar  
+                  id = { 'buttonCloseQuizModal' }>
+                  Continuar
                 </button>
               </div>
             </div>
           </div>
-          : null
         }
 
-          <div className = { 'question d-Flex d-C j-E aI-S' } id = { 'question-' + this.state.question }>
+        <div className = { 'question d-Flex d-C j-E aI-S' } id = { 'question-' + this.state.question }>
+          {console.log(multimedia.questions[this.state.question].type)}
+
           <p className = 'mB-1' dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].instruction }}></p>
-          <p className = { 'labelStatement mB-1'} dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].statement }}></p>
+          <p className = { 'labelStatement mB-1 ' + (multimedia.questions[this.state.question].type === 'FV' ? 'labelFV' : '') } dangerouslySetInnerHTML = {{ __html: multimedia.questions[this.state.question].statement }}></p>
 
-          {/* {
-            multimedia.questions[this.state.question].type === 'Lb' &&
-            <DnDLabel2 multimedia = { multimedia.questions[this.state.question].dnd } accumulatedPoints = { this.accumulatedPoints } nextQuestion={this.nextQuestion} />
-          } */}
+          <div 
+          className = { 'optionsBox c-10 ' + (multimedia.questions[this.state.question].type !== 'FV' ? 'd-Flex d-C j-S aI-S wW' : 'd-Flex d-R j-C aI-S') } 
+          id = { 'act-' + this.state.question } 
+          style = {{ "height": (multimedia.questions[this.state.question].type === 'FV' ? 160 : 300) }}>
+            {
+              multimedia.questions[this.state.question].options.map((choice, i) => {
+                return(
+                  
+                  <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = { 'Op-' + (i) }>
+                    <span className = { 'fa-layers icon mR-1 ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '') } id = { 'icon-' + (i) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle color-6' />
+                      <p className = { 'typeLabel' }>{ choice.type }</p>
+                    </span>
 
-          {
-            multimedia.questions[this.state.question].type === 'single' &&
-            <div className='d-Flex aI-C'>
-              <div id='BoxQuestions'>
-                {
-                  multimedia.questions[this.state.question].options.map((choice, i) => {
-                    return(
-                      <div className = 'option mB-05 d-Flex j-S aI-C' key = {i} id = { 'Op-' + (i) }>
-                        <span className = { 'fa-layers icon mR-1 ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '') } id = { 'icon-' + (i) }>
-                          <FontAwesomeIcon icon="circle" className = 'circle color-6' />
-                          <p className = { 'typeLabel' }>{ choice.type }</p>
-                        </span>
+                    <span className = { 'fa-layers iconCheck mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' />
+                      <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
+                    </span>
 
-                        <span className = { 'fa-layers iconCheck mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i) }>
-                          <FontAwesomeIcon icon="circle" className = 'circle' />
-                          <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
-                        </span>
+                    <span className = { 'fa-layers iconError mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iError-' + (i) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' />
+                      <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
+                    </span>
 
-                        <span className = { 'fa-layers iconError mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iError-' + (i) }>
-                          <FontAwesomeIcon icon="circle" className = 'circle' />
-                          <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
-                        </span>
-
-                        <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
-                      </div>
-                      
-                    )
-                  })
-                }
-              </div>
-            </div>
-            
-          }
+                    <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
+                  </div>
+                )
+              })
+            }
           </div>
 
           <button
@@ -265,7 +260,7 @@ class Quiz1 extends Component {
           </button>
 
         </div>
-      
+      </div>
     );
   }
 }

@@ -44,8 +44,8 @@ class SlideLR2 extends Component {
   render() {
     const { multimedia } = this.props;
     return (
-      <div className = 'SlideLR2 animated fadeIn d-Flex d-Rr j-E aI-C mB-1'>
-        <div className = 'contentSlide animated fadeIn dF-C-cs' id = 'contentSlide'>
+      <div className = 'SlideLR2 d-Flex j-S aI-C mT-2'>
+        <div className = 'contentSlide d-Flex d-C j-C aI-C' id = 'contentSlide'>
           {
             multimedia.items.map( (item, i) => {
               return(
@@ -64,7 +64,7 @@ class SlideLR2 extends Component {
                 <FontAwesomeIcon icon="arrow-left" inverse transform="shrink-6" />
               </span>
             </button>
-            <button className = { 'buttonSlide ' + (this.state.page === multimedia.items.length ? 'disabled' : 'pulse-signal') } id = 'btnSig' onClick = { this.mSlides }>
+            <button className = { 'buttonSlide mR-3 ' + (this.state.page === multimedia.items.length ? 'disabled' : 'pulse-signal') } id = 'btnSig' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
                 <FontAwesomeIcon icon="circle" />
                 <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />
