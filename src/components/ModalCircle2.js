@@ -26,7 +26,7 @@ class ModalCircle2 extends Component {
     const { dataPage } = this.props;
     return dataPage.multimedia.map( (item, i) => {
       return(
-        <div className = 'circleItems pAbs' key = { i } style = {{ 'top': item.posY, 'left': item.posX }}>
+        <div className = 'circleItems pAbs ' key = { i } style = {{ 'top': item.posY, 'left': item.posX }}>
           <div className = 'd-Flex d-R j-C aI-C itemButton'>
             <button 
               className = { 'circleButton ' + ( i + 1 !== 1 ? 'disabledGray' : '')} 

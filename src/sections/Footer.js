@@ -111,7 +111,7 @@ class Footer extends Component {
         { this.showLabel() }
         { this.showNavigation() }
         { this.showPage() }
-        <div className = { 'restrict' + ((endActivities[actualIndex]) === true ? 'dNone' : '') } />
+        <div className = { 'restrict ' + ((endActivities[actualIndex]) === true ? 'dNone' : '') } />
       </div>
     );
   }

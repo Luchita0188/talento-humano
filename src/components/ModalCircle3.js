@@ -20,7 +20,7 @@ class ModalCircle3 extends Component {
   //FUNCION PARA CERRAR LA MODAL Y CAMBIAR EL STATE DE COVER style = {{ 'marginTop': 40, 'marginLeft': -480 }}
   hideModal = () => { 
     this.props.setModal(false); // MUESTRA EL MODAL
-
+    
     document.querySelector('.footer').classList.remove('dNone'); // OCULTAR EL FONDO
     document.querySelector('.instruction').classList.remove('dNone'); // OCULTAR EL FONDO
   }

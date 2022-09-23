@@ -60,11 +60,12 @@ class Cover extends Component {
     };
 
     const styleBtn = {
-      backgroundImage: "url(" + dataPage.background.bgBtn + ")",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      width: "100px",
-      height: "44px",
+      backgroundImage: 'url(' + dataPage.background.bgBtn + ')',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: '100px',
+      height: '44px',
+      
     };
 
     return (
@@ -104,9 +105,9 @@ class Cover extends Component {
           )}
 
           <button
-            className = 'buttonQuiz pL-3 pR-5 blanco'
+            className = 'buttonQuiz1 pL-3 pR-5'
             onClick = { this.startCourse }
-            id = { 'btnIniciar' }
+            id = {'btnIniciar'}
             style = { styleBtn }
             >
               Iniciar
@@ -577,6 +578,7 @@ class Page9 extends Component {
     this.setState({
       openModal: !this.state.openModal,
     });
+    document.querySelector('.buttonVideo').classList.remove('pulse');
   };
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
@@ -593,7 +595,7 @@ class Page9 extends Component {
       <div className={"pageContent"}>
         {/* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */}
         {this.state.openModal !== false ? (
-          <ModalGallery2
+          <ModalGallery1
             dataPage={dataPage.multimedia.gallery}
             showModal={this.showModal}
             isEnded={this.isEnded}
@@ -907,7 +909,7 @@ class Page14 extends Component {
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
-    checkEndActivity(7, end);
+    checkEndActivity(14, end);
   }
 
   render() {
@@ -1120,7 +1122,7 @@ class Page17 extends Component {
           }
           
           <button
-            className = 'buttonQuiz pL-3 mL-7 pR-5 fw-7 mB-6 j-C aI-C F1-5 tCenter'
+            className = 'buttonQuiz pL-3  mL-7 pR-5 fw-7 mB-6 j-C aI-C F1-5 tCenter'
             onClick = { this.closeCourse }
             id = { 'btnIniciar' }
             style = { styleFtn }

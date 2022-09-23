@@ -471,7 +471,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(#032B55, 1);
+    background-color: rgba(#01274E, 1);
     z-index: 4;
     transition: all .4s;
     .bgCircle {
@@ -490,7 +490,7 @@
         &:hover {
           background-color: $blanco;
           border: 1px solid $blanco;
-          color: #747988;
+          color: #780E80;
         }
       }
     }
@@ -504,16 +504,15 @@
   height: 650px;
 
   .buttonQuiz1 {
-    background-color: $color1;
+    background-color: #780E80;
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 50px;
     font-size: 1.2em;
-    font-weight: 300;
-    font-style: italic;
+    font-weight: 400;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     transition: all .3s;
     &:hover {
-      background-color: #04386D;
+      background-color: #780E80;
     }
   }
 

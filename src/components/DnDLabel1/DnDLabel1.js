@@ -123,7 +123,7 @@ class DnDLabel1 extends Component {
 
           <div className = 'line mB-1'></div>
 
-          <div className = 'dragContent d-Flex d-R j-C aI-E'>
+          <div className = 'dragContent d-Flex d-R j-C aI-E op-f'>
             {
               multimedia.dragItems.map( item => {
                 return(

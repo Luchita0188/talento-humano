@@ -66,8 +66,7 @@ class ModalGallery2 extends Component {
     return (
       <div className = 'ModalGallery2 animated fadeIn d-Flex j-C aI-C '>
         <div className = 'showModal'>
-          <div className = 'itemGallery d-Flex j-Ar aI-C'>
-            <h3 className=' modalText d-Flex pT-7'></h3>
+        <div className = 'itemGallery d-Flex j-C aI-C'>
             {
               dataPage.length > 1 ?
               <button className = { 'buttonSlide mL-7 ' + (this.state.slide === 1 ? 'disabled' : 'pulse') } id = 'btnAnt' onClick = { this.mSlides }>
@@ -77,17 +76,18 @@ class ModalGallery2 extends Component {
                 </span>
               </button> : null
             }
-            {
+           {
               dataPage.map(item => {
                 return(
                   item.link ? 
                   <a href = { item.link } target = '_blank' rel='noopener noreferrer'>
-                    <img alt = 'Imagen' className = { 'imgGallery c-10  ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
+                    <img alt = 'Imagen' className = { 'imgGallery c-10 ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
                   </a> : 
-                  <img alt = 'Imagen' className = { 'imgGallery c-10  ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
+                  <img alt = 'Imagen' className = { 'imgGallery c-10  ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/> 
                 );
               })
             }
+            
             {
               dataPage.length > 1 ?
               <button className = { 'buttonSlide mR-7 ' + (this.state.slide === dataPage.length ? 'disabled' : 'pulse') } id = 'btnSig' onClick = { this.mSlides }>
@@ -108,10 +108,23 @@ class ModalGallery2 extends Component {
               <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
             </span>
           </button>
-        </div>
-      </div>
-    );
-  }
-}
+          
+            <div className = 'itemText d-Flex mB-1 mL-1'>
+              {
+              dataPage.map(item => {
+                return(
+                  item.text?
+                  <p className = 'dF-C-sst mB-7 mL-4 g-1' dangerouslySetInnerHTML = {{ __html: item.text }}>
+                  </p>: null
+                  // <h3 className = 'd-Flex mB-2' dangerouslySetInnerHTML = {{ __html: item.subTitle }}></h3>
+                );
+              })
+            }
+            </div>
+          </div>
+          </div>
+          )
+          }
+        }
 
 export default ModalGallery2;

@@ -65,12 +65,17 @@ class Quiz1 extends Component {
       case 'multiple':
 
         document.getElementById('icon-' + numId).classList.add('dNone');
-        document.getElementById('iCheck-' + numId).classList.remove('dNone');
+          document.getElementById('iCheck-' + numId).classList.remove('dNone');
+          //document.getElementById('option-' + numId).classList.add('labelTrue');
 
         if (document.getElementById(idSelect).getAttribute('value') === 'true') {
           this.accumulatedMultiple(1);
         }
-
+        else {
+          document.getElementById('icon-' + numId).classList.add('dNone');
+          //document.getElementById('iError-' + numId).classList.remove('dNone');
+          document.getElementById('option-' + numId).classList.add('labelFalse');
+        }
         document.getElementById('btnNextQuiz').classList.remove('disabled');
 
         break;
