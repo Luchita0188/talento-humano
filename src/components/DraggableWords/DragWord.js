@@ -1,37 +1,39 @@
 import React from 'react';
 import { useDrag } from 'react-dnd';
 
-const style = {
-  cursor: 'pointer'
+const STYLE = {
+  cursor: 'move'
 }
 
-const DragWord = ({ name, type, id, countWords, bgColor, img}) => {
+const DragWord = ({ countDrop, countOk, name, type, id, bgColor }) => {
   const [{ isDragging }, drag] = useDrag({
     item: { name, type: type },
     end: (item, monitor) => {
       const dropResult = monitor.getDropResult()
+
       if (item && dropResult) {
-        // alert(`You dropped ${item.name} into ${dropResult.name}!`);
+        // console.log(`You dropped ${item.name} into ${dropResult.name}!`);
         // console.log(`You dropped ${type} item`);
-        // AQUI ES DONDE VA EL CODIGO PARA MOSTRAR EL GLOBO INFO
 
-        // console.log(document.getElementById('infoDrop-' + id));
-        // console.log(document.getElementById('dragBox-' + id));
-        document.getElementById('boxDrop-' + dropResult.id).classList.add('WordDropped');
-        document.getElementById('boxCheck').classList.remove('dNone');
+        document.getElementById('dragWord-' + id).classList.add('dNone');
+        if (item.name === dropResult.correct) {
+          document.getElementById('boxDrop-' + dropResult.correct).classList.add('WordDropped');
+          document.getElementById('boxDrop-' + dropResult.correct).style.backgroundColor = bgColor;
+          document.getElementById('boxDrop-' + dropResult.correct).innerHTML = '<p class = "">' + name + '</p>';
 
-        document.getElementById('audioNotification').src = 'audio/check.mp3';
-        document.getElementById('audioNotification').play();
+          countOk();
+          document.getElementById('audioNotification').src = 'audio/check.mp3';
+          document.getElementById('audioNotification').play();
+        } else {
+          document.getElementById('boxDrop-' + dropResult.correct).classList.add('WordDropped');
+          document.getElementById('boxDrop-' + dropResult.correct).innerHTML = '<p class = "">' + name + '</p>';
+          document.getElementById('boxDrop-' + dropResult.correct).style.backgroundColor = bgColor;
 
-        countWords(dropResult.id)
-      } else {
-        document.getElementById('audioNotification').src = 'audio/error.mp3';
-        document.getElementById('audioNotification').play();
-     document.getElementById('boxError').classList.remove('dNone');
-        setTimeout(
-          () => {document.getElementById('boxError').classList.add('dNone')}
-          , 2000
-        );
+          document.getElementById('audioNotification').src = 'audio/error.mp3';
+          document.getElementById('audioNotification').play();
+        }
+
+        countDrop();
       }
     },
     collect: monitor => ({
@@ -39,11 +41,12 @@ const DragWord = ({ name, type, id, countWords, bgColor, img}) => {
     }),
   })
 
-  const opacity = isDragging ? 0.4 : 1
+  const OPACTITY = isDragging ? 0.4 : 1
+  const BACKGROUNDCOLOR = bgColor
 
   return (
-    <div className = 'dragWord' ref = { drag } style = {{ ...style, opacity }} id = {'dragWord-' + id } >
-    <img alt = 'Imagen' className = '' src = { img }/>
+    <div className = 'dragWord d-Flex j-C aI-C' ref = { drag } style = {{ ...STYLE, 'opacity': OPACTITY, 'backgroundColor': BACKGROUNDCOLOR }} id = {'dragWord-' + id }>
+      <p>{ name }</p>
     </div>
   )
 }

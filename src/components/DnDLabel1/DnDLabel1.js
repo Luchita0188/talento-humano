@@ -152,7 +152,7 @@ class DnDLabel1 extends Component {
                   key = { i } >
 
                   <h3 className = 'mB-1 tCenter #F7F7F7' dangerouslySetInnerHTML = { {__html: item.title} }/>
-                  <p className = 'tCenter #5C657C' dangerouslySetInnerHTML = { {__html: item.text} }/>
+                  <p className = 'mL-3 #5C657C' dangerouslySetInnerHTML = { {__html: item.text} }/>
 
                   <button
                     className = 'buttonClose'

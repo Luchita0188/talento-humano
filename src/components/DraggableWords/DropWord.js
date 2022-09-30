@@ -2,14 +2,13 @@ import React from 'react';
 import { useDrop } from 'react-dnd';
 
 const style = {
-
+  position: 'absolute'
 }
 
-const DropWord = ({ posY, posX, type, size, id, color }) => {
-  // console.log(color);
+const DropWord = ({ posY, posX, type, size, id, correct }) => {
   const [{ canDrop, isOver }, drop] = useDrop({
     accept: type,
-    drop: () => ({ name: type, id }),
+    drop: () => ({ type: type, correct: correct }),
     collect: monitor => ({
       isOver: monitor.isOver(),
       canDrop: monitor.canDrop(),
@@ -19,9 +18,8 @@ const DropWord = ({ posY, posX, type, size, id, color }) => {
   if (isActive) {
   } else if (canDrop) {
   }
-  // 'top': posY, 'left': posX, 'width': size
   return (
-    <div className = 'dF-C-cc boxDrop mB-2' ref = { drop } style = {{ ...style }} id = { 'boxDrop-' + id + '-' + type } >
+    <div className = 'dF-C-cc boxDrop' ref = { drop } style = {{ ...style, 'top': posY, 'left': posX, 'width': size }} id = { 'boxDrop-' + correct } >
 
     </div>
   )

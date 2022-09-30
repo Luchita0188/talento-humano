@@ -447,7 +447,7 @@
           {
             "key": 1,
             "img": "img/6/unid-3.png",
-            "text": "Con relación al año de la fe en el 2012, el Papa Benedicto XVI reflexionó que frente al contexto que vive el ser humano: En efecto, en nuestro tiempo es necesaria una educación renovada en la fe… la fe es un don de Dios, pero también es un acto profundamente humano y libre. En este sentido, la fe hace parte de los valores de la IUSH con la pretensión que libremente, cada integrante de la comunidad Salazar y Herrera opte por que este valor y le acompañe en su ser, conocer y actuar a lo largo de la vida con sentido y propósito Complementariamente este valor está en diálogo permanente con el conocimiento y en su integración ambos adquieren mayor significado como dijo San Agustín en uno de sus sermones Creo para entender y entiendo para creer.",
+            "text": "<br>Con relación al año de la fe en el 2012, el Papa Benedicto XVI reflexionó que frente al contexto que vive el ser humano: En efecto, en nuestro tiempo es necesaria una educación renovada en la fe… la fe es un don de Dios, pero también es un acto profundamente humano y libre. En este sentido, la fe hace parte de los valores de la IUSH con la pretensión que libremente, cada integrante de la comunidad Salazar y Herrera opte por que este valor y le acompañe en su ser, conocer y actuar a lo largo de la vida con sentido y propósito Complementariamente este valor está en diálogo permanente con el conocimiento y en su integración ambos adquieren mayor significado como dijo San Agustín en uno de sus sermones Creo para entender y entiendo para creer.",
             "target": "3",
             "size": 400,
             "posY": 90,
@@ -1066,7 +1066,8 @@
         "title": "",
         "text": "",
         "imgBg1": "img/14/btn-1.png",
-        "imgBg2": "img/14/btn-3.png"
+        "imgBg3": "img/14/btn-2.png",
+        "imgBg2": "img/14/btn-3.png"  
       },
       "gallery": [
         {
@@ -1246,6 +1247,75 @@
           "img": "img/14/gale-19.jpg"
         }
       ],
+
+      "gallery3": [
+        {
+          "key": 1,
+          "img": "img/14/rond-.jpg",
+          "text": "<b>Centro de Encuentros La Rondalla:</b>En 1996 se inicia la construcción del Centro de Encuentros La Rondalla como respuesta a la necesidad que el Liceo Salazar y Herrera tenía <br>para atender a sus alumnos en el campo pastoral y recreativo, complementando así su formación. Es así como el 26 de julio de 1997 <br>se inaugura el Centro de Encuentros La Rondalla."
+        },
+        {
+          "key": 2,
+          "img": "img/14/rond-1.jpg",
+          "text": ""
+        },
+        {
+          "key": 3,
+          "img": "img/14/rond-2.jpg",
+          "text": ""
+        },
+        {
+          "key": 4,
+          "img": "img/14/rond-3.jpg",
+          "text": ""
+        },
+        {
+          "key": 5,
+          "img": "img/14/rond-4.jpg",
+          "text": ""
+        },
+        {
+          "key": 6,
+          "img": "img/14/rond-5.jpg",
+          "text": ""
+        },
+        {
+          "key": 7,
+          "img": "img/14/rond-6.jpg",
+          "text": ""
+        },
+        {
+          "key": 8,
+          "img": "img/14/rond-7.jpg",
+          "text": ""
+        },
+        {
+          "key": 9,
+          "img": "img/14/rond-8.jpg",
+          "text": ""
+        },
+        {
+          "key": 10,
+          "img": "img/14/rond-9.jpg",
+          "text": ""
+        },
+        {
+          "key": 11,
+          "img": "img/14/rond-10.jpg",
+          "text": ""
+        },
+        {
+          "key": 12,
+          "img": "img/14/rond-11.jpg",
+          "text": ""
+        },
+        {
+          "key": 13,
+          "img": "img/14/rond-12.jpg",
+          "text": ""
+        }
+      ],
+
       "closedModal": true
     }
   },
@@ -1277,20 +1347,155 @@
       "modal": {
         "check": {
           "title": "¡Muy bien!",
-          "text": "Aprobaste exitosamente la evaluación de conocimientos. Has demostrado tu compromiso e interés por conocer sobre este tema, continúa con esta actitud positiva y obtendrás grandes resultados.",
+          "text": "",
           "img": "img/16/check.png"
         },
         "error": {
           "title": "¡Inténtalo nuevamente!",
-          "text": "No lograste superar el porcentaje. Te invitamos a realizar nuevamente la evaluación final, si lo requieres puedes volver al contenido y reforzar los conocimientos. Esta vez lo harás mejor.",
+          "text": "",
           "img": "img/16/error.png"
         }
       },
       "questions": [
         {
+          "type": "LabelDnD",
+          "instruction": "",
+          "statement" : "<b>1.</b> Según la información vista en la historia y contexto, arrastra con clic sostenido y suelta en la respuesta correcta.",
+          "labelDnD": {
+            "dragItem": [
+              {
+                "id": 1,
+                "text": "2005",
+                "color": "#00386D",
+                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+              },
+              {
+                "id": 2,
+                "text": "1995",
+                "color": "#780D80",
+                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+              },
+              {
+                "id": 3,
+                "text" : "1992",
+                "color": "#86BF41",
+                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+              },
+              {
+                "id": 4,
+                "text": "1998",
+                "color": "#FF9B00",
+                "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+              }
+            ],
+            "dropZone": {
+              "limit": 9,
+              "paragraph": [
+                {
+                  "key": 1,
+                  "lines": [
+                    {
+                      "key": 1,
+                      "text": "Año de diseño y factibilidad",
+                      "posY": 20,
+                      "posX": 40
+                    }
+                  ],
+                  "drops": [
+                    {
+                      "key": 1,
+                      "box": "<div class = 'boxDrop'></div>",
+                      "posY": 10,
+                      "posX": 700,
+                      "size": 170,
+                      "correct": "1992",
+                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+                    }
+                  ]
+                },
+                {
+                  "key": 2,
+                  "lines": [
+                    {
+                     "key": 1,
+                     "text": "Año de graduación de los primeros 20 tecnólogos",
+                     "posY": 20,
+                     "posX": 40
+                    }
+                  ],
+                  "drops" : [
+                    {
+                      "key": 1,
+                      "box": "<div class = 'boxDrop'></div>",
+                      "posY": 0,
+                      "posX": 700,
+                      "size": 170,
+                      "correct": "1998",
+                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"     
+                    }
+                  ]
+                },
+                {
+                  "key": 3,
+                  "lines": [
+                    {
+                      "key": 1,
+                      "text": "Año del inicio de las actividades académicas",
+                      "posY": 20,
+                      "posX": 40            
+                    }
+                  ],
+                  "drops": [
+                    {
+                      "key": 1,
+                      "box":"<div class = 'boxDrop'></div>",
+                      "posY": 10,
+                      "posX": 700,
+                      "size": 170,
+                      "correct": "1995",
+                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+                    }
+                  ]
+                },
+                {
+                  "key": 4,
+                  "lines": [
+                    {
+                      "key": 1,
+                      "text": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)",
+                      "posY" : 20,
+                      "posX" : 40
+                    }
+                  ],
+                  "drops": [
+                    {
+                      "key": 1,
+                      "box": "<div class = 'boxDrop'></div>",
+                      "posY": 10,
+                      "posX": 700,
+                      "size": 170,
+                      "correct": "2005",
+                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "content": [
+              {
+                "info": 1,
+                "img": "img/check.png",
+                "imgSize": 150,
+                "title" : "¡Muy bien!",
+                "text" : "<p>Ahora ya conoces el concepto de persona jurídica y las responsabilidades tributarias que adquiere cada una. </p>"
+              }
+            ]
+          }
+        },
+        {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 2. </b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+          "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
           "img": "",
           "options": [
             {
@@ -1316,7 +1521,8 @@
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 3. </b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1342,6 +1548,7 @@
           "type": "single",
           "instruction": "",
           "statement": "<b> 4. </b> La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1366,7 +1573,8 @@
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 5. </b> La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "statement": "<b> 5.</b> La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1466,6 +1674,7 @@
           "type": "single",
           "instruction": "",
           "statement": "<b> 9 </b>  ¿Cuántas Escuelas tiene la IUSH?",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1535,7 +1744,7 @@
         "title": "¡Has llegado al final de este recorrido!",
         "subTitle": "¡Muchos éxitos!",
         "module": "",
-        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que <br>pondrás en práctica todo lo aprendido."
       }
     },
     "logoCourse": "img/cover/logo-1.png",
