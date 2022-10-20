@@ -1,16 +1,18 @@
 @import "../resources/colors";
 @import "../resources/animation.scss";
 
-.Quiz1 {
+.Quiz {
   .labelStatement {
     background-color: #F8F8F8;
     padding: 0.5rem 1.2rem;
     border-radius: 15px;
   }
 
-  .labelFV {
-    border: 3px solid #084888;
-    padding: 1.5rem;
+  .labelStatement2 {
+    background-color: #F8F8F8;
+    padding: 0.5rem 1.0rem;
+    border-radius: 15px;
+    // border: 1px solid #189BDB;
   }
 
   .icon {
@@ -38,7 +40,6 @@
     }
     .check {
       color: #fff;
-      margin-left: 0.29rem;
     }
   }
 
@@ -84,10 +85,10 @@
 
   .modalQuiz {
     position: absolute;
-    top: -110px;
+    top: -105px;
     left: -80px;
     width: 1022px;
-    height: 680px;
+    height: 690px;
     display: flex;
     justify-content: center;
     align-items: center;

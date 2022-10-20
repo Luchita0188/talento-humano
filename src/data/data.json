@@ -605,7 +605,7 @@
     ],
     "instruction": {
       "type": "mouse",
-      "text": "Haz clic en los círculos para visualizar todas las recomendaciones.",
+      "text": "Haz clic en cada ícono para conocer los elementos diferenciadores.",
       "posY": 50,
       "posX": 660,
       "size": 330,
@@ -1358,144 +1358,47 @@
       },
       "questions": [
         {
-          "type": "LabelDnD",
+          "type": "multiple",
           "instruction": "",
-          "statement" : "<b>1.</b> Según la información vista en la historia y contexto, arrastra con clic sostenido y suelta en la respuesta correcta.",
-          "labelDnD": {
-            "dragItem": [
-              {
-                "id": 1,
-                "text": "2005",
-                "color": "#00386D",
-                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-              },
-              {
-                "id": 2,
-                "text": "1995",
-                "color": "#780D80",
-                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-              },
-              {
-                "id": 3,
-                "text" : "1992",
-                "color": "#86BF41",
-                "type" : "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-              },
-              {
-                "id": 4,
-                "text": "1998",
-                "color": "#FF9B00",
-                "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-              }
-            ],
-            "dropZone": {
-              "limit": 9,
-              "paragraph": [
-                {
-                  "key": 1,
-                  "lines": [
-                    {
-                      "key": 1,
-                      "text": "Año de diseño y factibilidad",
-                      "posY": 20,
-                      "posX": 40
-                    }
-                  ],
-                  "drops": [
-                    {
-                      "key": 1,
-                      "box": "<div class = 'boxDrop'></div>",
-                      "posY": 10,
-                      "posX": 700,
-                      "size": 170,
-                      "correct": "1992",
-                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-                    }
-                  ]
-                },
-                {
-                  "key": 2,
-                  "lines": [
-                    {
-                     "key": 1,
-                     "text": "Año de graduación de los primeros 20 tecnólogos",
-                     "posY": 20,
-                     "posX": 40
-                    }
-                  ],
-                  "drops" : [
-                    {
-                      "key": 1,
-                      "box": "<div class = 'boxDrop'></div>",
-                      "posY": 0,
-                      "posX": 700,
-                      "size": 170,
-                      "correct": "1998",
-                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"     
-                    }
-                  ]
-                },
-                {
-                  "key": 3,
-                  "lines": [
-                    {
-                      "key": 1,
-                      "text": "Año del inicio de las actividades académicas",
-                      "posY": 20,
-                      "posX": 40            
-                    }
-                  ],
-                  "drops": [
-                    {
-                      "key": 1,
-                      "box":"<div class = 'boxDrop'></div>",
-                      "posY": 10,
-                      "posX": 700,
-                      "size": 170,
-                      "correct": "1995",
-                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-                    }
-                  ]
-                },
-                {
-                  "key": 4,
-                  "lines": [
-                    {
-                      "key": 1,
-                      "text": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)",
-                      "posY" : 20,
-                      "posX" : 40
-                    }
-                  ],
-                  "drops": [
-                    {
-                      "key": 1,
-                      "box": "<div class = 'boxDrop'></div>",
-                      "posY": 10,
-                      "posX": 700,
-                      "size": 170,
-                      "correct": "2005",
-                      "type": "Año en que su colocó en marcha del primer Proyecto Educativo Institucional (PEI)"
-                    }
-                  ]
-                }
-              ]
+          "statement": "<b>1.</b> Elige 3 parámetros correctos de la historia y contexto de la Institución educativa:",
+          "img": "",
+          "options": [
+            {
+              "type": "A",
+              "text": "El diseño y factibilidad del proyecto (1992) de su gestor Monseñor Gustavo Calle Giraldo.",
+              "value": true,
+              "color": "#86BF41"
             },
-            "content": [
-              {
-                "info": 1,
-                "img": "img/check.png",
-                "imgSize": 150,
-                "title" : "¡Muy bien!",
-                "text" : "<p>Ahora ya conoces el concepto de persona jurídica y las responsabilidades tributarias que adquiere cada una. </p>"
-              }
-            ]
-          }
-        },
+            {
+              "type": "B",
+              "text": "graduación de sus primeros 20 tecnólogos en septiembre de 1998.",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "C",
+              "text": "La Institución de Educación Superior, inició sus actividades académicas en 1996.",
+              "value": false,
+              "color": "#780D80"
+            },
+            {
+              "type": "D",
+              "text": "En el año 2005 se pone en marcha del primer Proyecto Educativo Institucional.",
+              "value": true,
+              "color": "#86BF41"
+            },
+            {
+              "type": "E",
+              "text": "La Institución inició sus actividades académicas con 78 alumnos matriculados.",
+              "value": false,
+              "color": "#780D80"
+            }
+          ]
+        },           
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+          "statement": "<b>2.</b>La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
           "img": "",
           "options": [
             {
@@ -1508,37 +1411,11 @@
               "type": "B",
               "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
               "value": false,
-              "color": "#00386D"
-            },
-            {
-              "type": "C",
-              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
-              "value": false,
-              "color": "#780D80"
-            }
-          ]
-        },
-        {
-          "type": "single",
-          "instruction": "",
-          "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
-          "img": "",
-          "options": [
-            {
-              "type": "A",
-              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
-              "value": false,
-              "color": "#F39625"
-            },
-            {
-              "type": "B",
-              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
-              "value": true,
               "color": "#48B4AF"
             },
             {
               "type": "C",
-              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
               "value": false,
               "color": "#3881B6"
             }
@@ -1547,7 +1424,33 @@
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 4. </b> La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+          "statement": "<b>3.</b> a Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+          "img": "",
+          "options": [
+            {
+              "type": "A",
+              "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+              "value": false,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "B",
+              "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
+              "value": true,
+              "color": "#780D80"
+            },
+            {
+              "type": "C",
+              "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+              "value": false,
+              "color": "#48B4AF"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "instruction": "",
+          "statement": "<b>4.</b> La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
           "img": "",
           "options": [
             {
@@ -1560,11 +1463,11 @@
               "type": "B",
               "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación",
               "value": false,
-              "color": "#266D72"
+              "color": "#48B4AF"
             },
             {
               "type": "C",
-              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+              "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad. ",
               "value": true,
               "color": "#780D80"
             }
@@ -1573,39 +1476,40 @@
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 5.</b> La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+          "statement": "<b>5.</b> La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
           "img": "",
           "options": [
             {
               "type": "A",
               "text": "Fe, Dignidad Humana, Compromiso y Disciplina",
               "value": true,
-              "color": "#F14711"
+              "color": "#780D80"
             },
             {
               "type": "B",
               "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad",
               "value": false,
-              "color": "#3881B6"
+              "color": "#48B4AF"
             },
             {
               "type": "C",
               "text": "Participación, Solidaridad, Equidad, Seguridad ",
               "value": false,
-              "color": "#6DA001"
+              "color": "#48B4AF"
             }
           ]
         },
         {
           "type": "multiple",
           "instruction": "",
-          "statement": "<b> 6. </b> Elige 3 parámetros correctos del código de vestuario:",
+          "statement": "<b>6.</b>Elige 3 parámetros correctos del código de vestuario: ",
+          "img": "",
           "options": [
             {
               "type": "A",
               "text": "No usar prendas demasiado ajustadas.",
               "value": true,
-              "color": "#00386D"
+              "color": "#B3056A"
             },
             {
               "type": "B",
@@ -1617,17 +1521,54 @@
               "type": "C",
               "text": "Los viernes uso del jean clásico.",
               "value": true,
-              "color": "#6DA001"
+              "color": "#189BDB"
             },
             {
               "type": "D",
-              "text": "Se puede usar expansores, gorras y piercing.",
+              "text": "Se puede usar expansores, gorras y piercing. ",
               "value": false,
-              "color": "#48B4AF"
+              "color": "#F39603"
             },
             {
               "type": "E",
               "text": "Uso del jean clásico en cualquier momento.",
+              "value": false,
+              "color": "#F39603"
+            }
+          ]
+        },
+        {
+          "type": "multiple",
+          "instruction": "",
+          "statement": "<b>7.</b>Elige 3 parámetros correctos según la información vista en permisos y licencias.",
+          "options": [
+            {
+              "type": "A",
+              "text": "El Artículo 236 indica que, toda trabajadora en estado gestante, tiene derecho a 14 semanas de licencia de maternidad.",
+              "value": true,
+              "color": "#7FAD1F"
+            },
+            {
+              "type": "B",
+              "text": "La licencia de luto se otorga en virtud de lo descrito por la Ley 1280 de 2009.",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "C",
+              "text": "El empleado tendrá 2 días hábiles remunerados por ejercer cargos oficiales.",
+              "value": false,
+              "color": "#6DA001"
+            },
+            {
+              "type": "D",
+              "text": "La ley otorga dos semanas para que los hombres acompañen el nacimiento de su hijo.",
+              "value": true,
+              "color": "#48B4AF"
+            },
+            {
+              "type": "E",
+              "text": "Por ejercer el derecho al voto, el trabajador recibirá 1 día de descanso.",
               "value": false,
               "color": "#B30E6A"
             }
@@ -1636,7 +1577,8 @@
         {
           "type": "multiple",
           "instruction": "",
-          "statement": "<b> 8. </b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera?. ",
+          "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera?. ",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1673,7 +1615,7 @@
         {
           "type": "single",
           "instruction": "",
-          "statement": "<b> 9 </b>  ¿Cuántas Escuelas tiene la IUSH?",
+          "statement": "<b>9.</b> ¿Cuántas Escuelas tiene la IUSH? ",
           "img": "",
           "options": [
             {
@@ -1697,9 +1639,10 @@
           ]
         },
         {
-          "type": "multiple",
+          "type": "single",
           "instruction": "",
-          "statement": "<b> 10. </b> ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama?.",
+          "statement": "<b>10.</b>¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
+          "img": "",
           "options": [
             {
               "type": "A",
@@ -1720,15 +1663,15 @@
               "color": "#6DA01C"
             },
             {
-              "type": "D",
+              "type": "C",
               "text": "Ninguna de las anteriores ",
               "value": true,
               "color": "#F39625"
             }
           ]
         }
-      ]
-    }
+      ]   
+   }
   },
   "page17": {
     "type": "endCourse",
@@ -1753,4 +1696,4 @@
       "bgFtn": "img/cover/bgFtn-1.png"
     }
   }
-}
+  }

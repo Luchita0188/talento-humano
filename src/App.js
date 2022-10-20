@@ -295,7 +295,7 @@ class App extends Component {
     // console.log(this.state.endActivities);
 
     const {index} = this.state;
-    if (index !== 1 && index !== 16 ) {
+    if (index !== 1 && index !== 16 && index !== 17) {
       document.getElementById('btnNavRight').classList.add('animationBtnNav');
     }
 

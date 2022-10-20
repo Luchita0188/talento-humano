@@ -554,3 +554,75 @@ class ModalInfo4 extends Component {
 }
 
 export default ModalInfo4;
+
+
+<div className={"pageContent"}>
+        <div className="c-10 animated fadeIn d-Flex d-C j-C aI-S">
+          <div className="headerTitle d-Rr j-E aI-C mB-2 mL-4 mT-2">
+          {
+              dataPage.title ? <h2 className = 'F2' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'mL-5 c-9'>
+            <Quiz1 multimedia = { dataPage.multimedia } isEnded = { this.isEnded } endQuiz = { this.endQuiz } setScore = { this.props.setScore } />
+          </div>
+        </div>
+      </div>
+
+
+      "page17": {
+    "type"            : "endCourse",
+    "message": {
+      "success": {
+        "title"       : "¡Has llegado al final de este recorrido!",
+        "subTitle"    : "¡Muchas gracias!",
+        "module"      : "",
+        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso. Sé parte del cambio, contribuye con nuestro planeta, recuerda que con tus buenas prácticas protegemos lo nuestro.<br><br><b>“Si nada cambia y tú cambias, toda cambia”. Autor: Marcel Proust</b>"
+      },
+      "error": {
+        "title"       : "¡No has cumplido con el objetivo!",
+        "subTitle"    : "¡Muchos éxitos!",
+        "module"      : "",
+        "courseName"  : "Te invitamos a realizar nuevamente la evaluación, esta vez lo harás mejor. <br><br>Concéntrate en las 3 preguntas que hemos preparado para ti."
+      }
+    },
+    "logoCourse"      : "img/cover/logo-1.png",
+    "logoFooter"      : "",
+    "background": {
+      "bg"            : "img/cover/fondo-end.png"
+    },
+    "buttonEnd"       : "Finalizar"
+  }
+
+
+  "page17": {
+    "type": "endCourse",
+    "message": {
+      "success": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      },
+
+      "error": {
+        "title": "¡Has llegado al final de este recorrido!",
+        "subTitle": "¡Muchos éxitos!",
+        "module": "",
+        "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+      }
+    },
+    "logoCourse": "img/cover/logo-1.png",
+    "logoFooter": "",
+    "background": {
+      "bg": "img/cover/fondo-end.png"
+    },
+    "buttonEnd": "Finalizar",
+    "footer": {
+      "label": ""
+    }
+  }

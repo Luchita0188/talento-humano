@@ -768,23 +768,13 @@ class Page11 extends Component {
           </div>
 
           <div className="mL-3 pR-4 mT-2 ">
-            <SlideLR2
-              multimedia={dataPage.multimedia}
-              handleClick={this.handleClick}
-              isEnded={this.isEnded}
-              setModal={this.setModal}
-            />
+          <SlideLR2 multimedia = { dataPage.multimedia } handleClick = { this.handleClick } isEnded = { this.isEnded } setModal={this.setModal} />
           </div>
         </div>
 
         <Instruction dataPage={dataPage.instruction} />
 
-        {this.state.openModal && (
-          <ModalCircle3
-            dataPage={dataPage.multimedia}
-            setModal={this.setModal}
-          />
-        )}
+        { this.state.openModal && <ModalCircle3 dataPage = { dataPage.multimedia } setModal={this.setModal} />}
       </div>
     );
   }
@@ -1039,20 +1029,20 @@ class Page16 extends Component {
     const { checkEndActivity } = this.props;
     checkEndActivity(16, end);
   };
-
+    
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
   endQuiz = (buttonPress) => {
     this.props.endQuiz(buttonPress);
-  };
+  }
 
   render() {
     const { dataPage } = this.props;
 
     return (
-      <div className={"pageContent"}>
-        <div className="c-10 animated fadeIn d-Flex d-C j-C aI-S">
-          <div className="headerTitle d-Rr j-E aI-C mB-2 mL-4 mT-2">
-          {
+      <div className = { 'pageContent'}>
+        <div className = 'c-10 animated fadeIn d-Flex d-C j-C aI-S'>
+          <div className = 'headerTitle d-Rr j-E aI-C mB-2 mL-4 mT-2'>
+            {
               dataPage.title ? <h2 className = 'F2' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
@@ -1132,6 +1122,7 @@ class Page17 extends Component {
     );
   }
 }
+
 
 export {
   Cover,
